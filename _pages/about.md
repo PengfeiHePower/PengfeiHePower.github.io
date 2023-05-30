@@ -22,7 +22,7 @@ I am a PhD student major in Computer Science and Engineering and minor in Probab
 
 My research interests are robustness and safety of machine learning models, optimization and machine learning foundations. Currently, I am interested in evaluate the robustness of self-/un-supervised learning models, including diffusion models, large language models and text-image foundation models. Looking forward to communicating with people from different fields!
 
-Stay Hungry. Stay Foolish.
+Stay Hungry. Stay Foolish!
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
