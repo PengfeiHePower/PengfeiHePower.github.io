@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-08-15 13:00:00-0000
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+We hold a lecture-style tutorial about Adversarial Robustness and Poisoning Attacks in the KDD 2022.
