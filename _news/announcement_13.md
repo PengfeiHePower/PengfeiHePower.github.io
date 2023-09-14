@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-08-25 13:00:00-0000
+date: 2023-09-08 13:00:00-0000
 inline: true
 related_posts: false
 ---
 
-I will serve as the PC member of SDM'24.
+Our paper **Analyzing Illegal Psychostimulant Trafficking Networks Using Noisy and Sparse Data** is on IISE Transactions now.
