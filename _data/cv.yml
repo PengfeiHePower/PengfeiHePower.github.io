@@ -1,0 +1,61 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: He, Pengfei
+    # - name: Date of Birth
+    #   value: 14th March 1879
+    # - name: Languages
+    #   value: English, German
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Computer Science PhD
+      institution: Department of Computer Science and Engineering, Michigan State University, Michigan, USA
+      year: 2022-present
+    - title: Statistics PhD
+      institution: Department of Statistics and Probability, Michigan State University, Michigan, USA
+      year: 2020-present
+    - title: Statistics M.S.
+      institution: Department of Statistics, University of Wisconsin, Madison, Wisconsin, USA
+      year: 2019-2020
+    - title: Mathematics B.S.
+      institution: Department of Statistics, Nankai University, Tianjin, China
+      year: 2015-2019
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2022
+      items:
+        - CIKM-2022 Student Registration Award
+    - year: 2022
+      items:
+        - KDD-2022 Student Registration Award
+    - year: 2021
+      items: 
+        - Awarded the Professor James Stapleton Prize in Statistics, Michigan State University
+    - year: 2016
+      items: 
+        - Recipient of Second Prize, Nankai University
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Adversarial learning.
+      items: 
+        - Data poisoning attack and defense
+        - Model robustness and generalization
+    - title: Machine learning & Statistics.
+      items:
+        - Deep model expressiveness and overfitting
+        - High-dimensional statistics
+
+- title: Other Interests
+  type: list
+  contents:
+    - Fitness; Tennis; Basketball; Badminton
+    - Anime; Manga; Pop&Classic
+    - Video games!!!
+
