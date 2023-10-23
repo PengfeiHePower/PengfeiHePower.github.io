@@ -57,10 +57,15 @@
       items: 
         - Data poisoning attack and defense
         - Model robustness and generalization
+        - Data poisoning
     - title: Machine learning & Statistics.
       items:
         - Deep model expressiveness and overfitting
         - High-dimensional statistics
+    - title: Generative models.
+      items:
+        - Diffusion models. Watermark and backdoor attacks.
+        - LLMs. Backdoor attack for in-context learning; Jailbreak attacks.
 
 - title: Services
   type: list
