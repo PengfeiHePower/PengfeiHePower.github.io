@@ -40,6 +40,16 @@
       items: 
         - Recipient of Second Prize, Nankai University
 
+- title: Experiences
+  type: time_table
+  contents:
+    -year: 2023
+    items:
+      - Visiting research student at Okinawa Institute of Science and Technology (OIST)
+    -year: 2022
+    items:
+      - Research Scientist at James Madison College, Michigan State university
+
 - title: Academic Interests
   type: nested_list
   contents:
