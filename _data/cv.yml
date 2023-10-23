@@ -62,6 +62,12 @@
         - Deep model expressiveness and overfitting
         - High-dimensional statistics
 
+- title: Services
+  type: list
+  contents:
+    - PC members: AAAI2022, KDD2023, AAAI2023, SDM2023, PAKDD2023, SDM2024
+    - Volunteer: KDD2022
+
 - title: Other Interests
   type: list
   contents:
