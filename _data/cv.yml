@@ -43,10 +43,10 @@
 - title: Experiences
   type: time_table
   contents:
-    -year: 2023
+    - year: 2023
     items:
       - Visiting research student at Okinawa Institute of Science and Technology (OIST)
-    -year: 2022
+    - year: 2022
     items:
       - Research Scientist at James Madison College, Michigan State university
 
@@ -54,7 +54,7 @@
   type: nested_list
   contents:
     - title: Adversarial learning.
-      items: 
+      items:
         - Data poisoning attack and defense
         - Model robustness and generalization
         - Data poisoning
@@ -70,8 +70,8 @@
 - title: Services
   type: list
   contents:
-    - PC members: AAAI2022, KDD2023, AAAI2023, SDM2023, PAKDD2023, SDM2024
-    - Volunteer: KDD2022
+    - PC members for AAAI2022, KDD2023, AAAI2023, SDM2023, PAKDD2023, SDM2024
+    - Volunteer for KDD2022
 
 - title: Other Interests
   type: list
