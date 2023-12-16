@@ -14,3 +14,5 @@ nav_order: 5
 * Fall 2020/Spring 2021 - Graduate Teaching Assistant for *Statistical Methods*. Michigan State University.
 
 * Fall 2019 - Graduate Teaching Assistant for *Introductory Applied Statistics for Engineers*. University of Wisconsin-Madison.
+
+* Mentoring Yuping Lin, first-year Ph.D student in DSELab, Michigan State University.
