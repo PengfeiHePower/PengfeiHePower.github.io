@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper: **Sharpness-aware Data Poisoning Attack** is accepted as Spotlight(5%) by ICLR2024!
+Our paper: **Sharpness-aware Data Poisoning Attack** is accepted as **Spotlight (5%)** by ICLR2024!
