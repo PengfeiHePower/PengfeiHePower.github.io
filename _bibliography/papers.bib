@@ -14,7 +14,6 @@ publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
 url = {https://doi.org/10.1145/3511808.3557130},
 doi = {10.1145/3511808.3557130},
-abstract = {Real-world recommender systems usually consist of two phases. Predictive models in Phase I provide accurate predictions of users' actions on items, and Phase II is to aggregate the predictions withstrategic parameters to make final recommendations, which aim to meet multiple business goals, such as maximizing users' like rate and average engagement time. Though it is important to generate accurate predictions in Phase I, it is also crucial to optimize the strategic parameters in Phase II. Conventional solutions include manually tunning, Bayesian optimization, contextual multi-armed bandit optimization, etc. However, these methods either produce universal strategic parameters for all the users or focus on a deterministic solution, which leads to an undesirable performance. In this paper, we propose a personalized probabilistic solution for strategic parameter optimization. We first formulate the personalized probabilistic optimizing problem and compare its solution with deterministic and context-free solutions theoretically to show its superiority. We then introduce a novel Personalized pRObabilistic strategic parameter optimizing Policy Network (PROPN) to solve the problem. PROPN follows reinforcement learning architecture where a neural network serves as an agent that dynamically adjusts the distributions of strategic parameters for each user. We evaluate our model under the streaming recommendation setting on two public real-world datasets. The results show that our framework outperforms representative baseline methods.},
 booktitle = {Proceedings of the 31st ACM International Conference on Information & Knowledge Management},
 pages = {3152–3161},
 numpages = {10},
@@ -31,7 +30,22 @@ series = {CIKM '22}
   volume  = {24},
   number  = {143},
   pages   = {1--71},
-  url     = {http://jmlr.org/papers/v24/21-1254.html}
+  url     = {http://jmlr.org/papers/v24/21-1254.html},
+  abstract = {In this work we study statistical properties of graph-based algorithms for multi-manifold
+clustering (MMC). In MMC the goal is to retrieve the multi-manifold structure underlying a
+given Euclidean data set when this one is assumed to be obtained by sampling a distribution
+on a union of manifolds M = M1 ∪ · · · ∪ MN that may intersect with each other and
+that may have different dimensions. We investigate sufficient conditions that similarity
+graphs on data sets must satisfy in order for their corresponding graph Laplacians to
+capture the right geometric information to solve the MMC problem. Precisely, we provide
+high probability error bounds for the spectral approximation of a tensorized Laplacian on
+M with a suitable graph Laplacian built from the observations; the recovered tensorized
+Laplacian contains all geometric information of all the individual underlying manifolds. We
+provide an example of a family of similarity graphs, which we call annular proximity graphs
+with angle constraints, satisfying these sufficient conditions. We contrast our family of
+graphs with other constructions in the literature based on the alignment of tangent planes.
+Extensive numerical experiments expand the insights that our theory provides on the MMC
+problem.}
 }
 
 @inproceedings{xu2023probabilistic,
@@ -40,16 +54,44 @@ series = {CIKM '22}
   booktitle={International Conference on Machine Learning},
   pages={38428--38442},
   year={2023},
+  abstract={The studies on adversarial attacks and defenses
+have greatly improved the robustness of Deep
+Neural Networks (DNNs). Most advanced approaches have been overwhelmingly designed for
+continuous data such as images. However, these
+achievements are still hard to be generalized to
+categorical data. To bridge this gap, we propose
+a novel framework, Probabilistic Categorical Adversarial Attack (or PCAA). It transfers the discrete optimization problem of finding categorical
+adversarial examples to a continuous problem that
+can be solved via gradient-based methods. We analyze the optimality (attack success rate) and time
+complexity of PCAA to demonstrate its significant advantage over current search-based attacks.
+More importantly, through extensive empirical
+studies, we demonstrate that the well-established
+defenses for continuous data, such as adversarial
+training and TRADES, can be easily accommodated to defend DNNs for categorical data},
   organization={PMLR}
 }
-@article{he2023sharpness,
+@inproceedings{he2023sharpness,
   title={Sharpness-Aware Data Poisoning Attack},
   author={He, Pengfei and Xu, Han and Ren, Jie and Cui, Yingqian and Liu, Hui and Aggarwal, Charu C and Tang, Jiliang},
-  journal={arXiv preprint arXiv:2305.14851},
-  year={2023}
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2024},
+  note={Spotlight Paper, 5%},
+  abstract={Recent research has highlighted the vulnerability of Deep Neural Networks (DNNs)
+against data poisoning attacks. These attacks aim to inject poisoning samples into
+the models’ training dataset such that the trained models have inference failures.
+While previous studies have executed different types of attacks, one major challenge
+that greatly limits their effectiveness is the uncertainty of the re-training process
+after the injection of poisoning samples, including the re-training initialization or
+algorithms. To address this challenge, we propose a novel attack method called
+“Sharpness-Aware Data Poisoning Attack (SAPA)”. In particular, it leverages the
+concept of DNNs’ loss landscape sharpness to optimize the poisoning effect on the
+worst re-trained model. It helps enhance the preservation of the poisoning effect,
+regardless of the specific retraining procedure employed. Extensive experiments
+demonstrate that SAPA offers a general and principled strategy that significantly
+enhances various types of poisoning attacks.}
 }
 
-@article{cui2023diffusionshield,
+@misc{cui2023diffusionshield,
   title={DiffusionShield: A Watermark for Copyright Protection against Generative Diffusion Models},
   author={Cui, Yingqian and Ren, Jie and Xu, Han and He, Pengfei and Liu, Hui and Sun, Lichao and Tang, Jiliang},
   journal={arXiv preprint arXiv:2306.04642},
