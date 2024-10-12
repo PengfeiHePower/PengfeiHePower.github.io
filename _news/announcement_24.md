@@ -6,4 +6,4 @@ related_posts: false
 ---
 
 Two papers(	
-**Towards Understanding Jailbreak Attacks in LLMs: A Representation Space Analysis; On the generalization of training-based chatgpt detection methods**) accepted to *
+**Towards Understanding Jailbreak Attacks in LLMs: A Representation Space Analysis; On the generalization of training-based chatgpt detection methods**) accepted to EMNLP 2024!
