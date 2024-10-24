@@ -156,14 +156,6 @@ enhances various types of poisoning attacks.},
       primaryClass={cs.CV}
 }
 
-@misc{xu2023generalization,
-      title={On the Generalization of Training-based ChatGPT Detection Methods}, 
-      author={Han Xu and Jie Ren and Pengfei He and Shenglai Zeng and Yingqian Cui and Amy Liu and Hui Liu and Jiliang Tang},
-      year={2023},
-      eprint={2310.01307},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}
 
 @inproceedings{zeng-etal-2024-exploring,
     title = "Exploring Memorization in Fine-tuned Language Models",
@@ -200,6 +192,17 @@ enhances various types of poisoning attacks.},
     publisher = "Association for Computational Linguistics",
     abstract = "ChatGPT is one of the most popular language models which achieve amazing performance on various natural language tasks. Consequently, there is also an urgent need to detect the texts generated ChatGPT from human written. One of the extensively studied methods trains classification models to distinguish both. However, existing studies also demonstrate that the trained models may suffer from distribution shifts (during test), i.e., they are ineffective to predict the generated texts from unseen language tasks or topics. In this work, we aim to have a comprehensive investigation on these methods' generalization behaviors under distribution shift caused by a wide range of factors, including prompts, text lengths, topics, and language tasks. To achieve this goal, we first collect a new dataset with human and ChatGPT texts, and then we conduct extensive studies on the collected dataset. Our studies unveil insightful findings which provide guidance for developing future methodologies or data collection strategies for ChatGPT detection.",
 }
+
+@inproceedings{lin2024towards,
+    title = "Towards Understanding Jailbreak Attacks in LLMs: A Representation Space Analysis",
+    author = "He, Pengfei and Lin, Yuping and Xu, Han and Xing, Yue and Yamada, Makoto and Liu, Hui and Tang, Jiliang",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2024",
+    publisher = "Association for Computational Linguistics",
+    abstract = "Large language models (LLMs) are susceptible to a type of attack known as jailbreaking, which misleads LLMs to output harmful contents. Although there are diverse jailbreak attack strategies, there is no unified understanding on why some methods succeed and others fail. This paper explores the behavior of harmful and harmless prompts in the LLM's representation space to investigate the intrinsic properties of successful jailbreak attacks. We hypothesize that successful attacks share some similar properties: They are effective in moving the representation of the harmful prompt towards the direction to the harmless prompts. We leverage hidden representations into the objective of existing jailbreak attacks to move the attacks along the acceptance direction, and conduct experiments to validate the above hypothesis using the proposed objective. We hope this study provides new insights into understanding how LLMs understand harmfulness information.",
+}
+
 
 @misc{he2024data,
       title={Data Poisoning for In-context Learning}, 
