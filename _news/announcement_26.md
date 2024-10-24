@@ -5,5 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We preprint a new work **	
-Towards the Effect of Examples on In-Context Learning: A Theoretical Case Study**!
+We preprint a new work **Towards the Effect of Examples on In-Context Learning: A Theoretical Case Study**!
