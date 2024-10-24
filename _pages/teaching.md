@@ -15,4 +15,6 @@ nav_order: 5
 
 * Fall 2019 - Graduate Teaching Assistant for *Introductory Applied Statistics for Engineers*. University of Wisconsin-Madison.
 
-* Mentoring Yuping Lin, first-year Ph.D student in DSELab, Michigan State University.
+* Mentoring Yuping Lin (Ph.D student in DSELab, Michigan State University), and published paper on top-tier conference.
+
+* Mentoring Shen Dong (Ph.D student in DSELab, Michigan State University) and Bo Wang (Visiting students in DSELab).
