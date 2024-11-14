@@ -13,14 +13,14 @@ nav_order: 1
 <h1>Publications</h1>
 <!-- {%- for y in page.years %} -->
 <!-- <h2 class="year">{{y}}</h2> -->
-{% bibliography -f {{ site.scholar.bibliography }} -q @article[]* %}
-{% bibliography -f {{ site.scholar.bibliography }} -q @inproceedings[]* %}
+{% bibliography -f {{ site.scholar.bibliography }} -q @article * %}
+{% bibliography -f {{ site.scholar.bibliography }} -q @inproceedings * %}
 <!-- {% endfor %} -->
 
 <h1>Preprints</h1>
 <!-- {%- for y in page.years %} -->
   <!-- <h2 class="year">{{y}}</h2> -->
-{% bibliography -f {{ site.scholar.bibliography }} -q @misc[]* %}
+{% bibliography -f {{ site.scholar.bibliography }} -q @misc * %}
 <!-- {% bibliography -f {{ site.scholar.bibliography }} -q @misc[year={{y}}]* %} -->
 <!-- {% endfor %} -->
 
