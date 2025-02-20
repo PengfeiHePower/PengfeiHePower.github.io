@@ -12,9 +12,9 @@ profile:
     <p>428 S Shaw Ln Rm 3308</p>
     <p>East Lansing, MI, 48824</p>
 
+selected_papers: true # includes a list of papers marked as "selected={true}"
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
