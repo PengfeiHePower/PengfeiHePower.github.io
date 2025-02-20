@@ -56,28 +56,29 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Truthworthy LLMs
-      items:
-        - Jailbreak attacks and interpretibility
-        - Data poisoning attacks
-        - Understanding of in-context learning and chain-of-thought reasoning
     - title: LLM Agents
       items:
         - Enhance LLM-based agents reasoning
         - Backdoor attacks on LLM Agents
         - Privacy of LLM Agents
+    - title: Truthworthy LLMs
+      items:
+        - Data poisoning attacks
+        - Understanding of in-context learning and chain-of-thought reasoning
+        - Jailbreak attacks and interpretibility
     - title: Adversarial learning.
       items:
         - Data poisoning attack and defense
         - Model robustness and generalization
         - Data poisoning
-    - title: Diffusion models.
-      items:
-        - Watermark and backdoor attacks.
     - title: Machine learning & Statistics.
       items:
         - Deep model expressiveness and overfitting
         - High-dimensional statistics
+    - title: Diffusion models.
+      items:
+        - Watermark and backdoor attacks.
+
 
 - title: Services
   type: list
