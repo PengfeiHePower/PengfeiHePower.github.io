@@ -465,75 +465,6 @@ problem.</p>
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">ICML</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="xu2023probabilistic" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Probabilistic Categorical Adversarial Attack and Adversarial Training</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Han Xu, <em>Pengfei He</em>, Jie Ren, and
-          <span class="more-authors" title="click to view 4 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '4 more authors' ? 'Yuxuan Wan, Zitao Liu, Hui Liu, Jiliang Tang' : '4 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">4 more authors</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>In International Conference on Machine Learning (ICML)</em>, 2023
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="https://proceedings.mlr.press/v202/xu23e.html" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>The studies on adversarial attacks and defenses
-have greatly improved the robustness of Deep
-Neural Networks (DNNs). Most advanced approaches have been overwhelmingly designed for
-continuous data such as images. However, these
-achievements are still hard to be generalized to
-categorical data. To bridge this gap, we propose
-a novel framework, Probabilistic Categorical Adversarial Attack (or PCAA). It transfers the discrete optimization problem of finding categorical
-adversarial examples to a continuous problem that
-can be solved via gradient-based methods. We analyze the optimality (attack success rate) and time
-complexity of PCAA to demonstrate its significant advantage over current search-based attacks.
-More importantly, through extensive empirical
-studies, we demonstrate that the well-established
-defenses for continuous data, such as adversarial
-training and TRADES, can be easily accommodated to defend DNNs for categorical data</p>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
         <div class="col-sm-2 abbr"><abbr class="badge">ICLR Spotlight</abbr></div>
 
         <!-- Entry bib key -->
@@ -595,6 +526,62 @@ worst re-trained model. It helps enhance the preservation of the poisoning effec
 regardless of the specific retraining procedure employed. Extensive experiments
 demonstrate that SAPA offers a general and principled strategy that significantly
 enhances various types of poisoning attacks.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">Stat</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="he2024towards" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Towards the Effect of Examples on In-Context Learning: A Theoretical Case Study</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <em>Pengfei He</em>, Yingqian Cui, Han Xu, and
+          <span class="more-authors" title="click to view 4 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '4 more authors' ? 'Hui Liu, Makoto Yamada, Jiliang Tang, Yue Xing' : '4 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">4 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Stat</em>, 2024
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/sta4.70045" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>In-context learning (ICL) has emerged as a powerful capability for large language models (LLMs) to adapt to downstream tasks by leveraging a few (demonstration) examples. Despite its effectiveness, the mechanism behind ICL remains underexplored. To better understand how ICL integrates the examples with the knowledge learned by the LLM during pre-training (i.e., pre-training knowledge) and how the examples impact ICL, this paper conducts a theoretical study in binary classification tasks. In particular, we introduce a probabilistic model extending from the Gaussian mixture model to exactly quantify the impact of pre-training knowledge, label frequency and label noise on the prediction accuracy. Based on our analysis, when the pre-training knowledge contradicts the knowledge in the examples, whether ICL prediction relies more on the pre-training knowledge or the examples depends on the number of examples. In addition, the label frequency and label noise of the examples both affect the accuracy of the ICL prediction, where the minor class has a lower accuracy, and how the label noise impacts the accuracy is determined by the specific noise level of the two classes. Extensive simulations are conducted to verify the correctness of the theoretical results, and real-data experiments also align with the theoretical insights. Our work reveals the role of pre-training knowledge and examples in ICL, offering a deeper understanding of LLMs’ behaviours in classification tasks.</p>
           </div>
         </div>
       </div>
