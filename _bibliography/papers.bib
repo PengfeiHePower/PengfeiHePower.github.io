@@ -115,7 +115,8 @@ abstract = {Recently, Generative Diffusion Models (GDMs) have shown remarkable a
 journal = {SIGKDD Explor. Newsl.},
 month = jan,
 pages = {60–75},
-numpages = {16}
+numpages = {16},
+pdf={https://dl.acm.org/doi/10.1145/3715073.3715079}
 }
 
 
@@ -147,15 +148,28 @@ numpages = {16}
     doi = "10.18653/v1/2024.findings-acl.267",
     pages = "4505--4524",
     abstract = "Retrieval-augmented generation (RAG) is a powerful technique to facilitate language model generation with proprietary and private data, where data privacy is a pivotal concern. Whereas extensive research has demonstrated the privacy risks of large language models (LLMs), the RAG technique could potentially reshape the inherent behaviors of LLM generation, posing new privacy issues that are currently under-explored. To this end, we conduct extensive empirical studies with novel attack methods, which demonstrate the vulnerability of RAG systems on leaking the private retrieval database. Despite the new risks brought by RAG on the retrieval data, we further discover that RAG can be used to mitigate the old risks, i.e., the leakage of the LLMs{'} training data. In general, we reveal many new insights in this paper for privacy protection of retrieval-augmented LLMs, which could benefit both LLMs and RAG systems builders.",
+    pdf={https://aclanthology.org/2024.findings-acl.267/}
 }
 
-@article{he2023confidencedriven,
-      abbr = {TMLR},
-      title={Stealthy Backdoor Attack via Confidence-driven Sampling}, 
-      author={Pengfei He and Han Xu and Yue Xing and Jie Ren and Yingqian Cui and Shenglai Zeng and Jiliang Tang and Makoto Yamada and Mohammad Sabokrou},
-      journal={Transactions on Machine Learning Research(TMLR)},
-      url={https://openreview.net/forum?id=Flh5EXz8dA&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DTMLR%2FAuthors%23your-submissions)},
-      year={2024}
+@article{hestealthy,
+  title={Stealthy Backdoor Attack via Confidence-driven Sampling},
+  abbr={TMLR},
+  author={He, Pengfei and Xing, Yue and Xu, Han and Ren, Jie and Cui, Yingqian and Zeng, Shenglai and Tang, Jiliang and Yamada, Makoto and Sabokrou, Mohammad},
+  journal={Transactions on Machine Learning Research},
+  pdf={https://openreview.net/pdf?id=Flh5EXz8dA},
+  abstract={Backdoor attacks facilitate unauthorized control in the testing stage by carefully injecting
+harmful triggers during the training phase of deep neural networks. Previous works have
+focused on improving the stealthiness of the trigger while randomly selecting samples to
+attack. However, we find that random selection harms the stealthiness of the model. In
+this paper, we identify significant pitfalls of random sampling, which make the attacks more
+detectable and easier to defend against. To improve the stealthiness of existing attacks, we
+introduce a method of strategically poisoning samples near the model’s decision boundary,
+aiming to minimally alter the model’s behavior (decision boundary) before and after backdooring. Our main insight for detecting boundary samples is exploiting the confidence scores
+as a metric for being near the decision boundary and selecting those to poison (inject) the
+attack. The proposed approach makes it significantly harder for defenders to identify the
+attacks. Our method is versatile and independent of any specific trigger design. We provide
+theoretical insights and conduct extensive experiments to demonstrate the effectiveness of
+the proposed method.}
 }
 
 @article{10.1145/3715073.3715080,
@@ -175,7 +189,8 @@ abstract = {Text-to-image generative models, especially those based on latent di
 journal = {SIGKDD Explor. Newsl.},
 month = jan,
 pages = {76–88},
-numpages = {13}
+numpages = {13},
+pdf={https://dl.acm.org/doi/10.1145/3715073.3715080}
 }
 
 
