@@ -10,7 +10,7 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="publications">
 
-<h1>Publications</h1>
+<!-- <h1>Publications</h1>
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f {{ site.scholar.bibliography }} -q @article[year={{y}}]* %}
@@ -21,13 +21,13 @@ nav_order: 1
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f {{ site.scholar.bibliography }} -q @misc[year={{y}}]* %}
-{% endfor %}
+{% endfor %} -->
 
-<!-- <h1>Publications</h1>
+<h1>Publications</h1>
 {% bibliography -f {{ site.scholar.bibliography }} -q @article* %}
 {% bibliography -f {{ site.scholar.bibliography }} -q @inproceedings* %}
 
 <h1>Preprints</h1>
 {% bibliography -f {{ site.scholar.bibliography }} -q @misc* %}
 
-</div> -->
+</div>
