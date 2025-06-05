@@ -437,12 +437,25 @@ of CoT.},
   pdf={https://arxiv.org/pdf/2502.14100}
 }
 
-@article{dong2025practical,
-  abbr={arXiv},
+@misc{dong2025practical,
+  abbr={preprint},
   title={A practical memory injection attack against llm agents},
   author={Dong, Shen and Xu, Shaochen and He, Pengfei and Li, Yige and Tang, Jiliang and Liu, Tianming and Liu, Hui and Xiang, Zhen},
   journal={arXiv preprint arXiv:2503.03704},
   year={2025},
   abstract={Agents based on large language models (LLMs) have demonstrated strong capabilities in a wide range of complex, real-world applications. However, LLM agents with a compromised memory bank may easily produce harmful outputs when the past records retrieved for demonstration are malicious. In this paper, we propose a novel Memory INJection Attack, MINJA, that enables the injection of malicious records into the memory bank by only interacting with the agent via queries and output observations. These malicious records are designed to elicit a sequence of malicious reasoning steps leading to undesirable agent actions when executing the victim user's query. Specifically, we introduce a sequence of bridging steps to link the victim query to the malicious reasoning steps. During the injection of the malicious record, we propose an indication prompt to guide the agent to autonomously generate our designed bridging steps. We also propose a progressive shortening strategy that gradually removes the indication prompt, such that the malicious record will be easily retrieved when processing the victim query comes after. Our extensive experiments across diverse agents demonstrate the effectiveness of MINJA in compromising agent memory. With minimal requirements for execution, MINJA enables any user to influence agent memory, highlighting practical risks of LLM agents.},
   pdf={https://arxiv.org/pdf/2503.03704}
+}
+
+@misc{he2025attentionknowstrustattentionbased,
+      abbr={preprint},
+      title={Attention Knows Whom to Trust: Attention-based Trust Management for LLM Multi-Agent Systems}, 
+      author={Pengfei He and Zhenwei Dai and Xianfeng Tang and Yue Xing and Hui Liu and Jingying Zeng and Qiankun Peng and Shrivats Agrawal and Samarth Varshney and Suhang Wang and Jiliang Tang and Qi He},
+      year={2025},
+      eprint={2506.02546},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2506.02546},
+      abstract={Large Language Model-based Multi-Agent Systems (LLM-MAS) have demonstrated strong capabilities in solving complex tasks but remain vulnerable when agents receive unreliable messages. This vulnerability stems from a fundamental gap: LLM agents treat all incoming messages equally without evaluating their trustworthiness. While some existing studies approach the trustworthiness, they focus on a single type of harmfulness rather than analyze it in a holistic approach from multiple trustworthiness perspectives. In this work, we propose Attention Trust Score (A-Trust), a lightweight, attention-based method for evaluating message trustworthiness. Inspired by human communication literature[1], through systematically analyzing attention behaviors across six orthogonal trust dimensions, we find that certain attention heads in the LLM specialize in detecting specific types of violations. Leveraging these insights, A-Trust directly infers trustworthiness from internal attention patterns without requiring external prompts or verifiers. Building upon A-Trust, we develop a principled and efficient trust management system (TMS) for LLM-MAS, enabling both message-level and agent-level trust assessment. Experiments across diverse multi-agent settings and tasks demonstrate that applying our TMS significantly enhances robustness against malicious inputs.},
+      pdf={https://arxiv.org/pdf/2506.02546}
 }
