@@ -65,9 +65,8 @@
   contents:
     - title: LLM Agents
       items:
-        - Enhance LLM-based agents reasoning
-        - Backdoor attacks on LLM Agents
-        - Privacy of LLM Agents
+        - Enhance LLM-based agents functionality (reasoning, tool usage)
+        - Vulnerablities of LLM Agents (Privacy, Communication attacks, Multi-agent vulnerablities)
     - title: Truthworthy LLMs
       items:
         - Data poisoning attacks
@@ -97,7 +96,7 @@
 - title: Other Interests
   type: list
   contents:
-    - Gym&Muscle; Tennis; Basketball; Badminton
-    - Anime; Manga; Rock&Classic, fan of Linkin Park, Led Zeppelin, Guns N' Roses, Lynyrd Skynyrd; Play Violin
-    - Video games!!! Fan of Battlefield, Monster Huner, Death Stranding.
+    - Gym&Muscle; Tennis; Basketball; Badminton; Hiking
+    - Anime; Manga; Rock&Classic, fan of Linkin Park, Led Zeppelin, Guns N' Roses, Lynyrd Skynyrd, Queens; Play Violin
+    - Video games!!! Fan of Battlefield, Monster Huner, Death Stranding and many more
 
