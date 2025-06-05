@@ -20,7 +20,8 @@ social: true  # includes social icons at the bottom of the page
 
 I am a PhD student major in Computer Science and Engineering and minor in Probability and Statistics, at Michigan State University.
 
-My research interests are robustness and safety of machine learning models, optimization and machine learning foundations. Currently, I am interested in evaluate the robustness of self-/un-supervised learning models, including diffusion models, large language models and text-image foundation models. Looking forward to communicating with people from different fields!
+My research interests are robustness and safety of machine learning models, optimization and machine learning foundations. Currently, I am interested in **Trustworthy LLMs and Agents**. Specifically,  I am working on **revealing** and **mitigating** vulnerablities of **LLM agents**; understanding and improving **reasoning** and **tool learning** capabilities of LLMs.
+Looking forward to communicating with people from different fields!
 
 For AGI and safety!
 
