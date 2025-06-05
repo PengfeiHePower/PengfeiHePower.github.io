@@ -424,6 +424,62 @@ the proposed method.</p>
         </div>
       </div>
 </li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="dong2025practical" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">A practical memory injection attack against llm agents</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Shen Dong, Shaochen Xu, <em>Pengfei He</em>, and
+          <span class="more-authors" title="click to view 5 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '5 more authors' ? 'Yige Li, Jiliang Tang, Tianming Liu, Hui Liu, Zhen Xiang' : '5 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">5 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>arXiv preprint arXiv:2503.03704</em>, Jan 2025
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://arxiv.org/pdf/2503.03704" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Agents based on large language models (LLMs) have demonstrated strong capabilities in a wide range of complex, real-world applications. However, LLM agents with a compromised memory bank may easily produce harmful outputs when the past records retrieved for demonstration are malicious. In this paper, we propose a novel Memory INJection Attack, MINJA, that enables the injection of malicious records into the memory bank by only interacting with the agent via queries and output observations. These malicious records are designed to elicit a sequence of malicious reasoning steps leading to undesirable agent actions when executing the victim user’s query. Specifically, we introduce a sequence of bridging steps to link the victim query to the malicious reasoning steps. During the injection of the malicious record, we propose an indication prompt to guide the agent to autonomously generate our designed bridging steps. We also propose a progressive shortening strategy that gradually removes the indication prompt, such that the malicious record will be easily retrieved when processing the victim query comes after. Our extensive experiments across diverse agents demonstrate the effectiveness of MINJA in compromising agent memory. With minimal requirements for execution, MINJA enables any user to influence agent memory, highlighting practical risks of LLM agents.</p>
+          </div>
+        </div>
+      </div>
+</li>
 </ol>
 <ol class="bibliography">
 <li>
