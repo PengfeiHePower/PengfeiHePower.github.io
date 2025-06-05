@@ -362,7 +362,8 @@ leveraged to build more robust LLMs by uncovering and mitigating hidden biases, 
 and hallucinations. Moreover, from a mechanism
 perspective, data poisoning can provide valuable
 insights into LLMs, particularly the interplay between data and model behavior, driving a deeper
-understanding of their underlying mechanisms.}
+understanding of their underlying mechanisms.},
+selected={true}
 }
 
 @inproceedings{he2025red,
@@ -388,17 +389,19 @@ under the challenges of limited control and rolerestricted communication format,
 an LLM-powered adversarial agent with a reflection mechanism that generates contextuallyaware malicious instructions. Our comprehensive evaluation across various frameworks,
 communication structures, and real-world applications demonstrates that LLM-MAS is vulnerable to communication-based attacks, highlighting the need for robust security measures
 in multi-agent systems.},
-pdf={https://arxiv.org/pdf/2502.14847}
+pdf={https://arxiv.org/pdf/2502.14847},
+selected={true}
 }
 
 @inproceedings{wang2025unveiling,
   title={Unveiling Privacy Risks in LLM Agent Memory},
-  author={Wang, Bo and He, Weiyi and He, Pengfei and Zeng, Shenglai and Xiang, Zhen and Xing, Yue and Tang, Jiliang},
+  author={Wang, Bo and He, Weiyi and Zeng, Shenglai and Xiang, Zhen and Xing, Yue and Tang, Jiliang and He, Pengfei},
   abbr={ACL},
   journal={Association for Computational Linguistics},
   year={2025},
   abstract={Large Language Model (LLM) agents have become increasingly prevalent across various real-world applications. They enhance decision-making by storing private user-agent interactions in the memory module for demonstrations, introducing new privacy risks for LLM agents. In this work, we systematically investigate the vulnerability of LLM agents to our proposed Memory EXTRaction Attack (MEXTRA) under a black-box setting. To extract private information from memory, we propose an effective attacking prompt design and an automated prompt generation method based on different levels of knowledge about the LLM agent. Experiments on two representative agents demonstrate the effectiveness of MEXTRA. Moreover, we explore key factors influencing memory leakage from both the agent's and the attacker's perspectives. Our findings highlight the urgent need for effective memory safeguards in LLM agent design and deployment.},
-  pdf={https://arxiv.org/pdf/2502.13172}
+  pdf={https://arxiv.org/pdf/2502.13172},
+  selected={true}
 }
 
 @inproceedings{cui2025stepwise,
@@ -441,7 +444,8 @@ of CoT.},
   journal={arXiv preprint arXiv:2503.03704},
   year={2025},
   abstract={Agents based on large language models (LLMs) have demonstrated strong capabilities in a wide range of complex, real-world applications. However, LLM agents with a compromised memory bank may easily produce harmful outputs when the past records retrieved for demonstration are malicious. In this paper, we propose a novel Memory INJection Attack, MINJA, that enables the injection of malicious records into the memory bank by only interacting with the agent via queries and output observations. These malicious records are designed to elicit a sequence of malicious reasoning steps leading to undesirable agent actions when executing the victim user's query. Specifically, we introduce a sequence of bridging steps to link the victim query to the malicious reasoning steps. During the injection of the malicious record, we propose an indication prompt to guide the agent to autonomously generate our designed bridging steps. We also propose a progressive shortening strategy that gradually removes the indication prompt, such that the malicious record will be easily retrieved when processing the victim query comes after. Our extensive experiments across diverse agents demonstrate the effectiveness of MINJA in compromising agent memory. With minimal requirements for execution, MINJA enables any user to influence agent memory, highlighting practical risks of LLM agents.},
-  pdf={https://arxiv.org/pdf/2503.03704}
+  pdf={https://arxiv.org/pdf/2503.03704},
+  selected={true}
 }
 
 @misc{he2025attentionknowstrustattentionbased,
@@ -467,5 +471,6 @@ of CoT.},
       primaryClass={cs.CR},
       url={https://arxiv.org/abs/2506.01245}, 
       abstract={This paper argues that a comprehensive vulnerability analysis is essential for building trustworthy Large Language Model-based Multi-Agent Systems (LLM-MAS). These systems, which consist of multiple LLM-powered agents working collaboratively, are increasingly deployed in high-stakes applications but face novel security threats due to their complex structures. While single-agent vulnerabilities are well-studied, LLM-MAS introduces unique attack surfaces through inter-agent communication, trust relationships, and tool integration that remain significantly underexplored. We present a systematic framework for vulnerability analysis of LLM-MAS that unifies diverse research. For each type of vulnerability, we define formal threat models grounded in practical attacker capabilities and illustrate them using real-world LLM-MAS applications. This formulation enables rigorous quantification of vulnerability across different architectures and provides a foundation for designing meaningful evaluation benchmarks. Our analysis reveals that LLM-MAS faces elevated risk due to compositional effects -- vulnerabilities in individual components can cascade through agent communication, creating threat models not present in single-agent systems. We conclude by identifying critical open challenges: (1) developing benchmarks specifically tailored to LLM-MAS vulnerability assessment, (2) considering new potential attacks specific to multi-agent architectures, and (3) implementing trust management systems that can enforce security in LLM-MAS. This research provides essential groundwork for future efforts to enhance LLM-MAS trustworthiness as these systems continue their expansion into critical applications.},
-      pdf={https://arxiv.org/pdf/2506.01245}
+      pdf={https://arxiv.org/pdf/2506.01245},
+      selected={true}
 }
