@@ -18,3 +18,7 @@ nav_order: 5
 * Mentoring Yuping Lin (Ph.D student in DSELab, Michigan State University), and published paper on top-tier conference.
 
 * Mentoring Shen Dong (Ph.D student in DSELab, Michigan State University) and Bo Wang (Visiting students in DSELab).
+
+* My mentored student Yuping Lin got one paper accepted to EMNLP 2024!
+
+* My mentored student Bo Wang got one paper accepted to ACL 2025!
