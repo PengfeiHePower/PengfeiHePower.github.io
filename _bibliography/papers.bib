@@ -156,6 +156,7 @@ pdf={https://dl.acm.org/doi/10.1145/3715073.3715079}
 @article{hestealthy,
   title={Stealthy Backdoor Attack via Confidence-driven Sampling},
   abbr={TMLR},
+  year={2024},
   author={He, Pengfei and Xing, Yue and Xu, Han and Ren, Jie and Cui, Yingqian and Zeng, Shenglai and Tang, Jiliang and Yamada, Makoto and Sabokrou, Mohammad},
   journal={Transactions on Machine Learning Research},
   pdf={https://openreview.net/pdf?id=Flh5EXz8dA},
@@ -367,11 +368,12 @@ insights into LLMs, particularly the interplay between data and model behavior, 
 understanding of their underlying mechanisms.}
 }
 
-@misc{he2025red,
+@inproceedings{he2025red,
+abbr = "ACL",
   title={Red-Teaming LLM Multi-Agent Systems via Communication Attacks},
   author={He, Pengfei and Lin, Yupin and Dong, Shen and Xu, Han and Xing, Yue and Liu, Hui},
-  abbr={preprint},
-  journal={arXiv preprint arXiv:2502.14847},
+  abbr={ACL},
+  journal={Association for Computational Linguistics},
   year={2025},
   abstract={tems (LLM-MAS) have revolutionized complex problem-solving capability by enabling
 sophisticated agent collaboration through
@@ -392,21 +394,21 @@ in multi-agent systems.},
 pdf={https://arxiv.org/pdf/2502.14847}
 }
 
-@misc{wang2025unveiling,
+@inproceedings{wang2025unveiling,
   title={Unveiling Privacy Risks in LLM Agent Memory},
   author={Wang, Bo and He, Weiyi and He, Pengfei and Zeng, Shenglai and Xiang, Zhen and Xing, Yue and Tang, Jiliang},
-  abbr={preprint},
-  journal={arXiv preprint arXiv:2502.13172},
+  abbr={ACL},
+  journal={Association for Computational Linguistics},
   year={2025},
   abstract={Large Language Model (LLM) agents have become increasingly prevalent across various real-world applications. They enhance decision-making by storing private user-agent interactions in the memory module for demonstrations, introducing new privacy risks for LLM agents. In this work, we systematically investigate the vulnerability of LLM agents to our proposed Memory EXTRaction Attack (MEXTRA) under a black-box setting. To extract private information from memory, we propose an effective attacking prompt design and an automated prompt generation method based on different levels of knowledge about the LLM agent. Experiments on two representative agents demonstrate the effectiveness of MEXTRA. Moreover, we explore key factors influencing memory leakage from both the agent's and the attacker's perspectives. Our findings highlight the urgent need for effective memory safeguards in LLM agent design and deployment.},
   pdf={https://arxiv.org/pdf/2502.13172}
 }
 
-@misc{cui2025stepwise,
+@inproceedings{cui2025stepwise,
   title={Stepwise Perplexity-Guided Refinement for Efficient Chain-of-Thought Reasoning in Large Language Models},
   author={Cui, Yingqian and He, Pengfei and Zeng, Jingying and Liu, Hui and Tang, Xianfeng and Dai, Zhenwei and Han, Yan and Luo, Chen and Huang, Jing and Li, Zhen and others},
-  abbr={preprint},
-  journal={arXiv preprint arXiv:2502.13260},
+  abbr={ACL},
+  journal={Association for Computational Linguistics},
   year={2025},
   abstract={Chain-of-Thought (CoT) reasoning, which
 breaks down complex tasks into intermediate reasoning steps, has significantly enhanced
@@ -425,11 +427,11 @@ of CoT.},
   pdf={https://arxiv.org/pdf/2502.13260}
 }
 
-@article{zeng2025towards,
+@inproceedings{zeng2025towards,
   title={Towards Context-Robust LLMs: A Gated Representation Fine-tuning Approach},
-  abbr={preprint},
+  abbr={ACL},
   author={Zeng, Shenglai and He, Pengfei and Guo, Kai and Zheng, Tianqi and Lu, Hanqing and Xing, Yue and Liu, Hui},
-  journal={arXiv preprint arXiv:2502.14100},
+  journal={Association for Computational Linguistics},
   year={2025},
   abstract={Large Language Models (LLMs) enhanced with external contexts, such as through retrieval-augmented generation (RAG), often face challenges in handling imperfect evidence. They tend to over-rely on external knowledge, making them vulnerable to misleading and unhelpful contexts. To address this, we propose the concept of context-robust LLMs, which can effectively balance internal knowledge with external context, similar to human cognitive processes. Specifically, context-robust LLMs should rely on external context only when lacking internal knowledge, identify contradictions between internal and external knowledge, and disregard unhelpful contexts. To achieve this goal, we introduce Grft, a lightweight and plug-and-play gated representation fine-tuning approach. Grft consists of two key components: a gating mechanism to detect and filter problematic inputs, and low-rank representation adapters to adjust hidden representations. By training a lightweight interv,ention function with only 0.0004\% of model size on fewer than 200 examples, Grft can effectively adapt LLMs towards context-robust behaviors.},
   pdf={https://arxiv.org/pdf/2502.14100}
