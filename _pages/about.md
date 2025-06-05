@@ -23,7 +23,7 @@ I am a PhD student major in Computer Science and Engineering and minor in Probab
 My research interests are robustness and safety of machine learning models, optimization and machine learning foundations. Currently, I am interested in **Trustworthy LLMs and Agents**. Specifically,  I am working on **revealing** and **mitigating** vulnerablities of **LLM agents**; understanding and improving **reasoning** and **tool learning** capabilities of LLMs.
 Looking forward to communicating with people from different fields!
 
-For AGI and safety!
+For AGI and Security!
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
