@@ -25,7 +25,7 @@ Looking forward to communicating with people from different fields!
 
 For AGI and Security!
 
-[*I will be on market 2025 Fall. If you have any available position of assistant professor, postdoc or in industry, please contact me!*]
+[*I will be on market 2025 Fall. If you have any available position of assistant professor, postdoc or industry, please contact me!*]
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
