@@ -22,3 +22,5 @@ nav_order: 5
 * My mentored student Yuping Lin got one paper accepted to EMNLP 2024!
 
 * My mentored student Bo Wang got one paper accepted to ACL 2025!
+
+* My mentored student Shen Dong got one paper accepted to NeurIPS 2025!
