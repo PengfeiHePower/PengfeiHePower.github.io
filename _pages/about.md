@@ -18,9 +18,9 @@ latest_posts: false  # includes a list of the newest posts
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a PhD student major in Computer Science and Engineering and minor in Probability and Statistics, at Michigan State University.
+I am a PhD student major in Computer Science and Engineering and minor in Probability and Statistics, at Michigan State University, advised by [Prof.Jiliang Tang](https://scholar.google.com/citations?user=WtzKMWAAAAAJ&hl=en). I am currently a Student Researcher at Google, Cloud AI Research, advised by Long T. Le.
 
-My research interests are robustness and safety of machine learning models, optimization and machine learning foundations. Currently, I am interested in **Trustworthy LLMs and Agents**. Specifically,  I am working on **revealing** and **mitigating** vulnerablities of **LLM agents**; understanding and improving **reasoning** and **tool learning** capabilities of LLMs.
+My research interests are robustness and safety of AI models, machine learning foundations and AI for science. Currently, I am interested in **Trustworthy LLMs and Agents**. Specifically,  I am working on **revealing** and **mitigating** vulnerablities of **LLM agents**; understanding and improving **reasoning** and **tool learning** capabilities of LLMs.
 Looking forward to communicating with people from different fields!
 
 For AGI and Security!
