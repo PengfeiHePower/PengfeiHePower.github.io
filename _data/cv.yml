@@ -27,10 +27,16 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2026
+      items:
+        - Outstanding Graduate Student Award, MSU
     - year: 2025
       items:
         - ICLR 2025 Notable Reviewer
         - SDM 2025 Doctoral Forum Travel Award
+    - year: 2023
+      items:
+        - NeurIPS scholar award
     - year: 2022
       items:
         - CIKM-2022 Student Registration Award
@@ -47,6 +53,9 @@
 - title: Experiences
   type: time_table
   contents:
+    - year: 2025 Fall & 2026 Sprint
+      items:
+        - Student researcher at CloudAI Research, Google
     - year: 2025 Spring & Summer
       items:
         - Applied Scientist Intern at Amazon.Inc (Core search & AWS Ads)
