@@ -466,15 +466,30 @@ of CoT.},
   pdf={https://arxiv.org/pdf/2502.14100}
 }
 
-@misc{dong2025practical,
-  abbr={preprint},
-  title={A practical memory injection attack against llm agents},
+@inproceedings{dong2025memory,
+  title={Memory Injection Attacks on LLM Agents via Query-Only Interaction},
   author={Dong, Shen and Xu, Shaochen and He, Pengfei and Li, Yige and Tang, Jiliang and Liu, Tianming and Liu, Hui and Xiang, Zhen},
-  journal={arXiv preprint arXiv:2503.03704},
+  journal={NeurIPS},
   year={2025},
-  abstract={Agents based on large language models (LLMs) have demonstrated strong capabilities in a wide range of complex, real-world applications. However, LLM agents with a compromised memory bank may easily produce harmful outputs when the past records retrieved for demonstration are malicious. In this paper, we propose a novel Memory INJection Attack, MINJA, that enables the injection of malicious records into the memory bank by only interacting with the agent via queries and output observations. These malicious records are designed to elicit a sequence of malicious reasoning steps leading to undesirable agent actions when executing the victim user's query. Specifically, we introduce a sequence of bridging steps to link the victim query to the malicious reasoning steps. During the injection of the malicious record, we propose an indication prompt to guide the agent to autonomously generate our designed bridging steps. We also propose a progressive shortening strategy that gradually removes the indication prompt, such that the malicious record will be easily retrieved when processing the victim query comes after. Our extensive experiments across diverse agents demonstrate the effectiveness of MINJA in compromising agent memory. With minimal requirements for execution, MINJA enables any user to influence agent memory, highlighting practical risks of LLM agents.},
-  pdf={https://arxiv.org/pdf/2503.03704},
-  selected={true}
+  abbr={NeurIPS},
+  abstract={Agents powered by large language models (LLMs) have demonstrated strong
+capabilities in a wide range of complex, real-world applications. However, LLM
+agents with a compromised memory bank may easily produce harmful outputs
+when the past records retrieved for demonstration are malicious. In this paper,
+we propose a novel Memory INJection Attack, MINJA, without assuming that the
+attacker can directly modify the memory bank of the agent. The attacker injects
+malicious records into the memory bank by only interacting with the agent via
+queries and output observations. These malicious records are designed to elicit
+a sequence of malicious reasoning steps corresponding to a different target query
+during the agent’s execution of the victim user’s query. Specifically, we introduce
+a sequence of bridging steps to link victim queries to the malicious reasoning
+steps. During the memory injection, we propose an indication prompt that guides
+the agent to autonomously generate similar bridging steps, with a progressive
+shortening strategy that gradually removes the indication prompt, such that the
+malicious record will be easily retrieved when processing later victim queries.
+Our extensive experiments across diverse agents demonstrate the effectiveness ofMINJA in compromising agent memory. With minimal requirements for execution,MINJA enables any user to influence agent memory, highlighting the risk. Code
+can be found on github},
+pdf={https://arxiv.org/pdf/2503.03704}
 }
 
 @misc{he2025attentionknowstrustattentionbased,
