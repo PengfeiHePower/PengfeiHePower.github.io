@@ -1485,6 +1485,68 @@ can be found on github</p>
         </div>
       </div>
 </li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">ICLR</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="he2025traject" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">TRAJECT-Bench: A Trajectory-Aware Benchmark for Evaluating Agentic Tool Use</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <em>Pengfei He</em>, Zhenwei Dai, Bing He, and
+          <span class="more-authors" title="click to view 8 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '8 more authors' ? 'Hui Liu, Xianfeng Tang, Hanqing Lu, Juanhui Li, Jiayuan Ding, Subhabrata Mukherjee, Suhang Wang,  others' : '8 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">8 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In </em>, Apr 2026
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://openreview.net/pdf?id=TZWnWvsQ0X" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Large language model (LLM)-based agents increasingly rely on tool use to complete real-world tasks. While existing works evaluate the LLMs’ tool use capability, they largely focus on the final answers yet overlook the detailed tool
+usage trajectory, i.e., whether tools are selected, parameterized, and ordered correctly. We introduce TRAJECT-Bench, a trajectory-aware benchmark to comprehensively evaluate LLMs’ tool use capability through diverse tasks with finegrained evaluation metrics. TRAJECT-Bench pairs high-fidelity, executable tools
+across practical domains with tasks grounded in production-style APIs, and synthesizes trajectories that vary in breadth (parallel calls) and depth (interdependent
+chains). Besides final accuracy, TRAJECT-Bench also reports trajectory-level
+diagnostics, including tool selection and argument correctness, and dependency/order satisfaction. Analyses reveal failure modes such as similar tool confusion
+and parameter-blind selection, and scaling behavior with tool diversity and trajectory length where the bottleneck of transiting from short to mid-length trajectories
+is revealed, offering actionable guidance for LLMs’ tool use1.</p>
+          </div>
+        </div>
+      </div>
+</li>
 </ol>
 
 <h1>Preprints</h1>
