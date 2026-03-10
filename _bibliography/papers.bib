@@ -321,6 +321,7 @@ pdf={https://dl.acm.org/doi/10.1145/3715073.3715080}
   author={He, Pengfei and Li, Zitao and Xing, Yue and Li, Yaling and Tang, Jiliang and Ding, Bolin},
   booktitle={Findings of the Association for Computational Linguistics: EMNLP 2025},
   pages={2538--2566},
+  abbr={EMNLP},
   year={2025},
   abstract={Large Language Models (LLMs) have shown
 strong capabilities in zero-shot reasoning and
@@ -347,15 +348,25 @@ benchmarks and demonstrates strong robustness against corrupted reasoning paths.
   pdf={https://aclanthology.org/anthology-files/pdf/findings/2025.findings-emnlp.137.pdf}
 }
 
-@misc{zeng2024mitigating,
+@inproceedings{zeng2025mitigating,
   title={Mitigating the privacy issues in retrieval-augmented generation (rag) via pure synthetic data},
+  abbr={EMNLP},
   author={Zeng, Shenglai and Zhang, Jiankun and He, Pengfei and Ren, Jie and Zheng, Tianqi and Lu, Hanqing and Xu, Han and Liu, Hui and Xing, Yue and Tang, Jiliang},
-  abbr={preprint},
-  journal={arXiv preprint arXiv:2406.14773},
-  year={2024},
-  pdf={https://arxiv.org/pdf/2406.14773},
-  abstract={Retrieval-augmented generation (RAG) enhances the outputs of language models by integrating relevant information retrieved from external knowledge sources. However, when the retrieval process involves private data, RAG systems may face severe privacy risks, potentially leading to the leakage of sensitive information. To address this issue, we propose using synthetic data as a privacy-preserving alternative for the retrieval data. We propose SAGE, a novel two-stage synthetic data generation paradigm. In the stage-1, we employ an attribute-based extraction and generation approach to preserve key contextual information from the original data. In the stage-2, we further enhance the privacy properties of the synthetic data through an agent-based iterative refinement process. Extensive experiments demonstrate that using our synthetic data as the retrieval context achieves comparable performance to using the original data while substantially reducing privacy risks. Our work takes the first step towards investigating the possibility of generating high-utility and privacy-preserving synthetic data for RAG, opening up new opportunities for the safe application of RAG systems in various domains.}
+  booktitle={Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
+  pages={24538--24569},
+  year={2025},
+  abstract={Retrieval-augmented generation (RAG) enhances the outputs of language models by integrating relevant information retrieved from
+external knowledge sources. However, when
+the retrieval process involves private data, RAG
+systems may face severe privacy risks, potentially leading to the leakage of sensitive information. To address this issue, we propose using synthetic data as a privacy-preserving alternative for the retrieval data. We propose
+SAGE, a novel two-stage synthetic data generation paradigm. In the stage-1, we employ an attribute-based extraction and generation approach to preserve key contextual
+information from the original data. In the
+stage-2, we further enhance the privacy properties of the synthetic data through an agentbased iterative refinement process. Extensive
+experiments demonstrate that using our synthetic data as the retrieval context achieves
+comparable performance to using the original data while substantially reducing privacy risks. Our work takes the first step towards investigating the possibility of generating high-utility and privacy-preserving synthetic data for RAG, opening up new opportunities for the safe application of RAG systems in various domains. Our code is available at https://github.com/phycholosogy/RAGSAGE.},
+pdf={https://aclanthology.org/2025.emnlp-main.1247.pdf}
 }
+
 
 @misc{he2025multi,
   title={Multi-Faceted Studies on Data Poisoning can Advance LLM Development},
