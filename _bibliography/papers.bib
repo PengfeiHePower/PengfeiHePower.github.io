@@ -316,17 +316,35 @@ pdf={https://dl.acm.org/doi/10.1145/3715073.3715080}
       pdf={https://arxiv.org/pdf/2410.16540}
 }
 
-@misc{he2024makellmsbetterzeroshot,
-      title={Make LLMs better zero-shot reasoners: Structure-orientated autonomous reasoning}, 
-      abbr={preprint},
-      author={Pengfei He and Zitao Li and Yue Xing and Yaling Li and Jiliang Tang and Bolin Ding},
-      year={2024},
-      eprint={2410.19000},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2410.19000},
-      pdf={https://arxiv.org/abs/2410.19000},
-      abstract={Zero-shot reasoning methods with Large Language Models (LLMs) offer significant advantages including great generalization to novel tasks and reduced dependency on human-crafted examples. However, the current zero-shot methods still have limitations in complex tasks, e.g., answering questions that require multi-step reasoning. In this paper, we address this limitation by introducing a novel structure-oriented analysis method to help LLMs better understand the question and guide the problem-solving process of LLMs. We first demonstrate how the existing reasoning strategies, Chain-of-Thought and ReAct, can benefit from our structure-oriented analysis. In addition to empirical investigations, we leverage the probabilistic graphical model to theoretically explain why our structure-oriented analysis can improve the LLM reasoning process. To further improve the reliability in complex question-answering tasks, we propose a multi-agent reasoning system, Structure-oriented Autonomous Reasoning Agents (SARA), that can better enforce the reasoning process following our structure-oriented analysis by refinement techniques and is equipped with external knowledge retrieval capability to reduce factual errors. Extensive experiments verify the effectiveness of the proposed reasoning system. Surprisingly, in some cases, the system even surpasses few-shot methods. Finally, the system not only improves reasoning accuracy in complex tasks but also demonstrates robustness against potential attacks that corrupt the reasoning process.}
+@inproceedings{he2025advancing,
+  title={Advancing Reasoning with Off-the-Shelf LLMs: A Semantic Structure Perspective},
+  author={He, Pengfei and Li, Zitao and Xing, Yue and Li, Yaling and Tang, Jiliang and Ding, Bolin},
+  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2025},
+  pages={2538--2566},
+  year={2025},
+  abstract={Large Language Models (LLMs) have shown
+strong capabilities in zero-shot reasoning and
+generalization to new tasks. However, the
+zero-shot performance of general LLMs on
+complex tasks, such as multi-hop reasoning,
+remains suboptimal, while reasoning LLMs
+suffer from hallucinations and unfaithfulness.
+In this paper, to handle these limitations, we
+introduce a novel structure-oriented analysis
+method that helps LLMs better understand
+the question structure and guide the problemsolving process. We demonstrate that existing reasoning strategies, such as Chain-ofThought and ReAct, significantly benefit from
+the LLM’s inherent understanding of semantic structure. We further ground our method
+in the theory of probabilistic graphical models
+to support its effectiveness. To enhance the
+reasoning process, we augment the structureoriented analysis with refinement and retrieval
+capabilities, forming a multi-agent reasoning
+system called Structure-oriented AutonomousReasoning Agents (SARA). Extensive experiments show that SARA significantly improves
+zero-shot performance on knowledge-intensive
+and mathematical tasks. Remarkably, our
+approach makes a general LLM competitive
+with dedicated reasoning models in several
+benchmarks and demonstrates strong robustness against corrupted reasoning paths.},
+  pdf={https://aclanthology.org/anthology-files/pdf/findings/2025.findings-emnlp.137.pdf}
 }
 
 @misc{zeng2024mitigating,
