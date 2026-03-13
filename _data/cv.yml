@@ -24,6 +24,25 @@
       institution: Department of Statistics, Nankai University, Tianjin, China
       year: 2015-2019
 
+- title: Experiences
+  type: time_table
+  contents:
+    - year: 2025 Fall & 2026 Spring
+      items:
+        - Student researcher at CloudAI Research, Google
+    - year: 2025 Spring & Summer
+      items:
+        - Applied Scientist Intern at Amazon.Inc (Core search & AWS Ads)
+    - year: 2024 Summer
+      items:
+        - Research Intern at Alibaba Group (US)
+    - year: 2023-present
+      items:
+        - Visiting research student at Okinawa Institute of Science and Technology (OIST)
+    - year: 2022
+      items:
+        - Research Scientist at James Madison College, Michigan State university
+
 - title: Honors and Awards
   type: time_table
   contents:
@@ -50,24 +69,45 @@
       items:
         - Recipient of Second Prize, Nankai University
 
-- title: Experiences
+- title: Talks
   type: time_table
   contents:
-    - year: 2025 Fall & 2026 Sprint
+    - year: 2026
       items:
-        - Student researcher at CloudAI Research, Google
-    - year: 2025 Spring & Summer
+        - Invited talk at University of Illinois Chicago, CS517
+        - The evolution of AI security
+    - year: 2026
       items:
-        - Applied Scientist Intern at Amazon.Inc (Core search & AWS Ads)
-    - year: 2024 Summer
+        - On-site talk at Lamar University
+        - The evolution of AI security
+    - year: 2026
       items:
-        - Research Intern at Alibaba Group (US)
-    - year: 2023-present
+        - Virtual talk at University of Arizona
+        - The evolution of AI security
+    - year: 2025
       items:
-        - Visiting research student at Okinawa Institute of Science and Technology (OIST)
+        - Virtual talk at University of Kentucky
+        - The evolution of AI security
+    - year: 2025
+      items:
+        - Invited talk at University of Georgia
+        - The evolution of AI security
+    - year: 2025
+      items:
+        - Invited talk on JSM 2025
+        - Understanding In-context-learning from the lens of Bayesian Statistic
+    - year: 2023
+      items:
+        - Invited talk at AI-Time
+        - Probabilistic Categorical Adversarial Attack and Jailbreak
+    - year: 2023
+      items:
+        - Oral presentation at Okinawa Institute of Science and Technology OIST
+        - Probabilistic Categorical Adversarial Attack
     - year: 2022
       items:
-        - Research Scientist at James Madison College, Michigan State university
+        - Oral presentation at CIKM 2022
+        - PROPN: Personalized Probabilistic Strategic Parameter Optimization in Recommendations
 
 - title: Academic Interests
   type: nested_list
