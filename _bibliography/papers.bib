@@ -303,8 +303,7 @@ pdf={https://dl.acm.org/doi/10.1145/3715073.3715080}
   journal={Stat},
   year={2024},
   pdf={https://onlinelibrary.wiley.com/doi/full/10.1002/sta4.70045},
-  abstract={In-context learning (ICL) has emerged as a powerful capability for large language models (LLMs) to adapt to downstream tasks by leveraging a few (demonstration) examples. Despite its effectiveness, the mechanism behind ICL remains underexplored. To better understand how ICL integrates the examples with the knowledge learned by the LLM during pre-training (i.e., pre-training knowledge) and how the examples impact ICL, this paper conducts a theoretical study in binary classification tasks. In particular, we introduce a probabilistic model extending from the Gaussian mixture model to exactly quantify the impact of pre-training knowledge, label frequency and label noise on the prediction accuracy. Based on our analysis, when the pre-training knowledge contradicts the knowledge in the examples, whether ICL prediction relies more on the pre-training knowledge or the examples depends on the number of examples. In addition, the label frequency and label noise of the examples both affect the accuracy of the ICL prediction, where the minor class has a lower accuracy, and how the label noise impacts the accuracy is determined by the specific noise level of the two classes. Extensive simulations are conducted to verify the correctness of the theoretical results, and real-data experiments also align with the theoretical insights. Our work reveals the role of pre-training knowledge and examples in ICL, offering a deeper understanding of LLMs' behaviours in classification tasks.},
-  selected={true}
+  abstract={In-context learning (ICL) has emerged as a powerful capability for large language models (LLMs) to adapt to downstream tasks by leveraging a few (demonstration) examples. Despite its effectiveness, the mechanism behind ICL remains underexplored. To better understand how ICL integrates the examples with the knowledge learned by the LLM during pre-training (i.e., pre-training knowledge) and how the examples impact ICL, this paper conducts a theoretical study in binary classification tasks. In particular, we introduce a probabilistic model extending from the Gaussian mixture model to exactly quantify the impact of pre-training knowledge, label frequency and label noise on the prediction accuracy. Based on our analysis, when the pre-training knowledge contradicts the knowledge in the examples, whether ICL prediction relies more on the pre-training knowledge or the examples depends on the number of examples. In addition, the label frequency and label noise of the examples both affect the accuracy of the ICL prediction, where the minor class has a lower accuracy, and how the label noise impacts the accuracy is determined by the specific noise level of the two classes. Extensive simulations are conducted to verify the correctness of the theoretical results, and real-data experiments also align with the theoretical insights. Our work reveals the role of pre-training knowledge and examples in ICL, offering a deeper understanding of LLMs' behaviours in classification tasks.}
 }
 
 @inproceedings{Cui2024ATU,
@@ -391,8 +390,7 @@ leveraged to build more robust LLMs by uncovering and mitigating hidden biases, 
 and hallucinations. Moreover, from a mechanism
 perspective, data poisoning can provide valuable
 insights into LLMs, particularly the interplay between data and model behavior, driving a deeper
-understanding of their underlying mechanisms.},
-selected={true}
+understanding of their underlying mechanisms.}
 }
 
 @inproceedings{he2025red,
@@ -502,7 +500,8 @@ pdf={https://arxiv.org/pdf/2503.03704}
       primaryClass={cs.CR},
       url={https://arxiv.org/abs/2506.02546},
       abstract={Large Language Model-based Multi-Agent Systems (LLM-MAS) have demonstrated strong capabilities in solving complex tasks but remain vulnerable when agents receive unreliable messages. This vulnerability stems from a fundamental gap: LLM agents treat all incoming messages equally without evaluating their trustworthiness. While some existing studies approach the trustworthiness, they focus on a single type of harmfulness rather than analyze it in a holistic approach from multiple trustworthiness perspectives. In this work, we propose Attention Trust Score (A-Trust), a lightweight, attention-based method for evaluating message trustworthiness. Inspired by human communication literature[1], through systematically analyzing attention behaviors across six orthogonal trust dimensions, we find that certain attention heads in the LLM specialize in detecting specific types of violations. Leveraging these insights, A-Trust directly infers trustworthiness from internal attention patterns without requiring external prompts or verifiers. Building upon A-Trust, we develop a principled and efficient trust management system (TMS) for LLM-MAS, enabling both message-level and agent-level trust assessment. Experiments across diverse multi-agent settings and tasks demonstrate that applying our TMS significantly enhances robustness against malicious inputs.},
-      pdf={https://arxiv.org/pdf/2506.02546}
+      pdf={https://arxiv.org/pdf/2506.02546},
+selected={true}
 }
 
 @misc{he2025comprehensivevulnerabilityanalysisnecessary,
@@ -516,7 +515,6 @@ pdf={https://arxiv.org/pdf/2503.03704}
       url={https://arxiv.org/abs/2506.01245}, 
       abstract={This paper argues that a comprehensive vulnerability analysis is essential for building trustworthy Large Language Model-based Multi-Agent Systems (LLM-MAS). These systems, which consist of multiple LLM-powered agents working collaboratively, are increasingly deployed in high-stakes applications but face novel security threats due to their complex structures. While single-agent vulnerabilities are well-studied, LLM-MAS introduces unique attack surfaces through inter-agent communication, trust relationships, and tool integration that remain significantly underexplored. We present a systematic framework for vulnerability analysis of LLM-MAS that unifies diverse research. For each type of vulnerability, we define formal threat models grounded in practical attacker capabilities and illustrate them using real-world LLM-MAS applications. This formulation enables rigorous quantification of vulnerability across different architectures and provides a foundation for designing meaningful evaluation benchmarks. Our analysis reveals that LLM-MAS faces elevated risk due to compositional effects -- vulnerabilities in individual components can cascade through agent communication, creating threat models not present in single-agent systems. We conclude by identifying critical open challenges: (1) developing benchmarks specifically tailored to LLM-MAS vulnerability assessment, (2) considering new potential attacks specific to multi-agent architectures, and (3) implementing trust management systems that can enforce security in LLM-MAS. This research provides essential groundwork for future efforts to enhance LLM-MAS trustworthiness as these systems continue their expansion into critical applications.},
       pdf={https://arxiv.org/pdf/2506.01245},
-      selected={true}
 }
 
 @inproceedings{he2025traject,
