@@ -368,6 +368,80 @@ the proposed method.</p>
         </div>
       </div>
 </li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">Preprint</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="lin2026retrieval" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Retrieval Heads are Dynamic</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Yuping Lin, Zitao Li, Yue Xing, and
+          <span class="more-authors" title="click to view 6 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '6 more authors' ? 'Pengfei He, Yingqian Cui, Yaliang Li, Bolin Ding, Jingren Zhou, Jiliang Tang' : '6 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">6 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>arXiv preprint arXiv:2602.11162</em>, Jan 2026
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://arxiv.org/pdf/2602.11162" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Recent studies have identified “retrieval heads”
+in Large Language Models (LLMs) responsible for extracting information from input contexts. However, prior works largely rely on
+static statistics aggregated across datasets, identifying heads that perform retrieval on average.
+This perspective overlooks the fine-grained temporal dynamics of autoregressive generation.
+In this paper, we investigate retrieval heads
+from a dynamic perspective. Through extensive
+analysis, we establish three core claims: (1)
+Dynamism: Retrieval heads vary dynamically
+across timesteps; (2) Irreplaceability: Dynamic
+retrieval heads are specific at each timestep and
+cannot be effectively replaced by static retrieval
+heads; and (3) Correlation: The model’s hidden
+state encodes a predictive signal for future retrieval head patterns, indicating an internal planning mechanism. We validate these findings on
+the Needle-in-a-Haystack task and a multi-hop
+QA task, and quantify the differences on the
+utility of dynamic and static retrieval heads in
+a Dynamic Retrieval-Augmented Generation
+framework. Our study provides new insights
+into the internal mechanisms of LLMs.</p>
+          </div>
+        </div>
+      </div>
+</li>
 </ol>
 <ol class="bibliography">
 <li>
@@ -1543,6 +1617,218 @@ chains). Besides final accuracy, TRAJECT-Bench also reports trajectory-level
 diagnostics, including tool selection and argument correctness, and dependency/order satisfaction. Analyses reveal failure modes such as similar tool confusion
 and parameter-blind selection, and scaling behavior with tool diversity and trajectory length where the bottleneck of transiting from short to mid-length trajectories
 is revealed, offering actionable guidance for LLMs’ tool use1.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">EACL</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="dong2025pear" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">PEAR: Planner-Executor Agent Robustness Benchmark</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Shen Dong, Mingxuan Zhang, <em>Pengfei He</em>, and
+          <span class="more-authors" title="click to view 4 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '4 more authors' ? 'Li Ma, Bhavani Thuraisingham, Hui Liu, Yue Xing' : '4 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">4 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In </em>, Apr 2026
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://arxiv.org/pdf/2510.07505?" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Large Language Model (LLM)–based MultiAgent Systems (MAS) have emerged as a powerful paradigm for tackling complex, multi-step
+tasks across diverse domains. However, despite their impressive capabilities, MAS remain
+susceptible to adversarial manipulation. Existing studies typically examine isolated attack
+surfaces or specific scenarios, leaving a lack
+of holistic understanding of MAS vulnerabilities. To bridge this gap, we introduce PEAR, a
+benchmark for systematically evaluating both
+the utility and vulnerability of planner–executor
+MAS. While compatible with various MAS architectures, our benchmark focuses on the planner–executor structure—a practical and widely
+adopted design. Through extensive experiments, we find that (1) a weak planner degrades
+overall clean task performance more severely
+than a weak executor; (2) while a memory module is essential for the planner, having a memory module for the executor does not impact the
+clean task performance; (3) there exists a tradeoff between task performance and robustness;
+and (4) attacks targeting the planner are particularly effective at misleading the system. These
+findings offer actionable insights for enhancing
+the robustness of MAS and lay the groundwork
+for principled defenses in multi-agent settings.
+All codes and data are available on Github.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">Preprint</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="he2026co" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Co-RedTeam: Orchestrated Security Discovery and Exploitation with LLM Agents</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <em>Pengfei He</em>, Ash Fox, Lesly Miculicich, and
+          <span class="more-authors" title="click to view 7 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '7 more authors' ? 'Stefan Friedli, Daniel Fabian, Burak Gokturk, Jiliang Tang, Chen-Yu Lee, Tomas Pfister, Long T Le' : '7 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">7 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In </em>, Apr 2026
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://arxiv.org/pdf/2602.02164" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Large language models (LLMs) have shown promise in assisting cybersecurity tasks, yet existing approaches struggle with automatic vulnerability discovery and exploitation due to limited interaction,
+weak execution grounding, and a lack of experience reuse. We propose Co - Re d Te am , a security-aware
+multi-agent framework designed to mirror real-world red-teaming workflows by integrating securitydomain knowledge, code-aware analysis, execution-grounded iterative reasoning, and long-term memory.Co-RedTeam decomposes vulnerability analysis into coordinated discovery and exploitation stages,
+enabling agents to plan, execute, validate, and refine actions based on real execution feedback while
+learning from prior trajectories. Extensive evaluations on challenging security benchmarks demonstrate that Co - Re d Te am consistently outperforms strong baselines across diverse backbone models,
+achieving over 60% success rate in vulnerability exploitation and over 10% absolute improvement in
+vulnerability detection. Ablation and iteration studies further confirm the critical role of execution
+feedback, structured interaction, and memory for building robust and generalizable cybersecurity agents.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">TALE</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="li2025human" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Human-AI Collaboration for Knowledge-in-use Assessment Design: Leveraging LLMs with RAG</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Juanhui Li, Tingting Li, Hang Li, and
+          <span class="more-authors" title="click to view 4 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '4 more authors' ? 'Haoyu Han, Pengfei He, Peng He, Hui Liu' : '4 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">4 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In 2025 IEEE International Conference on Teaching, Assessment, and Learning for Engineering (TALE)</em>, Apr 2025
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11346606" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Recent advancements in educational pedagogy
+have shifted from static benchmarks to dynamic tools, with
+knowledge-in-use gaining prominence. However, effectively assessing knowledge-in-use remains a significant challenge, necessitating the development of assessments that capture students’
+ability to transfer knowledge beyond the classroom. Despite
+the Next Generation Science Standards (NGSS) advocating for
+high-quality, formative assessments, many educators struggle to
+design and implement NGSS-aligned assessments due to their
+time-consuming and labor-intensive nature. Artificial Intelligence
+(AI), particularly Large Language Models (LLMs), presents a
+promising solution by automating knowledge-in-use assessment
+generation, with the potential to significantly enhance efficiency.
+However, LLMs often lack domain-specific expertise, and no
+standardized framework exists for evaluating their outputs. To
+address these challenges, we integrate Retrieval-Augmented Generation (RAG) to enhance LLMs’ comprehension of educational
+content and develop a Human-in-the-Loop strategy to refine
+and evaluate AI-generated assessments. Meanwhile, we design
+evaluation rules as quality standards and involve both human
+experts and LLMs in assessing the generated content. This
+LLM-based pipeline significantly improves the efficiency, and the
+results demonstrate that human guidance significantly improves
+LLM generations, leading to high-quality assessments that align
+with the proposed evaluation rules.</p>
           </div>
         </div>
       </div>
