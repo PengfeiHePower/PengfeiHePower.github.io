@@ -18,7 +18,7 @@ latest_posts: false  # includes a list of the newest posts
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a PhD student major in Computer Science and Engineering and minor in Probability and Statistics, at Michigan State University, advised by [Prof.Jiliang Tang](https://scholar.google.com/citations?user=WtzKMWAAAAAJ&hl=en). I am currently a Student Researcher at Google, Cloud AI Research, advised by Dr. Long T. Le.
+I am a fourth-year PhD student major in Computer Science and Engineering and minor in Probability and Statistics, at Michigan State University, advised by [Prof.Jiliang Tang](https://scholar.google.com/citations?user=WtzKMWAAAAAJ&hl=en). I am currently a Student Researcher at Google, Cloud AI Research, advised by Dr. Long T. Le.
 
 My research journey began with **robustness and security of deep learning models**, particularly adversarial attacks ([ICML 2023](https://proceedings.mlr.press/v202/xu23e/xu23e.pdf)) and data poisoning attacks ([ICLR 2024](https://arxiv.org/pdf/2305.14851), [TMLR 2024](https://openreview.net/pdf?id=Flh5EXz8dA)). These explorations laid solid foundations for security studies in advanced LLMs and agents.
 
