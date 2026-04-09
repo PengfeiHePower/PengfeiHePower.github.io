@@ -490,14 +490,12 @@ can be found on github},
 pdf={https://arxiv.org/pdf/2503.03704}
 }
 
-@misc{he2025attentionknowstrustattentionbased,
-      abbr={preprint},
+@inproceedings{he2025attentionknowstrustattentionbased,
+      abbr={ACL},
       title={Attention Knows Whom to Trust: Attention-based Trust Management for LLM Multi-Agent Systems}, 
       author={Pengfei He and Zhenwei Dai and Xianfeng Tang and Yue Xing and Hui Liu and Jingying Zeng and Qiankun Peng and Shrivats Agrawal and Samarth Varshney and Suhang Wang and Jiliang Tang and Qi He},
-      year={2025},
-      eprint={2506.02546},
-      archivePrefix={arXiv},
-      primaryClass={cs.CR},
+      journal={ACL},
+      year={2026},
       url={https://arxiv.org/abs/2506.02546},
       abstract={Large Language Model-based Multi-Agent Systems (LLM-MAS) have demonstrated strong capabilities in solving complex tasks but remain vulnerable when agents receive unreliable messages. This vulnerability stems from a fundamental gap: LLM agents treat all incoming messages equally without evaluating their trustworthiness. While some existing studies approach the trustworthiness, they focus on a single type of harmfulness rather than analyze it in a holistic approach from multiple trustworthiness perspectives. In this work, we propose Attention Trust Score (A-Trust), a lightweight, attention-based method for evaluating message trustworthiness. Inspired by human communication literature[1], through systematically analyzing attention behaviors across six orthogonal trust dimensions, we find that certain attention heads in the LLM specialize in detecting specific types of violations. Leveraging these insights, A-Trust directly infers trustworthiness from internal attention patterns without requiring external prompts or verifiers. Building upon A-Trust, we develop a principled and efficient trust management system (TMS) for LLM-MAS, enabling both message-level and agent-level trust assessment. Experiments across diverse multi-agent settings and tasks demonstrate that applying our TMS significantly enhances robustness against malicious inputs.},
       pdf={https://arxiv.org/pdf/2506.02546},
@@ -611,12 +609,12 @@ LLM generations, leading to high-quality assessments that align
 with the proposed evaluation rules.}
 }
 
-@misc{lin2026retrieval,
+@inproceedings{lin2026retrieval,
   title={Retrieval Heads are Dynamic},
   author={Lin, Yuping and Li, Zitao and Xing, Yue and He, Pengfei and Cui, Yingqian and Li, Yaliang and Ding, Bolin and Zhou, Jingren and Tang, Jiliang},
-  journal={arXiv preprint arXiv:2602.11162},
+  journal={ACL},
   year={2026},
-  abbr={Preprint},
+  abbr={ACL},
   pdf={https://arxiv.org/pdf/2602.11162},
   abstract={Recent studies have identified “retrieval heads”
 in Large Language Models (LLMs) responsible for extracting information from input contexts. However, prior works largely rely on
@@ -637,4 +635,34 @@ utility of dynamic and static retrieval heads in
 a Dynamic Retrieval-Augmented Generation
 framework. Our study provides new insights
 into the internal mechanisms of LLMs.}
+}
+
+@inproceedings{xiong2025memory,
+  title={How memory management impacts llm agents: An empirical study of experience-following behavior},
+  author={Xiong, Zidi and Lin, Yuping and Xie, Wenya and He, Pengfei and Liu, Zirui and Tang, Jiliang and Lakkaraju, Himabindu and Xiang, Zhen},
+  journal={ACL},
+  year={2026},
+  abbr={ACL},
+  pdf={https://arxiv.org/pdf/2505.16067},
+  abstract={Memory is a critical component in large language model (LLM)-based agents, enabling
+them to store and retrieve past executions to
+improve task performance over time. In this
+paper, we conduct an empirical study on how
+memory management choices impact the LLM
+agents’ behavior, especially their long-term
+performance. Specifically, we focus on two
+fundamental memory management operations
+that are widely used by many agent frameworks—memory addition and deletion—to systematically study their impact on the agent behavior. Through our quantitative analysis, we
+find that LLM agents display an experiencefollowing property: high similarity between a
+task input and the input in a retrieved memory record often results in highly similar agent
+outputs. Our analysis further reveals two significant challenges associated with this property:error propagation, where inaccuracies in past
+experiences compound and degrade future performance, and misaligned experience replay,
+where some seemingly correct executions can
+provide limited or even misleading value as experiences. Through controlled experiments, we
+demonstrate the importance of regulating experience quality within the memory bank and
+show that future task evaluations can serve as
+free quality labels for stored memory. Our findings offer insights into the behavioral dynamics
+of LLM agent memory systems and provide
+practical guidance for designing memory components that support robust, long-term agent
+performance. We also release our code to facilitate further study.}
 }
