@@ -1488,6 +1488,62 @@ can be found on github</p>
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">ACL</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="he2025attentionknowstrustattentionbased" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Attention Knows Whom to Trust: Attention-based Trust Management for LLM Multi-Agent Systems</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <em>Pengfei He</em>, Zhenwei Dai, Xianfeng Tang, and
+          <span class="more-authors" title="click to view 9 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '9 more authors' ? 'Yue Xing, Hui Liu, Jingying Zeng, Qiankun Peng, Shrivats Agrawal, Samarth Varshney, Suhang Wang, Jiliang Tang, Qi He' : '9 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">9 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In </em>, Apr 2026
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://arxiv.org/pdf/2506.02546" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Large Language Model-based Multi-Agent Systems (LLM-MAS) have demonstrated strong capabilities in solving complex tasks but remain vulnerable when agents receive unreliable messages. This vulnerability stems from a fundamental gap: LLM agents treat all incoming messages equally without evaluating their trustworthiness. While some existing studies approach the trustworthiness, they focus on a single type of harmfulness rather than analyze it in a holistic approach from multiple trustworthiness perspectives. In this work, we propose Attention Trust Score (A-Trust), a lightweight, attention-based method for evaluating message trustworthiness. Inspired by human communication literature[1], through systematically analyzing attention behaviors across six orthogonal trust dimensions, we find that certain attention heads in the LLM specialize in detecting specific types of violations. Leveraging these insights, A-Trust directly infers trustworthiness from internal attention patterns without requiring external prompts or verifiers. Building upon A-Trust, we develop a principled and efficient trust management system (TMS) for LLM-MAS, enabling both message-level and agent-level trust assessment. Experiments across diverse multi-agent settings and tasks demonstrate that applying our TMS significantly enhances robustness against malicious inputs.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
         <div class="col-sm-2 abbr"><abbr class="badge">ICLR</abbr></div>
 
         <!-- Entry bib key -->
@@ -1696,6 +1752,156 @@ with the proposed evaluation rules.</p>
         </div>
       </div>
 </li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">ACL</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="lin2026retrieval" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Retrieval Heads are Dynamic</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Yuping Lin, Zitao Li, Yue Xing, and
+          <span class="more-authors" title="click to view 6 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '6 more authors' ? 'Pengfei He, Yingqian Cui, Yaliang Li, Bolin Ding, Jingren Zhou, Jiliang Tang' : '6 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">6 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In </em>, Apr 2026
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://arxiv.org/pdf/2602.11162" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Recent studies have identified “retrieval heads”
+in Large Language Models (LLMs) responsible for extracting information from input contexts. However, prior works largely rely on
+static statistics aggregated across datasets, identifying heads that perform retrieval on average.
+This perspective overlooks the fine-grained temporal dynamics of autoregressive generation.
+In this paper, we investigate retrieval heads
+from a dynamic perspective. Through extensive
+analysis, we establish three core claims: (1)
+Dynamism: Retrieval heads vary dynamically
+across timesteps; (2) Irreplaceability: Dynamic
+retrieval heads are specific at each timestep and
+cannot be effectively replaced by static retrieval
+heads; and (3) Correlation: The model’s hidden
+state encodes a predictive signal for future retrieval head patterns, indicating an internal planning mechanism. We validate these findings on
+the Needle-in-a-Haystack task and a multi-hop
+QA task, and quantify the differences on the
+utility of dynamic and static retrieval heads in
+a Dynamic Retrieval-Augmented Generation
+framework. Our study provides new insights
+into the internal mechanisms of LLMs.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">ACL</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="xiong2025memory" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">How memory management impacts llm agents: An empirical study of experience-following behavior</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Zidi Xiong, Yuping Lin, Wenya Xie, and
+          <span class="more-authors" title="click to view 5 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '5 more authors' ? 'Pengfei He, Zirui Liu, Jiliang Tang, Himabindu Lakkaraju, Zhen Xiang' : '5 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">5 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In </em>, Apr 2026
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://arxiv.org/pdf/2505.16067" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Memory is a critical component in large language model (LLM)-based agents, enabling
+them to store and retrieve past executions to
+improve task performance over time. In this
+paper, we conduct an empirical study on how
+memory management choices impact the LLM
+agents’ behavior, especially their long-term
+performance. Specifically, we focus on two
+fundamental memory management operations
+that are widely used by many agent frameworks—memory addition and deletion—to systematically study their impact on the agent behavior. Through our quantitative analysis, we
+find that LLM agents display an experiencefollowing property: high similarity between a
+task input and the input in a retrieved memory record often results in highly similar agent
+outputs. Our analysis further reveals two significant challenges associated with this property:error propagation, where inaccuracies in past
+experiences compound and degrade future performance, and misaligned experience replay,
+where some seemingly correct executions can
+provide limited or even misleading value as experiences. Through controlled experiments, we
+demonstrate the importance of regulating experience quality within the memory bank and
+show that future task evaluations can serve as
+free quality labels for stored memory. Our findings offer insights into the behavioral dynamics
+of LLM agent memory systems and provide
+practical guidance for designing memory components that support robust, long-term agent
+performance. We also release our code to facilitate further study.</p>
+          </div>
+        </div>
+      </div>
+</li>
 </ol>
 
 <h1>Preprints</h1>
@@ -1834,62 +2040,6 @@ understanding of their underlying mechanisms.</p>
         <div class="col-sm-2 abbr"><abbr class="badge">preprint</abbr></div>
 
         <!-- Entry bib key -->
-        <div id="he2025attentionknowstrustattentionbased" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Attention Knows Whom to Trust: Attention-based Trust Management for LLM Multi-Agent Systems</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        <em>Pengfei He</em>, Zhenwei Dai, Xianfeng Tang, and
-          <span class="more-authors" title="click to view 9 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '9 more authors' ? 'Yue Xing, Hui Liu, Jingying Zeng, Qiankun Peng, Shrivats Agrawal, Samarth Varshney, Suhang Wang, Jiliang Tang, Qi He' : '9 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">9 more authors</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          2025
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="https://arxiv.org/pdf/2506.02546" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-arxiv-id="2506.02546"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Large Language Model-based Multi-Agent Systems (LLM-MAS) have demonstrated strong capabilities in solving complex tasks but remain vulnerable when agents receive unreliable messages. This vulnerability stems from a fundamental gap: LLM agents treat all incoming messages equally without evaluating their trustworthiness. While some existing studies approach the trustworthiness, they focus on a single type of harmfulness rather than analyze it in a holistic approach from multiple trustworthiness perspectives. In this work, we propose Attention Trust Score (A-Trust), a lightweight, attention-based method for evaluating message trustworthiness. Inspired by human communication literature[1], through systematically analyzing attention behaviors across six orthogonal trust dimensions, we find that certain attention heads in the LLM specialize in detecting specific types of violations. Leveraging these insights, A-Trust directly infers trustworthiness from internal attention patterns without requiring external prompts or verifiers. Building upon A-Trust, we develop a principled and efficient trust management system (TMS) for LLM-MAS, enabling both message-level and agent-level trust assessment. Experiments across diverse multi-agent settings and tasks demonstrate that applying our TMS significantly enhances robustness against malicious inputs.</p>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">preprint</abbr></div>
-
-        <!-- Entry bib key -->
         <div id="he2025comprehensivevulnerabilityanalysisnecessary" class="col-sm-8">
         <!-- Title -->
         <div class="title">Comprehensive Vulnerability Analysis is Necessary for Trustworthy LLM-MAS</div>
@@ -1999,80 +2149,6 @@ learning from prior trajectories. Extensive evaluations on challenging security 
 achieving over 60% success rate in vulnerability exploitation and over 10% absolute improvement in
 vulnerability detection. Ablation and iteration studies further confirm the critical role of execution
 feedback, structured interaction, and memory for building robust and generalizable cybersecurity agents.</p>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">Preprint</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="lin2026retrieval" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Retrieval Heads are Dynamic</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Yuping Lin, Zitao Li, Yue Xing, and
-          <span class="more-authors" title="click to view 6 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '6 more authors' ? 'Pengfei He, Yingqian Cui, Yaliang Li, Bolin Ding, Jingren Zhou, Jiliang Tang' : '6 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">6 more authors</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          2026
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="https://arxiv.org/pdf/2602.11162" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Recent studies have identified “retrieval heads”
-in Large Language Models (LLMs) responsible for extracting information from input contexts. However, prior works largely rely on
-static statistics aggregated across datasets, identifying heads that perform retrieval on average.
-This perspective overlooks the fine-grained temporal dynamics of autoregressive generation.
-In this paper, we investigate retrieval heads
-from a dynamic perspective. Through extensive
-analysis, we establish three core claims: (1)
-Dynamism: Retrieval heads vary dynamically
-across timesteps; (2) Irreplaceability: Dynamic
-retrieval heads are specific at each timestep and
-cannot be effectively replaced by static retrieval
-heads; and (3) Correlation: The model’s hidden
-state encodes a predictive signal for future retrieval head patterns, indicating an internal planning mechanism. We validate these findings on
-the Needle-in-a-Haystack task and a multi-hop
-QA task, and quantify the differences on the
-utility of dynamic and static retrieval heads in
-a Dynamic Retrieval-Augmented Generation
-framework. Our study provides new insights
-into the internal mechanisms of LLMs.</p>
           </div>
         </div>
       </div>
