@@ -74,6 +74,14 @@
   contents:
     - year: 2026
       items:
+        - Invited talk at Shanghai AI Lab
+        - Rethinking security in the era of LLM agents
+    - year: 2026
+      items:
+        - Invited talk at Google Cloud AI research
+        - The evolution of AI security
+    - year: 2026
+      items:
         - Invited talk at University of Illinois Chicago, CS517
         - The evolution of AI security
     - year: 2026
