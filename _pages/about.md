@@ -26,7 +26,7 @@ My current research focuses on **AI Security** and **Trustworthy LLM Agents**. A
 
 Beyond security, I am also interested in understanding and improving the reasoning and tool-learning capabilities of LLMs, including **how models reason** ([EMNLP 2025](https://arxiv.org/pdf/2410.19000?) [Stat](https://onlinelibrary.wiley.com/doi/full/10.1002/sta4.70045) [AISTATS](https://arxiv.org/pdf/2410.16540?)), and **interact with tools** ([ICLR 2026](https://arxiv.org/pdf/2510.04550?)). More broadly, my goal is to develop principled foundations and evaluation methodologies for safe and reliable agentic AI.
 
-I enjoy collaborating with researchers from different fields and exploring how AI systems can be deployed safely in high-impact domains such as [**education**](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11346606), [**cybersecurity**](https://arxiv.org/pdf/2602.02164), and **scientific discovery**.
+I enjoy collaborating with researchers from different fields and exploring how AI systems can be deployed safely in high-impact domains such as **education**([TALE 2025](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11346606)), **cybersecurity**([ICML 2026](https://arxiv.org/pdf/2602.02164)), and **scientific discovery**.
 
 **For AGI and Security!**
 
