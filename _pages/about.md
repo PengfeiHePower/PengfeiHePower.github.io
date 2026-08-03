@@ -30,7 +30,7 @@ I enjoy collaborating with researchers from different fields and exploring how A
 
 **For AGI and Security!**
 
-<span style="color:crimson;"><b>[I will be on market 2025 Fall. If you have any available position of assistant professor, postdoc or industry, please contact me!]</b></span>
+<span style="color:crimson;"><b>[I will join Google Cloud AI Research as a research scientist this August, and will continue my exploration in LLM agents. Really excited for future work and collebrations!]</b></span>
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
