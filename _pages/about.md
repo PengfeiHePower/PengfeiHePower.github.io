@@ -18,7 +18,7 @@ latest_posts: false  # includes a list of the newest posts
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a fourth-year PhD student major in Computer Science and Engineering and minor in Probability and Statistics, at Michigan State University, advised by [Prof.Jiliang Tang](https://scholar.google.com/citations?user=WtzKMWAAAAAJ&hl=en). I am currently a Student Researcher at Google, Cloud AI Research, advised by Dr. Long T. Le.
+I am currently a Research Scientist at Google Cloud AI Research. I finished my PhD in Computer Science and Engineering and minor in Probability and Statistics, at Michigan State University, advised by [Prof.Jiliang Tang](https://scholar.google.com/citations?user=WtzKMWAAAAAJ&hl=en) and [Prof.Yuehua Cui](https://www.stt.msu.edu/~cui/).
 
 My research journey began with **robustness and security of deep learning models**, particularly adversarial attacks ([ICML 2023](https://proceedings.mlr.press/v202/xu23e/xu23e.pdf)) and data poisoning attacks ([ICLR 2024](https://arxiv.org/pdf/2305.14851), [TMLR 2024](https://openreview.net/pdf?id=Flh5EXz8dA)). These explorations laid solid foundations for security studies in advanced LLMs and agents.
 
@@ -30,7 +30,7 @@ I enjoy collaborating with researchers from different fields and exploring how A
 
 **For AGI and Security!**
 
-<span style="color:crimson;"><b>[I will join Google Cloud AI Research as a research scientist this August, and will continue my exploration in LLM agents. Really excited for future work and collebrations!]</b></span>
+I am open to discussions and collebrations!
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
