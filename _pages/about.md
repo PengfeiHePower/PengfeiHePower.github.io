@@ -18,7 +18,7 @@ latest_posts: false  # includes a list of the newest posts
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently a Research Scientist at [Google Cloud AI Research](https://research.google/teams/cloud-ai-research/). I finished my PhD in Computer Science and Engineering and minor in Probability and Statistics, at Michigan State University, advised by [Prof.Jiliang Tang](https://scholar.google.com/citations?user=WtzKMWAAAAAJ&hl=en) and [Prof.Yuehua Cui](https://www.stt.msu.edu/~cui/).
+I am currently a Research Scientist at [Google Cloud AI Research](https://research.google/teams/cloud-ai-research/). I finished my dual PhD degree in both Computer Science and Statistics, at Michigan State University, advised by [Prof.Jiliang Tang](https://scholar.google.com/citations?user=WtzKMWAAAAAJ&hl=en)(computer science) and [Prof.Yuehua Cui](https://www.stt.msu.edu/~cui/)(statistics).
 
 My research journey began with **robustness and security of deep learning models**, particularly adversarial attacks ([ICML 2023](https://proceedings.mlr.press/v202/xu23e/xu23e.pdf)) and data poisoning attacks ([ICLR 2024](https://arxiv.org/pdf/2305.14851), [TMLR 2024](https://openreview.net/pdf?id=Flh5EXz8dA)). These explorations laid solid foundations for security studies in advanced LLMs and agents.
 
@@ -26,11 +26,9 @@ My current research focuses on **AI Security** and **Trustworthy LLM Agents**. A
 
 Beyond security, I am also interested in understanding and improving the reasoning and tool-learning capabilities of LLMs, including **how models reason** ([EMNLP 2025](https://arxiv.org/pdf/2410.19000?) [Stat](https://onlinelibrary.wiley.com/doi/full/10.1002/sta4.70045) [AISTATS](https://arxiv.org/pdf/2410.16540?)), and **interact with tools** ([ICLR 2026](https://arxiv.org/pdf/2510.04550?)). More broadly, my goal is to develop principled foundations and evaluation methodologies for safe and reliable agentic AI.
 
-I enjoy collaborating with researchers from different fields and exploring how AI systems can be deployed safely in high-impact domains such as **education**([TALE 2025](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11346606))[EMNLP 2026](https://arxiv.org/pdf/2606.03090), **cybersecurity**([ICML 2026](https://arxiv.org/pdf/2602.02164)), and **scientific discovery**.
+I enjoy collaborating with researchers from different fields and exploring how AI systems can be deployed safely in high-impact domains such as **education**([TALE 2025](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11346606))[EMNLP 2026](https://arxiv.org/pdf/2606.03090), **cybersecurity**([ICML 2026](https://arxiv.org/pdf/2602.02164)), and **scientific discovery**. I am open to discussions and collebrations!
 
 **For AGI and Security!**
-
-I am open to discussions and collebrations!
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
