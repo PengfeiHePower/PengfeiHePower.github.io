@@ -1491,9 +1491,9 @@ can be found on github</p>
         <div class="col-sm-2 abbr"><abbr class="badge">ACL 2026</abbr></div>
 
         <!-- Entry bib key -->
-        <div id="he2025attentionknowstrustattentionbased" class="col-sm-8">
+        <div id="he2025trust" class="col-sm-8">
         <!-- Title -->
-        <div class="title">Attention Knows Whom to Trust: Attention-based Trust Management for LLM Multi-Agent Systems</div>
+        <div class="title">To trust or not to trust: Attention-based Trust Management for LLM Multi-Agent Systems</div>
         <!-- Author -->
         <div class="author">
         
@@ -1536,7 +1536,22 @@ can be found on github</p>
 
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
-            <p>Large Language Model-based Multi-Agent Systems (LLM-MAS) have demonstrated strong capabilities in solving complex tasks but remain vulnerable when agents receive unreliable messages. This vulnerability stems from a fundamental gap: LLM agents treat all incoming messages equally without evaluating their trustworthiness. While some existing studies approach the trustworthiness, they focus on a single type of harmfulness rather than analyze it in a holistic approach from multiple trustworthiness perspectives. In this work, we propose Attention Trust Score (A-Trust), a lightweight, attention-based method for evaluating message trustworthiness. Inspired by human communication literature[1], through systematically analyzing attention behaviors across six orthogonal trust dimensions, we find that certain attention heads in the LLM specialize in detecting specific types of violations. Leveraging these insights, A-Trust directly infers trustworthiness from internal attention patterns without requiring external prompts or verifiers. Building upon A-Trust, we develop a principled and efficient trust management system (TMS) for LLM-MAS, enabling both message-level and agent-level trust assessment. Experiments across diverse multi-agent settings and tasks demonstrate that applying our TMS significantly enhances robustness against malicious inputs.</p>
+            <p>Large Language Model-based Multi-Agent Systems (LLM-MAS) have demonstrated strong
+capabilities in solving complex tasks but remain vulnerable when agents receive unreliable messages. This vulnerability stems from a
+fundamental gap: LLM agents treat all incoming messages equally without evaluating their
+trustworthiness. While some existing studies
+approach trustworthiness, they focus on a single type of harmfulness rather than analyze it
+in a holistic approach from multiple trustworthiness perspectives. We address this gap by
+proposing a comprehensive definition of trustworthiness inspired by human communication
+theory (Grice, 1975). Our definition identifies six orthogonal trust dimensions that provide interpretable measures of trustworthiness.
+Building on this definition, we introduce the
+Attention Trust Score (A-Trust), a lightweight,
+attention-based method for evaluating the trustworthiness of messages. We then develop a
+principled trust management system (TMS) for
+LLM-MAS that supports both message-level
+and agent-level trust assessments. Experiments
+across diverse multi-agent settings and tasks
+demonstrate that our TMS significantly improves robustness against malicious inputs.</p>
           </div>
         </div>
       </div>
