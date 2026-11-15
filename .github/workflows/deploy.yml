@@ -10,6 +10,8 @@ on:
       - master
       - main
   workflow_dispatch:
+  schedule:
+    - cron: '0 8 * * 1'
 
 permissions:
   contents: write
@@ -25,6 +27,8 @@ jobs:
       with:
         ruby-version: '3.2'
         bundler-cache: true
+    - name: Update citation counts 📈
+      run: python3 bin/update_citations.py
     - name: Install and Build 🔧
       run: |
         npm install -g mermaid.cli

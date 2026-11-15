@@ -611,6 +611,14 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+
+        .award {
+          font-size: 0.75rem;
+          font-weight: 600;
+          vertical-align: middle;
+          color: #fff;
+          background-color: #d9480f;
+        }
       }
 
       .author {
@@ -623,9 +631,8 @@ footer.sticky-bottom {
           }
         }
 
-        >em {
+        >strong {
           border-bottom: 1px solid;
-          font-style: normal;
         }
 
         >span.more-authors {
