@@ -934,7 +934,8 @@ nav[data-toggle=toc] .nav-link.active:hover {
   color: var(--global-danger-block-title);
 }
 
-.projects h2.project-section {
+.projects h2.project-section,
+.life h2.project-section {
   font-size: 0.85rem;
   font-weight: 700;
   letter-spacing: 0.12em;
@@ -979,6 +980,7 @@ nav[data-toggle=toc] .nav-link.active:hover {
 }
 .project-card .project-card-cover img {
   width: 100%;
+  max-width: none;
   height: 100%;
   object-fit: cover;
   transition: transform 0.3s ease;
@@ -1021,6 +1023,67 @@ nav[data-toggle=toc] .nav-link.active:hover {
   border-radius: 1rem;
   background-color: var(--global-code-bg-color);
   color: var(--global-text-color);
+}
+
+.cat-card .cat-photos {
+  position: relative;
+  aspect-ratio: 3/2;
+}
+.cat-card .cat-photos img {
+  position: absolute;
+  inset: 0;
+  transition: opacity 0.5s ease, transform 0.3s ease;
+}
+.cat-card .cat-photos img + img {
+  opacity: 0;
+  pointer-events: none;
+}
+.cat-card .cat-photos .cat-dots {
+  position: absolute;
+  right: 0.75rem;
+  bottom: 0.6rem;
+  display: flex;
+  gap: 0.3rem;
+}
+.cat-card .cat-photos .cat-dots span {
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.55);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+.cat-card .cat-photos .cat-dots span:first-child {
+  background-color: #fff;
+}
+
+.cat-card:hover .cat-photos img + img {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cat-card:hover .cat-photos .cat-dots span {
+  background-color: rgba(255, 255, 255, 0.55);
+}
+.cat-card:hover .cat-photos .cat-dots span:last-child {
+  background-color: #fff;
+}
+
+.life-gallery {
+  columns: 2 260px;
+  column-gap: 1rem;
+}
+.life-gallery figure {
+  break-inside: avoid;
+  margin: 0 0 1rem;
+}
+.life-gallery figure img {
+  width: 100%;
+  border-radius: 0.75rem;
+}
+.life-gallery figure figcaption {
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+  margin-top: 0.35rem;
 }
 
 .project-page .roadmap {
