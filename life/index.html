@@ -127,17 +127,21 @@
           </header>
 
           <article>
-            <div class="life">
+            <link rel="stylesheet" href="/assets/css/glightbox.min.css">
+
+<div class="life">
 
   <h2 class="project-section">The cats</h2>
   <div class="project-grid">
     <div class="project-card cat-card">
       <div class="project-card-cover cat-photos">
-        <img src="/assets/img/life/fisher2.jpg" alt="Fisher" loading="lazy" data-zoomable>
-        <img src="/assets/img/life/fisher1.jpg" alt="Fisher" loading="lazy" data-zoomable>
-        <div class="cat-dots">
-<span></span><span></span>
-</div>
+        <a href="/assets/img/life/fisher2.jpg" class="glightbox" data-gallery="fisher" data-title="Fisher">
+          <img src="/assets/img/life/thumb/fisher2.jpg" alt="Fisher" loading="lazy">
+        </a>
+        <a href="/assets/img/life/fisher1.jpg" class="glightbox" data-gallery="fisher" data-title="Fisher">
+          <img src="/assets/img/life/thumb/fisher1.jpg" alt="Fisher" loading="lazy">
+        </a>
+        <span class="cat-count"><i class="fas fa-images"></i> 2</span>
       </div>
       <div class="project-card-body">
         <div class="project-card-meta">Chief Chin-Scratch Officer</div>
@@ -150,11 +154,13 @@
     </div>
     <div class="project-card cat-card">
       <div class="project-card-cover cat-photos">
-        <img src="/assets/img/life/huli1.jpg" alt="Huli" loading="lazy" data-zoomable>
-        <img src="/assets/img/life/huli2.jpg" alt="Huli" loading="lazy" data-zoomable>
-        <div class="cat-dots">
-<span></span><span></span>
-</div>
+        <a href="/assets/img/life/huli1.jpg" class="glightbox" data-gallery="huli" data-title="Huli">
+          <img src="/assets/img/life/thumb/huli1.jpg" alt="Huli" loading="lazy">
+        </a>
+        <a href="/assets/img/life/huli2.jpg" class="glightbox" data-gallery="huli" data-title="Huli">
+          <img src="/assets/img/life/thumb/huli2.jpg" alt="Huli" loading="lazy">
+        </a>
+        <span class="cat-count"><i class="fas fa-images"></i> 2</span>
       </div>
       <div class="project-card-body">
         <div class="project-card-meta">Head of Box Research</div>
@@ -168,6 +174,13 @@
   </div>
 
 </div>
+
+<script defer src="/assets/js/glightbox.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    GLightbox({ selector: ".glightbox", loop: true, zoomable: true });
+  });
+</script>
 
           </article>
 

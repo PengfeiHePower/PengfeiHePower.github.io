@@ -1029,43 +1029,31 @@ nav[data-toggle=toc] .nav-link.active:hover {
   position: relative;
   aspect-ratio: 3/2;
 }
-.cat-card .cat-photos img {
+.cat-card .cat-photos a {
   position: absolute;
   inset: 0;
-  transition: opacity 0.5s ease, transform 0.3s ease;
+  cursor: zoom-in;
+  transition: opacity 0.5s ease;
 }
-.cat-card .cat-photos img + img {
+.cat-card .cat-photos a + a {
   opacity: 0;
   pointer-events: none;
 }
-.cat-card .cat-photos .cat-dots {
+.cat-card .cat-photos .cat-count {
   position: absolute;
   right: 0.75rem;
   bottom: 0.6rem;
-  display: flex;
-  gap: 0.3rem;
-}
-.cat-card .cat-photos .cat-dots span {
-  width: 0.45rem;
-  height: 0.45rem;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.55);
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
-  transition: background-color 0.3s ease;
-}
-.cat-card .cat-photos .cat-dots span:first-child {
-  background-color: #fff;
+  padding: 0.15rem 0.55rem;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.45);
+  pointer-events: none;
 }
 
-.cat-card:hover .cat-photos img + img {
+.cat-card:hover .cat-photos a:nth-of-type(2) {
   opacity: 1;
   pointer-events: auto;
-}
-.cat-card:hover .cat-photos .cat-dots span {
-  background-color: rgba(255, 255, 255, 0.55);
-}
-.cat-card:hover .cat-photos .cat-dots span:last-child {
-  background-color: #fff;
 }
 
 .life-gallery {
@@ -1078,7 +1066,9 @@ nav[data-toggle=toc] .nav-link.active:hover {
 }
 .life-gallery figure img {
   width: 100%;
+  max-width: none;
   border-radius: 0.75rem;
+  cursor: zoom-in;
 }
 .life-gallery figure figcaption {
   font-size: 0.85rem;
