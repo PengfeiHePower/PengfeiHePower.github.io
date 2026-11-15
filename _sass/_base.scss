@@ -1132,6 +1132,32 @@ nav[data-toggle="toc"] {
 .visitor-map {
   margin: 2.5rem 0 1rem;
   font-size: 0.75rem;
+
+  // Hover tooltips are absolutely positioned and keep their own white-on-dark style.
+  div:not([style*="position: absolute"]) {
+    color: var(--global-theme-color) !important;
+    text-shadow: none !important;
+  }
+}
+
+// The widget always renders its light palette (data-theme="light"); recolor it for the site's dark mode.
+html[data-theme="dark"] .visitor-map {
+  svg {
+    background: transparent !important;
+  }
+
+  rect[fill="#FFFFFF"] {
+    fill: var(--global-bg-color);
+  }
+
+  path {
+    fill: #2a2a2d;
+    stroke: #4a4a4f;
+  }
+
+  span {
+    color: var(--global-text-color-light) !important;
+  }
 }
 
 // Life page
