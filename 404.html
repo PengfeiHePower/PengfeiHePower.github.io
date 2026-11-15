@@ -4,7 +4,13 @@
   <!-- Head -->
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta http-equiv="refresh" content="3; url=/">    <!-- Metadata, OpenGraph and Schema.org -->
+<script>
+      // Old capitalized URL; GitHub Pages paths are case-sensitive.
+      if (/^\/Publications(\/|$)/.test(location.pathname)) {
+        location.replace(location.pathname.replace(/^\/Publications/, "/publications") + location.search + location.hash);
+      }
+    </script>
+    <meta http-equiv="refresh" content="3; url=/">    <!-- Metadata, OpenGraph and Schema.org -->
     
 
     <!-- Standard metadata -->
@@ -38,7 +44,7 @@
     
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
-    <link rel="stylesheet" href="/assets/css/main.css?v=1794783647">
+    <link rel="stylesheet" href="/assets/css/main.css?v=1794783738">
     <script>
       // Keep content hidden until reveal.js has tagged it, so it never paints once and then re-animates.
       if ("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
@@ -87,7 +93,7 @@
 
               <!-- Other pages -->
               <li class="nav-item ">
-                <a class="nav-link" href="/Publications/">Publications</a>
+                <a class="nav-link" href="/publications/">Publications</a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/projects/">Projects</a>
