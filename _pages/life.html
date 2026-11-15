@@ -7,6 +7,8 @@ nav: true
 nav_order: 6
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/glightbox.min.css' | relative_url }}">
+
 <div class="life">
 
   <h2 class="project-section">The cats</h2>
@@ -15,11 +17,11 @@ nav_order: 6
     <div class="project-card cat-card">
       <div class="project-card-cover cat-photos">
         {%- for photo in cat.photos %}
-        <img src="{{ photo | prepend: '/assets/img/life/' | relative_url }}" alt="{{ cat.name }}" loading="lazy" data-zoomable>
+        <a href="{{ photo | prepend: '/assets/img/life/' | relative_url }}" class="glightbox" data-gallery="{{ cat.name | slugify }}" data-title="{{ cat.name }}">
+          <img src="{{ photo | prepend: '/assets/img/life/thumb/' | relative_url }}" alt="{{ cat.name }}" loading="lazy">
+        </a>
         {%- endfor %}
-        {%- if cat.photos.size > 1 %}
-        <div class="cat-dots">{% for photo in cat.photos %}<span></span>{% endfor %}</div>
-        {%- endif %}
+        <span class="cat-count"><i class="fas fa-images"></i> {{ cat.photos.size }}</span>
       </div>
       <div class="project-card-body">
         <div class="project-card-meta">{{ cat.title }}</div>
@@ -36,7 +38,9 @@ nav_order: 6
   <div class="life-gallery">
     {%- for item in site.data.life.gallery %}
     <figure>
-      <img src="{{ item.file | prepend: '/assets/img/life/' | relative_url }}" alt="{{ item.caption }}" loading="lazy" data-zoomable>
+      <a href="{{ item.file | prepend: '/assets/img/life/' | relative_url }}" class="glightbox" data-gallery="moments" data-title="{{ item.caption }}">
+        <img src="{{ item.file | prepend: '/assets/img/life/thumb/' | relative_url }}" alt="{{ item.caption }}" loading="lazy">
+      </a>
       {%- if item.caption %}<figcaption>{{ item.caption }}</figcaption>{% endif %}
     </figure>
     {%- endfor %}
@@ -44,3 +48,10 @@ nav_order: 6
   {%- endif %}
 
 </div>
+
+<script defer src="{{ '/assets/js/glightbox.min.js' | relative_url }}"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    GLightbox({ selector: ".glightbox", loop: true, zoomable: true });
+  });
+</script>

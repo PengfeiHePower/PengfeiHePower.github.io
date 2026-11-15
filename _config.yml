@@ -240,7 +240,7 @@ defaults:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  exclude: ['robots.txt']
+  exclude: ['robots.txt', 'assets/js/glightbox.min.js', 'assets/css/glightbox.min.css']
   uglifier_args:
     harmony: true
 
