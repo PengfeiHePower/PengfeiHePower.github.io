@@ -1127,6 +1127,15 @@ nav[data-toggle="toc"] {
   }
 }
 
+// Visitor globe
+
+.visitor-globe {
+  display: flex;
+  justify-content: center;
+  margin: 2.5rem auto 0;
+  max-width: 240px;
+}
+
 // Life page
 
 .cat-card .cat-photos {
