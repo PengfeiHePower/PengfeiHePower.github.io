@@ -1023,7 +1023,8 @@ nav[data-toggle="toc"] {
 
 // Project cards
 
-.projects {
+.projects,
+.life {
   h2.project-section {
     font-size: 0.85rem;
     font-weight: 700;
@@ -1073,6 +1074,7 @@ nav[data-toggle="toc"] {
 
     img {
       width: 100%;
+      max-width: none;
       height: 100%;
       object-fit: cover;
       transition: transform 0.3s ease;
@@ -1121,6 +1123,82 @@ nav[data-toggle="toc"] {
       border-radius: 1rem;
       background-color: var(--global-code-bg-color);
       color: var(--global-text-color);
+    }
+  }
+}
+
+// Life page
+
+.cat-card .cat-photos {
+  position: relative;
+  aspect-ratio: 3 / 2;
+
+  img {
+    position: absolute;
+    inset: 0;
+    transition: opacity 0.5s ease, transform 0.3s ease;
+  }
+
+  // The second photo sits on top, so it must not swallow zoom clicks while hidden.
+  img + img {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .cat-dots {
+    position: absolute;
+    right: 0.75rem;
+    bottom: 0.6rem;
+    display: flex;
+    gap: 0.3rem;
+
+    span {
+      width: 0.45rem;
+      height: 0.45rem;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.55);
+      box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+      transition: background-color 0.3s ease;
+
+      &:first-child {
+        background-color: #fff;
+      }
+    }
+  }
+}
+
+.cat-card:hover .cat-photos {
+  img + img {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .cat-dots span {
+    background-color: rgba(255, 255, 255, 0.55);
+
+    &:last-child {
+      background-color: #fff;
+    }
+  }
+}
+
+.life-gallery {
+  columns: 2 260px;
+  column-gap: 1rem;
+
+  figure {
+    break-inside: avoid;
+    margin: 0 0 1rem;
+
+    img {
+      width: 100%;
+      border-radius: 0.75rem;
+    }
+
+    figcaption {
+      font-size: 0.85rem;
+      color: var(--global-text-color-light);
+      margin-top: 0.35rem;
     }
   }
 }

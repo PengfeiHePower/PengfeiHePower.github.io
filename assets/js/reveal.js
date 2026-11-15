@@ -12,6 +12,8 @@
     ".publications h1",
     ".publications h2.year",
     ".projects h2.project-section",
+    ".life h2.project-section",
+    ".life-gallery figure",
     ".publications ol.bibliography > li",
     ".project-card",
     ".project-page > *",

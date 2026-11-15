@@ -1,0 +1,18 @@
+# Photos live in assets/img/life/. Drop originals into _life_raw/ and run
+# `python3 bin/process_life_photos.py` to resize them and strip GPS/EXIF first.
+
+cats:
+  - name: Fisher
+    title: Chief Chin-Scratch Officer
+    photos: [fisher2.jpg, fisher1.jpg]
+    bio: Supervises the household from the foot of the cat tree and accepts chin scratches as payment.
+    likes: [Chin scratches, Cat-tree patrol, Staring contests]
+
+  - name: Huli
+    title: Head of Box Research
+    photos: [huli1.jpg, huli2.jpg]
+    bio: Believes every cardboard box is a new apartment. Off duty, she naps belly-up on the carpet.
+    likes: [Cardboard boxes, Belly-up naps, Peekaboo]
+
+# Future photos (travel, daily life). Each entry: file, caption, tag.
+gallery: []

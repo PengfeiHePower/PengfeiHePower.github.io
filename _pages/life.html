@@ -1,0 +1,46 @@
+---
+layout: page
+title: Life
+permalink: /life/
+description: Beyond research, two fluffy cats run my home.
+nav: true
+nav_order: 6
+---
+
+<div class="life">
+
+  <h2 class="project-section">The cats</h2>
+  <div class="project-grid">
+    {%- for cat in site.data.life.cats %}
+    <div class="project-card cat-card">
+      <div class="project-card-cover cat-photos">
+        {%- for photo in cat.photos %}
+        <img src="{{ photo | prepend: '/assets/img/life/' | relative_url }}" alt="{{ cat.name }}" loading="lazy" data-zoomable>
+        {%- endfor %}
+        {%- if cat.photos.size > 1 %}
+        <div class="cat-dots">{% for photo in cat.photos %}<span></span>{% endfor %}</div>
+        {%- endif %}
+      </div>
+      <div class="project-card-body">
+        <div class="project-card-meta">{{ cat.title }}</div>
+        <h3 class="project-card-title">{{ cat.name }}</h3>
+        <p class="project-card-text">{{ cat.bio }}</p>
+        <div class="project-card-topics">{% for like in cat.likes %}<span>{{ like }}</span>{% endfor %}</div>
+      </div>
+    </div>
+    {%- endfor %}
+  </div>
+
+  {%- if site.data.life.gallery.size > 0 %}
+  <h2 class="project-section">Moments</h2>
+  <div class="life-gallery">
+    {%- for item in site.data.life.gallery %}
+    <figure>
+      <img src="{{ item.file | prepend: '/assets/img/life/' | relative_url }}" alt="{{ item.caption }}" loading="lazy" data-zoomable>
+      {%- if item.caption %}<figcaption>{{ item.caption }}</figcaption>{% endif %}
+    </figure>
+    {%- endfor %}
+  </div>
+  {%- endif %}
+
+</div>

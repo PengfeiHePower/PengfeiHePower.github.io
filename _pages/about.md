@@ -27,4 +27,6 @@ My path into this area began with the **robustness of deep learning models**, th
 
 I enjoy working across disciplines, especially on deploying AI safely in high-impact domains such as **education** ([TALE 2025](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11346606), [EMNLP 2026](https://arxiv.org/pdf/2606.03090)), **cybersecurity** ([ICML 2026](https://arxiv.org/pdf/2602.02164)), and **scientific discovery**. Feel free to reach out if you would like to chat or collaborate!
 
+When I am not doing research, I am usually being supervised by my two cats, Fisher and Huli ([meet them here](/life/)).
+
 **For AGI and Security!**
