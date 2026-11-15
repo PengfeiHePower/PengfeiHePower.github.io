@@ -43,12 +43,11 @@
     { rootMargin: "0px 0px -40px 0px" }
   );
 
-  // Above-the-fold content is revealed right away so it never waits on the observer.
-  var initial = 0;
+  // Above-the-fold content gets a quick, unstaggered fade so navigation feels instant.
   elements.forEach(function (el) {
     el.classList.add("reveal");
     if (el.getBoundingClientRect().top < window.innerHeight) {
-      show(el, initial++);
+      el.classList.add("reveal-initial", "is-visible");
     } else {
       observer.observe(el);
     }

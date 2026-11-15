@@ -1495,8 +1495,18 @@ html.reveal-pending .container.mt-5 {
   opacity: 0;
 }
 
+@keyframes reveal-fade {
+  from {
+    opacity: 0;
+  }
+}
+
 .reveal.is-visible {
   animation: reveal-up 0.7s var(--ease-out) backwards;
+}
+
+.reveal.reveal-initial {
+  animation: reveal-fade 0.25s ease-out backwards;
 }
 
 .profile img {
