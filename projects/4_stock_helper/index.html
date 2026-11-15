@@ -124,20 +124,98 @@
           </header>
 
           <article>
-            <p><a href="https://github.com/PengfeiHePower/Stock-helper" class="btn btn-sm z-depth-0 border" role="button" rel="external nofollow noopener" target="_blank"><i class="fab fa-github"></i> Code</a></p>
+            <div class="project-page">
 
-<p>Stock-helper (Moka-chan) collects market news and data, runs a LangGraph multi-agent analysis pipeline (macro, sectors, stocks, agent picks, and risk), and delivers the results through Telegram and email.</p>
+  <figure class="project-hero"><img src="/assets/img/projects/stock-helper.svg" alt="Stock-helper"></figure>
 
-<ul>
-  <li>
-<strong>Morning brief</strong> on trading days: pre-market snapshot, watchlist earnings, star IPOs, and today’s focus.</li>
-  <li>
-<strong>Close brief</strong>: a closing recap that compares the morning outlook with what actually happened.</li>
-  <li>
-<strong>Weekly brief</strong>: macro and tracking trends, sector rotation, and next week’s earnings.</li>
-  <li>
-<strong>Real-time alerts</strong> for watchlist events.</li>
-</ul>
+  <div class="project-links">
+  <a href="https://github.com/PengfeiHePower/Stock-helper" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank"><i class="fab fa-github"></i> Code</a>
+  <br>
+  <img src="https://img.shields.io/badge/python-3.12%2B-3776ab?logo=python&amp;logoColor=white" alt="Python 3.12+">
+  <img src="https://img.shields.io/badge/LangGraph-multi--agent-1c3c3c" alt="LangGraph">
+  <img src="https://img.shields.io/badge/Telegram%20%7C%20Email-delivery-26a5e4?logo=telegram&amp;logoColor=white" alt="Telegram and email">
+</div>
+
+  <div class="tldr">
+<strong>TL;DR</strong> — Meet <strong>Moka-chan</strong>, a team of LLM agents that reads the market news so I don't have to. She sends a brief before the open, a recap after the close, and a review every Friday, and pings me when something on my watchlist moves.
+</div>
+
+  <div class="stat-grid">
+  <div class="stat">
+<span class="number">3</span><span class="label">scheduled briefs: morning, close, weekly</span>
+</div>
+  <div class="stat">
+<span class="number">8</span><span class="label">layer CIO decision pipeline</span>
+</div>
+  <div class="stat">
+<span class="number">30+</span><span class="label">industries tracked</span>
+</div>
+  <div class="stat">
+<span class="number">中 / EN</span><span class="label">bilingual reports</span>
+</div>
+</div>
+
+  <h2 id="the-agent-pipeline">The agent pipeline</h2>
+
+  <p>Every brief runs through a LangGraph pipeline of specialized agents:</p>
+
+  <div class="flow">
+  <span class="step">🌍 Macro</span><span class="arrow">→</span>
+  <span class="step">🏭 Sectors</span><span class="arrow">→</span>
+  <span class="step">📊 Stocks</span><span class="arrow">→</span>
+  <span class="step">🔍 Agent picks</span><span class="arrow">→</span>
+  <span class="step">⚠️ Risk</span>
+</div>
+
+  <p>The final brief is assembled in code in a fixed order, so it is never truncated by the LLM and always has the same structure.</p>
+
+  <h2 id="a-trading-day-with-moka-chan">A trading day with Moka-chan</h2>
+
+  <div class="feature-grid">
+  <div class="feature">
+<div class="icon">🌅</div>
+<h4>7:00 ET · Morning brief</h4>
+<p>Pre-market snapshot, macro backdrop, sectors and stocks to watch, watchlist earnings, and star IPOs.</p>
+</div>
+  <div class="feature">
+<div class="icon">🔔</div>
+<h4>All day · Real-time alerts</h4>
+<p>Telegram pings for SEC filings, material headlines, and watchlist price moves.</p>
+</div>
+  <div class="feature">
+<div class="icon">🌆</div>
+<h4>16:45 ET · Close brief</h4>
+<p>Closing recap with a <em>Morning vs. Reality</em> section comparing the morning outlook with what actually happened.</p>
+</div>
+  <div class="feature">
+<div class="icon">📅</div>
+<h4>Friday · Weekly review</h4>
+<p>Macro and tracking trends, sector rotation, and next week's earnings.</p>
+</div>
+</div>
+
+  <h2 id="thinking-long-term">Thinking long term</h2>
+
+  <p>Beyond daily briefs, a <strong>Market Reasoning Agent</strong> writes monthly and biweekly reports that track hypotheses (hold, weaken, invalidated) with evidence scores. A <strong>CIO Investment Agent</strong> then turns the analysis into an allocation view through an eight-layer pipeline:</p>
+
+  <div class="flow">
+  <span class="step">Regime</span><span class="arrow">→</span>
+  <span class="step">Theme</span><span class="arrow">→</span>
+  <span class="step">Industry</span><span class="arrow">→</span>
+  <span class="step">Stock</span><span class="arrow">→</span>
+  <span class="step">Portfolio</span><span class="arrow">→</span>
+  <span class="step">Scenario</span><span class="arrow">→</span>
+  <span class="step">Triggers</span><span class="arrow">→</span>
+  <span class="step">Monitor</span>
+</div>
+
+  <p>Each layer follows an <em>evidence → hypothesis → counter-argument → decision</em> pattern.</p>
+
+  <h2 id="under-the-hood">Under the hood</h2>
+
+  <p>Data comes from Finnhub (news, quotes, earnings and IPO calendars), SEC EDGAR filings, and FRED macro series. Models are routed by cost: Gemini Flash-Lite classifies news, and Claude Sonnet writes the analysis, with a per-run budget tracker. Briefs go out through Telegram and HTML email, and Moka-chan also chats in Chinese or English with persistent memory.</p>
+
+</div>
 
           </article>
 

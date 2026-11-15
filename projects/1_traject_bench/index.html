@@ -124,18 +124,127 @@
           </header>
 
           <article>
-            <p><a href="https://github.com/PengfeiHePower/TRAJECT-Bench" class="btn btn-sm z-depth-0 border" role="button" rel="external nofollow noopener" target="_blank"><i class="fab fa-github"></i> Code</a>
-<a href="https://huggingface.co/datasets/bigboss24/TRAJECT-Bench" class="btn btn-sm z-depth-0 border" role="button" rel="external nofollow noopener" target="_blank">🤗 Dataset</a>
-<a href="https://arxiv.org/abs/2510.04550" class="btn btn-sm z-depth-0 border" role="button" rel="external nofollow noopener" target="_blank"><i class="ai ai-arxiv"></i> Paper</a></p>
+            <div class="project-page">
 
-<p>TRAJECT-Bench evaluates how well LLMs use tools, looking beyond final-answer accuracy to the whole tool-calling trajectory: whether the right tools are selected, parameterized correctly, and called in the right order.</p>
+  <figure class="project-hero"><img src="/assets/img/projects/traject-bench.png" alt="TRAJECT-Bench"></figure>
 
-<ul>
-  <li>A high-fidelity, executable, production-style tool set spanning multiple practical domains.</li>
-  <li>Tasks driven by real-world task types, with trajectories that involve 3 to 10 tools, in both parallel and sequential forms.</li>
-  <li>Simple and hard versions of each query, so performance can be analyzed as task complexity grows.</li>
-  <li>Evaluation scripts for both direct LLM prompting and agentic methods (ReAct), with static and dynamic tool retrieval.</li>
-</ul>
+  <div class="project-links">
+  <a href="https://github.com/PengfeiHePower/TRAJECT-Bench" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank"><i class="fab fa-github"></i> Code</a>
+  <a href="https://huggingface.co/datasets/bigboss24/TRAJECT-Bench" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">🤗 Dataset</a>
+  <a href="https://openreview.net/pdf?id=TZWnWvsQ0X" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank"><i class="fas fa-file-pdf"></i> Paper</a>
+  <br>
+  <img src="https://img.shields.io/badge/ICLR-2026-4b44ce" alt="ICLR 2026">
+  <img src="https://img.shields.io/github/stars/PengfeiHePower/TRAJECT-Bench?style=flat&amp;logo=github&amp;color=yellow" alt="GitHub stars">
+  <img src="https://img.shields.io/badge/license-MIT-green" alt="MIT license">
+</div>
+
+  <div class="tldr">
+<strong>TL;DR</strong> — Getting the final answer right is not enough. TRAJECT-Bench checks <em>how</em> an LLM agent uses tools: whether it picks the right tools, fills in the right arguments, and calls them in the right order.
+</div>
+
+  <div class="stat-grid">
+  <div class="stat">
+<span class="number">1,228</span><span class="label">executable tools</span>
+</div>
+  <div class="stat">
+<span class="number">5,670</span><span class="label">queries</span>
+</div>
+  <div class="stat">
+<span class="number">3–10+</span><span class="label">tools per trajectory</span>
+</div>
+  <div class="stat">
+<span class="number">2</span><span class="label">difficulty levels</span>
+</div>
+</div>
+
+  <h2 id="why-trajectories">Why trajectories?</h2>
+
+  <p>Agents increasingly rely on tools to finish real-world tasks, yet most benchmarks only grade the final answer. An agent can land on the right answer with a broken process, or fail because of one wrong argument early in a long chain. TRAJECT-Bench makes the tool-use trajectory itself the object of evaluation.</p>
+
+  <figure class="project-figure">
+  <img src="/assets/img/projects/traject-illustration.png" alt="Parallel and sequential trajectories in TRAJECT-Bench" data-zoomable="">
+  <figcaption>Two kinds of trajectories. <strong>Parallel</strong> (left): a real task type such as travel booking is turned into a set of tool calls, then paired with a simple, explicit query and a hard, implicit one. <strong>Sequential</strong> (right): tools are chained through a tool graph, where each step's output feeds the next.</figcaption>
+</figure>
+
+  <h2 id="whats-inside">What’s inside</h2>
+
+  <div class="feature-grid">
+  <div class="feature">
+<div class="icon">🧰</div>
+<h4>Production-style tools</h4>
+<p>Over 1,000 high-fidelity, executable APIs across practical domains such as travel, finance, and music.</p>
+</div>
+  <div class="feature">
+<div class="icon">🔀</div>
+<h4>Breadth and depth</h4>
+<p>Parallel calls test breadth; interdependent sequential chains test depth.</p>
+</div>
+  <div class="feature">
+<div class="icon">🎯</div>
+<h4>Simple vs. hard queries</h4>
+<p>Every trajectory comes with an explicit query and an implicit one where the agent must infer the needed tools.</p>
+</div>
+  <div class="feature">
+<div class="icon">📏</div>
+<h4>Trajectory-level metrics</h4>
+<p>Exact match, tool inclusion, argument correctness, dependency and order satisfaction, plus final accuracy.</p>
+</div>
+</div>
+
+  <h2 id="key-findings">Key findings</h2>
+
+  <div class="finding">
+<div class="num">1</div>
+<p><strong>Scaling tool use is a universal challenge.</strong> Performance drops for every model as trajectories get longer, and the sharpest drop is the step from short to mid-length trajectories.</p>
+</div>
+  <div class="finding">
+<div class="num">2</div>
+<p><strong>Implicit queries are hard.</strong> When the user does not name the steps, models struggle to infer which tools are needed, which causes cascading errors in selection and arguments.</p>
+</div>
+  <div class="finding">
+<div class="num">3</div>
+<p><strong>Recurring failure modes.</strong> Models confuse similar tools and select tools without checking whether their parameters fit the request.</p>
+</div>
+  <div class="finding">
+<div class="num">4</div>
+<p><strong>Retrieval is not a silver bullet.</strong> Retrieval-based tool selection helps little on simple queries and becomes a severe bottleneck on hard ones, while agentic methods such as ReAct with dynamic retrieval are more robust.</p>
+</div>
+
+  <div class="figure-row">
+  <figure class="project-figure">
+    <img src="/assets/img/projects/traject-scale-simple.png" alt="Exact match vs. number of tools, simple queries" data-zoomable="">
+    <figcaption>Exact match vs. number of tools on simple parallel queries.</figcaption>
+  </figure>
+  <figure class="project-figure">
+    <img src="/assets/img/projects/traject-scale-hard.png" alt="Exact match vs. number of tools, hard queries" data-zoomable="">
+    <figcaption>The same on hard queries. Claude-4 and DeepSeek degrade most gracefully.</figcaption>
+  </figure>
+</div>
+
+  <h2 id="get-started">Get started</h2>
+
+  <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>git clone https://github.com/PengfeiHePower/TRAJECT-Bench.git
+<span class="nb">cd </span>TRAJECT-Bench
+pip <span class="nb">install</span> <span class="nt">-r</span> requirements.txt
+python evaluation/tool_evaluation_model.py <span class="nt">-model</span> claude_v37 <span class="nt">-tool_select</span> domain <span class="se">\</span>
+  <span class="nt">-method</span> direct <span class="nt">-traj_type</span> parallel <span class="nt">-traj_file</span> simple_ver
+</code></pre></div>  </div>
+
+  <h2 id="citation">Citation</h2>
+
+  <div class="language-bibtex highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">he2026traject</span><span class="p">,</span>
+  <span class="na">title</span>     <span class="p">=</span> <span class="s">{TRAJECT-Bench: A Trajectory-Aware Benchmark for Evaluating Agentic Tool Use}</span><span class="p">,</span>
+  <span class="na">author</span>    <span class="p">=</span> <span class="s">{He, Pengfei and Dai, Zhenwei and He, Bing and Liu, Hui and Tang, Xianfeng and
+               Lu, Hanqing and Li, Juanhui and Ding, Jiayuan and Mukherjee, Subhabrata and
+               Wang, Suhang and Xing, Yue and Tang, Jiliang and Dumoulin, Benoit}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{International Conference on Learning Representations (ICLR)}</span><span class="p">,</span>
+  <span class="na">year</span>      <span class="p">=</span> <span class="s">{2026}</span>
+<span class="p">}</span>
+</code></pre></div>  </div>
+
+</div>
 
           </article>
 
