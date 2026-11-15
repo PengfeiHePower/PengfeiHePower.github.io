@@ -4,6 +4,14 @@
 
 // Typography
 
+@font-face {
+  font-family: "Google Sans Flex";
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url("../fonts/google-sans-flex-latin.woff2") format("woff2");
+}
+
 :root {
   --font-text: "Google Sans Flex", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   // Optima ships with macOS/iOS; Candara is the closest humanist sans on Windows.
@@ -1482,7 +1490,8 @@ html[data-theme="dark"] .visitor-map {
 }
 
 // An animation (not a transition) so it never fights hover transitions on the same element.
-.reveal:not(.is-visible) {
+.reveal:not(.is-visible),
+html.reveal-pending .container.mt-5 {
   opacity: 0;
 }
 

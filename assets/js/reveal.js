@@ -21,7 +21,10 @@
     ".cv .card",
   ];
   var elements = document.querySelectorAll(selectors.join(","));
-  if (!elements.length) return;
+  if (!elements.length) {
+    document.documentElement.classList.remove("reveal-pending");
+    return;
+  }
 
   function show(el, index) {
     el.style.animationDelay = Math.min(index * 60, 360) + "ms";
@@ -50,4 +53,5 @@
       observer.observe(el);
     }
   });
+  document.documentElement.classList.remove("reveal-pending");
 })();
