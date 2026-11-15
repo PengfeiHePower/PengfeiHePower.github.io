@@ -33,6 +33,11 @@ layout: default
               {{ page.profile.address }}
             </div>
             {%- endif %}
+
+            <!-- Visitor globe -->
+            <div class="visitor-globe">
+              <script defer src="https://statable.com/js/b2y390198a/t/gw.js" data-id="3534534" data-display-mode="cities" data-tilt-preset="realistic" data-period="90d" data-primary-color="#B509AC" data-theme="auto" data-rotation-speed="slow" data-shadow-preset="none" data-width="180" data-height="180"></script>
+            </div>
           </div>
           {%- endif %}
 
@@ -57,11 +62,6 @@ layout: default
             <h2><a href="{{ '/Publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
             {%- include selected_papers.html %}
           {%- endif %}
-
-          <!-- Visitor globe -->
-          <div class="visitor-globe">
-            <script defer src="https://statable.com/js/b2y390198a/t/gw.js" data-id="3534534" data-display-mode="cities" data-tilt-preset="realistic" data-period="90d" data-primary-color="#B509AC" data-theme="auto" data-rotation-speed="slow" data-shadow-preset="soft" data-width="240" data-height="240"></script>
-          </div>
 
           <!-- Social -->
           {%- if page.social %}
