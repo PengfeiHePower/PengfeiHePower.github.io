@@ -1133,10 +1133,9 @@ nav[data-toggle="toc"] {
   margin: 2.5rem 0 1rem;
   font-size: 0.75rem;
 
-  // Hover tooltips are absolutely positioned and keep their own white-on-dark style.
-  div:not([style*="position: absolute"]) {
-    color: var(--global-theme-color) !important;
-    text-shadow: none !important;
+  // The widget has no option to hide its "N Pageviews / date range" overlay.
+  div[style*="pointer-events: none"][style*="z-index: 5"] {
+    display: none !important;
   }
 }
 
