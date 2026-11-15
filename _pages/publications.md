@@ -16,7 +16,6 @@ nav_order: 1
 </p>
 {%- endif %}
 
-<h1>Publications</h1>
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f {{ site.scholar.bibliography }} -q @inproceedings[year={{y}}]* %}

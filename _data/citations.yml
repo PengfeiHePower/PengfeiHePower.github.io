@@ -60,15 +60,24 @@ papers:
   "he2026co":
     citations: 11
     url: "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16908160568574603375"
+  "he2026pihunter":
+    citations: 1
+    url: "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7875319935709481094"
   "hestealthy":
     citations: 6
     url: "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8826752316862571744,14928296103630307867"
+  "li2026important":
+    citations: 3
+    url: "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=945416475204953126"
   "lin2024towards":
     citations: 108
     url: "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1818703111312982094"
   "lin2026retrieval":
     citations: 4
     url: "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10965511670633211426"
+  "lin2026simple":
+    citations: 1
+    url: "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14860047449304766124"
   "ren2024copyright":
     citations: 102
     url: "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9811079077937266442"
