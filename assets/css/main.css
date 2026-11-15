@@ -1025,6 +1025,13 @@ nav[data-toggle=toc] .nav-link.active:hover {
   color: var(--global-text-color);
 }
 
+.visitor-globe {
+  display: flex;
+  justify-content: center;
+  margin: 2.5rem auto 0;
+  max-width: 240px;
+}
+
 .cat-card .cat-photos {
   position: relative;
   aspect-ratio: 3/2;
