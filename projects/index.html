@@ -126,116 +126,70 @@
           <article>
             <!-- pages/projects.md -->
 <div class="projects">
-  <h2 class="category">research</h2>
-  <div class="grid">
+  <h2 class="project-section">research</h2>
+  <div class="project-grid">
 <!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projects/1_traject_bench/">
-      <div class="card hoverable">
-<figure>
-
-  <picture>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/projects/traject-bench.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title">TRAJECT-Bench</h2>
-          <p class="card-text">A trajectory-aware benchmark for evaluating agentic tool use of LLMs (ICLR 2026).</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projects/2_pear/">
-      <div class="card hoverable">
-<figure>
-
-  <picture>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/projects/pear.png" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title">PEAR</h2>
-          <p class="card-text">Planner-Executor Agent Robustness benchmark for security vulnerabilities in LLM multi-agent systems (EACL 2026).</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+<a class="project-card" href="/projects/1_traject_bench/">
+  <div class="project-card-cover">
+    <img src="/assets/img/projects/cover-traject.svg" alt="TRAJECT-Bench" loading="lazy">
+  </div>
+  <div class="project-card-body">
+<div class="project-card-meta">ICLR 2026</div>
+    <h3 class="project-card-title">TRAJECT-Bench</h3>
+    <p class="project-card-text">A trajectory-aware benchmark that checks how LLM agents select, parameterize, and order tool calls.</p>
+    <div class="project-card-topics">
+<span>Benchmark</span><span>Tool use</span><span>LLM agents</span>
 </div>
   </div>
-
-  <h2 class="category">side projects</h2>
-  <div class="grid">
+</a>
 <!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projects/3_paper_chan/">
-      <div class="card hoverable">
-<figure>
-
-  <picture>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/projects/paper-chan.svg" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title">Paper-chan</h2>
-          <p class="card-text">A personal research assistant that sends daily paper digests and answers questions on Telegram.</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+<a class="project-card" href="/projects/2_pear/">
+  <div class="project-card-cover">
+    <img src="/assets/img/projects/cover-pear.svg" alt="PEAR" loading="lazy">
+  </div>
+  <div class="project-card-body">
+<div class="project-card-meta">EACL 2026</div>
+    <h3 class="project-card-title">PEAR</h3>
+    <p class="project-card-text">A benchmark that measures both the utility and the attack robustness of planner-executor multi-agent systems.</p>
+    <div class="project-card-topics">
+<span>Benchmark</span><span>AI security</span><span>Multi-agent</span>
 </div>
+  </div>
+</a>
+
+  </div>
+
+  <h2 class="project-section">side projects</h2>
+  <div class="project-grid">
 <!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projects/4_stock_helper/">
-      <div class="card hoverable">
-<figure>
-
-  <picture>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/projects/stock-helper.svg" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title">Stock-helper</h2>
-          <p class="card-text">A multi-agent assistant for US equity investors that delivers market briefs and real-time alerts.</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
+<a class="project-card" href="/projects/4_stock_helper/">
+  <div class="project-card-cover">
+    <img src="/assets/img/projects/cover-stock.svg" alt="Stock-helper" loading="lazy">
+  </div>
+  <div class="project-card-body">
+<div class="project-card-meta">Side project</div>
+    <h3 class="project-card-title">Stock-helper</h3>
+    <p class="project-card-text">Moka-chan, a team of LLM agents that writes daily market briefs and sends real-time alerts for US equities.</p>
+    <div class="project-card-topics">
+<span>LangGraph</span><span>Multi-agent</span><span>Finance</span>
 </div>
+  </div>
+</a>
+<!-- _includes/projects.html -->
+<a class="project-card" href="/projects/3_paper_chan/">
+  <div class="project-card-cover">
+    <img src="/assets/img/projects/cover-paper.svg" alt="Paper-chan" loading="lazy">
+  </div>
+  <div class="project-card-body">
+<div class="project-card-meta">Side project</div>
+    <h3 class="project-card-title">Paper-chan</h3>
+    <p class="project-card-text">A personal research assistant that sends daily paper digests and answers questions on Telegram.</p>
+    <div class="project-card-topics">
+<span>LLM assistant</span><span>Telegram</span><span>arXiv</span>
+</div>
+  </div>
+</a>
+
   </div>
 
 </div>

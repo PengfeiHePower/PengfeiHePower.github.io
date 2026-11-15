@@ -934,6 +934,132 @@ nav[data-toggle=toc] .nav-link.active:hover {
   color: var(--global-danger-block-title);
 }
 
+.projects h2.project-section {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--global-theme-color);
+  margin: 2.5rem 0 1rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 1rem;
+  border: 1px solid var(--global-divider-color);
+  background-color: var(--global-card-bg-color);
+  color: var(--global-text-color);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.project-card:hover {
+  text-decoration: none;
+  color: var(--global-text-color);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+.project-card:hover .project-card-title {
+  color: var(--global-theme-color);
+}
+.project-card:hover .project-card-cover img {
+  transform: scale(1.03);
+}
+.project-card .project-card-cover {
+  aspect-ratio: 2/1;
+  overflow: hidden;
+}
+.project-card .project-card-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.project-card .project-card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 1.1rem 1.25rem 1.25rem;
+}
+.project-card .project-card-meta {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light);
+}
+.project-card .project-card-title {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin: 0.3rem 0 0.5rem;
+  color: var(--global-text-color);
+  transition: color 0.2s ease;
+}
+.project-card .project-card-text {
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--global-text-color-light);
+  margin-bottom: 1rem;
+}
+.project-card .project-card-topics {
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.project-card .project-card-topics span {
+  font-size: 0.75rem;
+  padding: 0.15rem 0.6rem;
+  border-radius: 1rem;
+  background-color: var(--global-code-bg-color);
+  color: var(--global-text-color);
+}
+
+.project-page .roadmap {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+.project-page .roadmap .roadmap-item {
+  position: relative;
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  border: 1px dashed var(--global-theme-color);
+}
+.project-page .roadmap .roadmap-item .status {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.15rem 0.6rem;
+  border-radius: 1rem;
+  color: #fff;
+  background-color: var(--global-theme-color);
+}
+.project-page .roadmap .roadmap-item h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0.75rem 0 0.5rem;
+}
+.project-page .roadmap .roadmap-item p,
+.project-page .roadmap .roadmap-item li {
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+}
+.project-page .roadmap .roadmap-item ul {
+  padding-left: 1.1rem;
+  margin: 0.5rem 0 0;
+}
 .project-page .project-hero {
   margin: 0 0 1rem;
 }
