@@ -126,6 +126,29 @@ body.sticky-bottom-footer {
 /*******************************************************************************
  * Styles for the base elements of the theme.
  ******************************************************************************/
+:root {
+  --font-text: "Google Sans Flex", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-display: Optima, "Optima Nova", Candara, "Google Sans Flex", sans-serif;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+body {
+  font-family: var(--font-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-brand.title,
+.post-title {
+  font-family: var(--font-display);
+}
+
 p,
 h1,
 h2,
@@ -264,13 +287,19 @@ blockquote {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid var(--global-divider-color);
+  border-bottom: 1px solid color-mix(in srgb, var(--global-divider-color) 60%, transparent);
   background-color: var(--global-bg-color);
-  opacity: 0.95;
 }
 
+@supports (backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px)) {
+  .navbar,
+  .navbar .dropdown-menu {
+    background-color: color-mix(in srgb, var(--global-bg-color) 72%, transparent);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+}
 .navbar .dropdown-menu {
-  background-color: var(--global-bg-color);
   border: 1px solid var(--global-divider-color);
 }
 .navbar .dropdown-menu a:not(.active) {
@@ -731,8 +760,14 @@ html.transition,
 html.transition *,
 html.transition *:before,
 html.transition *:after {
-  transition: all 750ms !important;
+  transition: all 300ms var(--ease-out) !important;
   transition-delay: 0 !important;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.35s;
+  animation-timing-function: var(--ease-out);
 }
 
 .post .post-meta {
@@ -960,7 +995,7 @@ nav[data-toggle=toc] .nav-link.active:hover {
   background-color: var(--global-card-bg-color);
   color: var(--global-text-color);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.4s var(--ease-out), box-shadow 0.4s var(--ease-out);
 }
 .project-card:hover {
   text-decoration: none;
@@ -983,7 +1018,7 @@ nav[data-toggle=toc] .nav-link.active:hover {
   max-width: none;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.3s ease;
+  transition: transform 0.6s var(--ease-out);
 }
 .project-card .project-card-body {
   display: flex;
@@ -1003,7 +1038,7 @@ nav[data-toggle=toc] .nav-link.active:hover {
   font-weight: 600;
   margin: 0.3rem 0 0.5rem;
   color: var(--global-text-color);
-  transition: color 0.2s ease;
+  transition: color 0.3s var(--ease-out);
 }
 .project-card .project-card-text {
   font-size: 0.92rem;
@@ -1055,7 +1090,7 @@ html[data-theme=dark] .visitor-map span {
   position: absolute;
   inset: 0;
   cursor: zoom-in;
-  transition: opacity 0.5s ease;
+  transition: opacity 0.5s var(--ease-out);
 }
 .cat-card .cat-photos a + a {
   opacity: 0;
@@ -1287,11 +1322,11 @@ html[data-theme=dark] .visitor-map span {
 }
 
 .reveal.is-visible {
-  animation: reveal-up 0.6s ease-out backwards;
+  animation: reveal-up 0.7s var(--ease-out) backwards;
 }
 
 .profile img {
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  transition: transform 0.45s var(--ease-out), box-shadow 0.45s var(--ease-out);
 }
 .profile img:hover {
   transform: translateY(-4px) scale(1.02);
@@ -1308,7 +1343,7 @@ html[data-theme=dark] .visitor-map span {
   background-position: 0 100%;
   background-repeat: no-repeat;
   background-size: 0% 1px;
-  transition: background-size 0.3s ease;
+  transition: background-size 0.35s var(--ease-out);
 }
 .post article .clearfix a:not(.btn):hover,
 .news td a:hover,
@@ -1324,7 +1359,7 @@ html[data-theme=dark] .visitor-map span {
   padding: 0.5rem 0.75rem;
   border-left: 3px solid transparent;
   border-radius: 0 0.5rem 0.5rem 0;
-  transition: background-color 0.25s ease, border-color 0.25s ease;
+  transition: background-color 0.3s var(--ease-out), border-color 0.3s var(--ease-out);
 }
 .publications ol.bibliography > li:hover {
   border-left-color: var(--global-theme-color);

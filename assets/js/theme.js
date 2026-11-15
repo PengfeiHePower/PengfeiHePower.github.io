@@ -1,16 +1,18 @@
 // Has to be in the head tag, otherwise a flicker effect will occur.
 
 let toggleTheme = (theme) => {
-  if (theme == "dark") {
-    setTheme("light");
+  const next = theme == "dark" ? "light" : "dark";
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (document.startViewTransition && !reduceMotion) {
+    document.startViewTransition(() => setTheme(next));
   } else {
-    setTheme("dark");
+    transTheme();
+    setTheme(next);
   }
 }
 
 
 let setTheme = (theme) =>  {
-  transTheme();
   setHighlight(theme);
   setGiscusTheme(theme);
 
