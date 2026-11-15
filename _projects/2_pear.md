@@ -1,13 +1,17 @@
 ---
 layout: page
 title: PEAR
-description: Planner-Executor Agent Robustness benchmark for security vulnerabilities in LLM multi-agent systems (EACL 2026).
-img: assets/img/projects/pear.png
+description: A benchmark that measures both the utility and the attack robustness of planner-executor multi-agent systems.
+img: assets/img/projects/cover-pear.svg
+venue: EACL 2026
+topics: [Benchmark, AI security, Multi-agent]
 importance: 2
 category: research
 ---
 
 <div class="project-page" markdown="1">
+
+<figure class="project-hero"><img src="/assets/img/projects/cover-pear.svg" alt="{{ page.title }}"></figure>
 
 <div class="project-links">
   <a href="https://github.com/MingxuanZhangPurdue/multiagent-vulnerable" class="btn btn-sm z-depth-0" role="button"><i class="fab fa-github"></i> Code</a>

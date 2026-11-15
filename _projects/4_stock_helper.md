@@ -1,15 +1,17 @@
 ---
 layout: page
 title: Stock-helper
-description: A multi-agent assistant for US equity investors that delivers market briefs and real-time alerts.
-img: assets/img/projects/stock-helper.svg
-importance: 2
+description: Moka-chan, a team of LLM agents that writes daily market briefs and sends real-time alerts for US equities.
+img: assets/img/projects/cover-stock.svg
+venue: Side project
+topics: [LangGraph, Multi-agent, Finance]
+importance: 1
 category: side projects
 ---
 
 <div class="project-page" markdown="1">
 
-<figure class="project-hero"><img src="/assets/img/projects/stock-helper.svg" alt="Stock-helper"></figure>
+<figure class="project-hero"><img src="/assets/img/projects/cover-stock.svg" alt="{{ page.title }}"></figure>
 
 <div class="project-links">
   <a href="https://github.com/PengfeiHePower/Stock-helper" class="btn btn-sm z-depth-0" role="button"><i class="fab fa-github"></i> Code</a>
@@ -69,6 +71,33 @@ Beyond daily briefs, a **Market Reasoning Agent** writes monthly and biweekly re
 </div>
 
 Each layer follows an *evidence → hypothesis → counter-argument → decision* pattern.
+
+## Roadmap
+
+Today Moka-chan is great at collecting and organizing information. Next, she learns to think and to prove it.
+
+<div class="roadmap">
+  <div class="roadmap-item">
+    <span class="status">Coming next</span>
+    <h4>🧠 Analysis &amp; strategy model</h4>
+    <p>Move from gathering information to genuine analysis, and from analysis to investment advice.</p>
+    <ul>
+      <li>Real reasoning over macro, fundamentals, and sentiment instead of summarizing headlines.</li>
+      <li>Concrete recommendations: what to buy, sell, or hold, and under which conditions.</li>
+      <li>Every call backed by its evidence, counter-arguments, and risks.</li>
+    </ul>
+  </div>
+  <div class="roadmap-item">
+    <span class="status">Coming next</span>
+    <h4>🧪 Trading simulator</h4>
+    <p>Let the agents trade on their own analysis in a simulated portfolio, with no real money involved.</p>
+    <ul>
+      <li>Agent decisions executed against real market prices in a paper portfolio.</li>
+      <li>Long-term tracking of returns and risk against benchmarks such as the S&amp;P 500.</li>
+      <li>An honest scorecard of how good the agent really is, without touching real accounts.</li>
+    </ul>
+  </div>
+</div>
 
 ## Under the hood
 

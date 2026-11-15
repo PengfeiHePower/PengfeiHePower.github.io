@@ -2,14 +2,16 @@
 layout: page
 title: Paper-chan
 description: A personal research assistant that sends daily paper digests and answers questions on Telegram.
-img: assets/img/projects/paper-chan.svg
-importance: 1
+img: assets/img/projects/cover-paper.svg
+venue: Side project
+topics: [LLM assistant, Telegram, arXiv]
+importance: 2
 category: side projects
 ---
 
 <div class="project-page" markdown="1">
 
-<figure class="project-hero"><img src="/assets/img/projects/paper-chan.svg" alt="Paper-chan"></figure>
+<figure class="project-hero"><img src="/assets/img/projects/cover-paper.svg" alt="{{ page.title }}"></figure>
 
 <div class="project-links">
   <a href="https://github.com/PengfeiHePower/paper-chan" class="btn btn-sm z-depth-0" role="button"><i class="fab fa-github"></i> Code</a>

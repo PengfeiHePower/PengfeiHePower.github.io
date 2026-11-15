@@ -1,15 +1,17 @@
 ---
 layout: page
 title: TRAJECT-Bench
-description: A trajectory-aware benchmark for evaluating agentic tool use of LLMs (ICLR 2026).
-img: assets/img/projects/traject-bench.png
+description: A trajectory-aware benchmark that checks how LLM agents select, parameterize, and order tool calls.
+img: assets/img/projects/cover-traject.svg
+venue: ICLR 2026
+topics: [Benchmark, Tool use, LLM agents]
 importance: 1
 category: research
 ---
 
 <div class="project-page" markdown="1">
 
-<figure class="project-hero"><img src="/assets/img/projects/traject-bench.png" alt="TRAJECT-Bench"></figure>
+<figure class="project-hero"><img src="/assets/img/projects/cover-traject.svg" alt="{{ page.title }}"></figure>
 
 <div class="project-links">
   <a href="https://github.com/PengfeiHePower/TRAJECT-Bench" class="btn btn-sm z-depth-0" role="button"><i class="fab fa-github"></i> Code</a>
