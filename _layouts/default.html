@@ -4,6 +4,12 @@
   <!-- Head -->
   <head>
   {%- if page.redirect -%}
+    <script>
+      // Old capitalized URL; GitHub Pages paths are case-sensitive.
+      if (/^\/Publications(\/|$)/.test(location.pathname)) {
+        location.replace(location.pathname.replace(/^\/Publications/, "/publications") + location.search + location.hash);
+      }
+    </script>
     <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />
   {%- endif -%}
   {% include head.html %}
