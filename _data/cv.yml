@@ -13,26 +13,29 @@
   contents:
     - title: Computer Science PhD
       institution: Department of Computer Science and Engineering, Michigan State University, Michigan, USA
-      year: 2022-present
+      year: 2022-2026
     - title: Statistics PhD
       institution: Department of Statistics and Probability, Michigan State University, Michigan, USA
-      year: 2020-present
+      year: 2020-2026
     - title: Statistics M.S.
       institution: Department of Statistics, University of Wisconsin, Madison, Wisconsin, USA
       year: 2019-2020
-    - title: Mathematics B.S.
+    - title: Statistics B.S.
       institution: Department of Statistics, Nankai University, Tianjin, China
       year: 2015-2019
 
 - title: Experiences
   type: time_table
   contents:
+    - year: 2026-present
+      items:
+        - Research Scientist at Cloud AI Research, Google
     - year: 2025 Fall & 2026 Spring
       items:
-        - Student researcher at CloudAI Research, Google
+        - Student Researcher at Cloud AI Research, Google
     - year: 2025 Spring & Summer
       items:
-        - Applied Scientist Intern at Amazon.Inc (Core search & AWS Ads)
+        - Applied Scientist Intern at Amazon (Core search & AWS Ads)
     - year: 2024 Summer
       items:
         - Research Intern at Alibaba Group (US)
@@ -41,7 +44,7 @@
         - Visiting research student at Okinawa Institute of Science and Technology (OIST)
     - year: 2022
       items:
-        - Research Scientist at James Madison College, Michigan State university
+        - Research Scientist at James Madison College, Michigan State University
 
 - title: Honors and Awards
   type: time_table
@@ -103,7 +106,7 @@
     - year: 2025
       items:
         - Invited talk on JSM 2025
-        - Understanding In-context-learning from the lens of Bayesian Statistic
+        - Understanding In-context-learning from the lens of Bayesian Statistics
     - year: 2023
       items:
         - Invited talk at AI-Time
@@ -123,12 +126,12 @@
     - title: LLM Agents
       items:
         - Enhance LLM-based agents functionality (reasoning, tool usage)
-        - Vulnerablities of LLM Agents (Privacy, Communication attacks, Multi-agent vulnerablities)
-    - title: Truthworthy LLMs
+        - Vulnerabilities of LLM Agents (Privacy, Communication attacks, Multi-agent vulnerabilities)
+    - title: Trustworthy LLMs
       items:
         - Data poisoning attacks
         - Understanding of in-context learning and chain-of-thought reasoning
-        - Jailbreak attacks and interpretibility
+        - Jailbreak attacks and interpretability
     - title: Adversarial learning.
       items:
         - Data poisoning attack and defense
@@ -146,7 +149,8 @@
 - title: Services
   type: list
   contents:
-    - PC member/reviewer for AAAI, KDD, SDM, ICDM, PAKDD, WWW, ACL, EMNLP, ICML, NeruIPS, ICLR, AISTAT, TKDE, TKDD, TMLR, JASA.
+    - PC member/reviewer for AAAI, KDD, SDM, ICDM, PAKDD, WWW, ACL, EMNLP, ICML, NeurIPS, ICLR, AISTATS, TKDE, TKDD, TMLR, JASA.
+    - Poster Chair for KDD 2027.
     - SPC for TKDD.
     - Volunteer for KDD2022
 
@@ -154,6 +158,6 @@
   type: list
   contents:
     - Gym&Muscle; Tennis; Basketball; Badminton; Hiking
-    - Anime; Manga; Rock&Classic, fan of Linkin Park, Led Zeppelin, Guns N' Roses, Lynyrd Skynyrd, Queens; Play Violin
-    - Video games!!! Fan of Battlefield, Monster Huner, Death Stranding and many more
+    - Anime; Manga; Rock&Classic, fan of Linkin Park, Led Zeppelin, Guns N' Roses, Lynyrd Skynyrd, Queen; Play Violin
+    - Video games!!! Fan of Battlefield, Monster Hunter, Death Stranding and many more
 

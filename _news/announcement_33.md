@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Four papers accepted to ACL 2025! Include [multi-agent safety](https://arxiv.org/pdf/2502.14847), [agent memoory privacy](https://arxiv.org/pdf/2502.13172), [LLM reasonin](https://arxiv.org/pdf/2502.13260) and [RAG robustness](https://arxiv.org/pdf/2502.14100).
+Four papers accepted to ACL 2025! Including [multi-agent safety](https://arxiv.org/pdf/2502.14847), [agent memory privacy](https://arxiv.org/pdf/2502.13172), [LLM reasoning](https://arxiv.org/pdf/2502.13260) and [RAG robustness](https://arxiv.org/pdf/2502.14100).
