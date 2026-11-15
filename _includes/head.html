@@ -32,7 +32,7 @@
       // Keep content hidden until reveal.js has tagged it, so it never paints once and then re-animates.
       if ("IntersectionObserver" in window && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
         document.documentElement.classList.add("reveal-pending");
-        setTimeout(function () { document.documentElement.classList.remove("reveal-pending"); }, 2000);
+        setTimeout(function () { document.documentElement.classList.remove("reveal-pending"); }, 1500);
       }
     </script>
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
@@ -41,6 +41,6 @@
     {% if site.enable_darkmode %}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/{{ site.highlight_theme_dark | append: '.css' }}" media="none" id="highlight_theme_dark" />
 
-    <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
-    <script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/theme.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+    <script src="{{ '/assets/js/dark_mode.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
     {% endif %}

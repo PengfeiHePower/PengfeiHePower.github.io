@@ -200,10 +200,14 @@ blockquote {
 
 // Navbar customization
 
+.navbar,
+.navbar .dropdown-menu {
+  background-color: var(--global-bg-color);
+}
+
 .navbar {
   box-shadow: none;
   border-bottom: 1px solid color-mix(in srgb, var(--global-divider-color) 60%, transparent);
-  background-color: var(--global-bg-color);
 }
 
 @supports (backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px)) {
