@@ -118,7 +118,7 @@
     - year: 2022
       items:
         - Oral presentation at CIKM 2022
-        - PROPN: Personalized Probabilistic Strategic Parameter Optimization in Recommendations
+        - "PROPN: Personalized Probabilistic Strategic Parameter Optimization in Recommendations"
 
 - title: Academic Interests
   type: nested_list

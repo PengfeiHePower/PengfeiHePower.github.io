@@ -1339,3 +1339,72 @@ nav[data-toggle="toc"] {
     font-size: 1.6rem;
   }
 }
+
+// Motion
+
+@keyframes reveal-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+}
+
+// An animation (not a transition) so it never fights hover transitions on the same element.
+.reveal:not(.is-visible) {
+  opacity: 0;
+}
+
+.reveal.is-visible {
+  animation: reveal-up 0.6s ease-out backwards;
+}
+
+.profile img {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+
+  &:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18) !important;
+  }
+}
+
+.post article .clearfix a:not(.btn),
+.news td a,
+.contact-note a,
+.project-page p a,
+.project-page li a {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1px;
+  transition: background-size 0.3s ease;
+
+  &:hover {
+    text-decoration: none;
+    background-size: 100% 1px;
+  }
+}
+
+.publications ol.bibliography > li {
+  margin-left: -0.75rem;
+  padding: 0.5rem 0.75rem;
+  border-left: 3px solid transparent;
+  border-radius: 0 0.5rem 0.5rem 0;
+  transition: background-color 0.25s ease, border-color 0.25s ease;
+
+  &:hover {
+    border-left-color: var(--global-theme-color);
+    background-color: color-mix(in srgb, var(--global-theme-color) 6%, transparent);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .profile img,
+  .publications ol.bibliography > li {
+    transition: none;
+
+    &:hover {
+      transform: none;
+    }
+  }
+}
