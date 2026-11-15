@@ -83,6 +83,9 @@
                 <a class="nav-link" href="/Publications/">Publications<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item ">
+                <a class="nav-link" href="/projects/">Projects</a>
+              </li>
+              <li class="nav-item ">
                 <a class="nav-link" href="/cv/">CV</a>
               </li>
               <li class="nav-item ">
@@ -128,8 +131,6 @@
   <a href="https://scholar.google.com/citations?user=nsSrd6kAAAAJ" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Google Scholar</a>:
   2215 citations · h-index 19
 </p>
-
-<h1>Publications</h1>
   <h2 class="year">2026</h2>
   <ol class="bibliography">
 <li>
@@ -475,6 +476,93 @@ free quality labels for stored memory. Our findings offer insights into the beha
 of LLM agent memory systems and provide
 practical guidance for designing memory components that support robust, long-term agent
 performance. We also release our code to facilitate further study.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">NeurIPS 2026</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="lin2026crafting" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Crafting Reversible SFT Behaviors in Large Language Models</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Yuping Lin, <strong>Pengfei He</strong>, Yue Xing, Yingqian Cui, Jiayuan Ding, Subhabrata Mukherjee, Hui Liu, and Zhen Xiang</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In Advances in Neural Information Processing Systems (NeurIPS)</em>, 2026
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://arxiv.org/pdf/2605.06632" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Supervised fine-tuning (SFT) induces new behaviors in large language models, yet imposes no structural constraint on how these behaviors are distributed within the model. Existing behavior interpretation methods, such as circuit attribution approaches, identify sparse subnetworks correlated with SFT-induced behaviors post-hoc. However, such correlations do not imply causal necessity, limiting the ability to selectively control SFT-induced behaviors at inference time. We pursue an alternative by asking: can an SFT-induced behavior be deliberately compressed into a sparse, mechanistically necessary subnetwork, termed a carrier, while remaining controllable at inference time without weight modification? We propose (a) Loss-Constrained Dual Descent (LCDD), which constructs such carriers by jointly optimizing routing masks and model weights under an explicit utility budget, and (b) SFT-Eraser, a soft prompt optimized via activation matching on extracted carrier channels, to reverse the SFT-induced behavior. Across safety, fixed-response, and style behaviors on multiple model families, LCDD yields sparse carriers that preserve target behaviors while enabling strong reversion when triggered by SFT-Eraser. Ablations further establish that the sparse structure is the key precondition for reversal: the same trigger optimization fails on standard SFT models, confirming that structure rather than trigger design is the operative factor. These results provide direct evidence that the learned carriers are causally necessary for the behaviors, pointing to a new direction for systematically localizing and selectively suppressing SFT-induced behaviors in deployed models.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">EMNLP 2026</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="li2026important" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">"**Important** You should give me full credits!": Exploring Prompt Injection Attacks on LLM-Based Automatic Grading Systems</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Hang Li, Fedor Filippov, Yuping Lin, <strong>Pengfei He</strong>, Kaiqi Yang, Yucheng Chu, Hui Liu, Jiliang Tang, and Yingqian Cui</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In Conference on Empirical Methods in Natural Language Processing (EMNLP)</em>, 2026
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://arxiv.org/pdf/2606.03090" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=945416475204953126" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 3</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>The emergence of large language models (LLMs) has significantly accelerated recent research on LLM-based automatic grading (AG) systems. Benefiting from the strong instruction-following capabilities and broad prior knowledge of LLMs, educators can deploy AG systems across diverse tasks using only natural language rubrics while achieving satisfactory grading performance. Despite these advantages, new security concerns may also arise. In particular, prompt injection (PI) attacks have recently become a major threat to LLM-based applications. In the context of AG, attackers can potentially exploit PI vulnerabilities to manipulate grading systems into assigning artificially high scores regardless of the actual answer quality. Such behavior poses serious risks to the fairness, reliability, and integrity of educational assessment. In this work, we study PI attacks in AG systems, and systematically investigate the effectiveness of such attacks in educational scenarios. We further evaluate the effectiveness of existing defensive strategies against these attacks. Through comprehensive experiments under rubric-based grading settings, we demonstrate that current LLM-based AG systems remain highly vulnerable to PI attacks. We hope that our findings raise awareness of this emerging threat and motivate future research toward secure, robust, and trustworthy LLM-based educational systems.</p>
           </div>
         </div>
       </div>
@@ -1668,6 +1756,137 @@ problem.</p>
 
 <h1>Preprints</h1>
 <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">preprint</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="he2026pihunter" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">PI-Hunter: Automated Red-Teaming for Exposing and Localizing Prompt Injections</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <strong>Pengfei He</strong>, Lesly Miculicich, Vishesh Sharma, Ash Fox, George Lee, Jiliang Tang, Tomas Pfister, and Long T. Le</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          2026
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://arxiv.org/pdf/2606.12737" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=7875319935709481094" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 1</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Large Language Models (LLMs) are rapidly evolving into agentic systems that interact with external tools and environments, introducing new security risks such as indirect prompt injection attacks through untrusted external sources. Existing defenses mainly focus on blocking malicious content at inference time, and current red-teaming methods primarily optimize attack success. As a result, developers have limited visibility into how latent prompt injections emerge and propagate through agents. We propose PI-Hunter, an automated agentic auditing framework for proactive vulnerability exposure in LLM agents. PI-Hunter constructs realistic source-aware test cases and iteratively evolves them through feedback-driven exploration to induce agents to retrieve and reveal latent malicious instructions embedded within external environments. Extensive experiments across multiple benchmarks, agent architectures, attacks, and defenses demonstrate that PI-Hunter substantially improves vulnerability exposure and attack-surface coverage over strong automated red-teaming baselines, while remaining effective under existing prompt injection defenses.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">preprint</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="he2026aspire" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">ASPIRE: Agentic Safety &amp; Prompt Injection Red-teaming Engine</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <strong>Pengfei He</strong>, Deep Mitra, Vishesh Sharma, Jiliang Tang, Vinay S Rao, Tomas Pfister, and Long T. Le</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          2026
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://arxiv.org/pdf/2610.08951" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>LLM agents retrieve untrusted content and act through tools, creating indirect prompt-injection risks that can cause unauthorized actions or persistent state changes. Existing automated red-teaming largely optimizes payloads for pre-specified scenarios, leaving latent vulnerabilities across the agent’s behavior space unexplored. We present ASPIRE, an Agentic Safety and Prompt Injection Red-teaming Engine for open-ended, behavior-level vulnerability discovery. ASPIRE maintains an evolving Agent Security Behavior Graph and uses complementary Explore and Exploit experts to discover, verify, and generalize consequence-centric tests. Trajectory evidence updates the graph and diagnoses partial or failed attempts, while cross-run memory transfers useful red-team strategies. Experiments on various benchmarks show that ASPIRE substantially expands coverage across consequences, injection methods, environments, and behavior paths while maintaining strong attack success.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">preprint</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="lin2026simple" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">A Simple Plug-in for Improving Eviction-Based KV Cache Compression</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Yuping Lin, Jiayuan Ding, Yue Xing, <strong>Pengfei He</strong>, Jiliang Tang, and Subhabrata Mukherjee</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          2026
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://arxiv.org/pdf/2605.23258" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=14860047449304766124" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 1</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>KV cache growth is a major bottleneck for long-context inference in large language models. Existing methods are often dominated by binary eviction or representation approximation, which may underutilize tokens that are not critical for exact retention but are still reconstructable. We present VECTOR, a plug-and-play augmentation for eviction-based pipelines that introduces three-way token routing: retention, approximation, and eviction. VECTOR combines an importance signal from the base scorer with a reconstructability signal from an offline-calibrated regression-based value estimation. By leveraging reconstructability, VECTOR recovers useful value information that would otherwise be irreversibly lost under binary eviction, while preserving key vectors for attention routing stability. On LongBench, RULER with contexts up to 128K tokens, and multi-turn SCBench, VECTOR yields significant gains over its base eviction methods under high compression. At a 90% compression ratio, SnapKV augmented with VECTOR outperforms six competing compression methods, including D2O and RocketKV, on all three evaluated models. Since VECTOR makes all routing decisions at prefill, decoding runs on a standard compressed cache with no measurable overhead.</p>
+          </div>
+        </div>
+      </div>
+</li>
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
