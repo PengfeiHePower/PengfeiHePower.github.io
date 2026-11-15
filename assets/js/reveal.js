@@ -8,6 +8,7 @@
     ".post article > .clearfix > *",
     ".post article > h2",
     ".post article > .news",
+    ".post article > .visitor-map",
     ".post article > .social",
     ".publications h1",
     ".publications h2.year",
