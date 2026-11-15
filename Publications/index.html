@@ -124,33 +124,34 @@
           <article>
             <!-- _pages/publications.md -->
 <div class="publications">
-
-<!-- <h1>Publications</h1>
-
-<h1>Preprints</h1> -->
+<p class="text-center">
+  <a href="https://scholar.google.com/citations?user=nsSrd6kAAAAJ" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Google Scholar</a>:
+  2215 citations · h-index 19
+</p>
 
 <h1>Publications</h1>
-<ol class="bibliography">
+  <h2 class="year">2026</h2>
+  <ol class="bibliography">
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">JMLR</abbr></div>
+        <div class="col-sm-2 abbr"><abbr class="badge">NeurIPS 2026</abbr></div>
 
         <!-- Entry bib key -->
-        <div id="JMLR:v24:21-1254" class="col-sm-8">
+        <div id="he2025trust" class="col-sm-8">
         <!-- Title -->
-        <div class="title">Large sample spectral analysis of graph-based multi-manifold clustering</div>
+        <div class="title">To trust or not to trust: Attention-based Trust Management for LLM Multi-Agent Systems</div>
         <!-- Author -->
         <div class="author">
         
 
-        Nicolas Garcia Trillos*, <em>Pengfei He*</em>, and Chenghui Li*</div>
+        <strong>Pengfei He</strong>, Zhenwei Dai, Xianfeng Tang, Yue Xing, Hui Liu, Jingying Zeng, Qiankun Peng, Shrivats Agrawal, Samarth Varshney, Suhang Wang, Jiliang Tang, and Qi He</div>
 
         <!-- Journal/Book title and date -->
         
         
         <div class="periodical">
-          <em>Journal of Machine Learning Research (JMLR)</em>, 2023
+          <em>In NeurIPS</em>, 2026
         </div>
         <div class="periodical">
           
@@ -159,7 +160,8 @@
           <!-- Links/Buttons -->
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="http://jmlr.org/papers/v24/21-1254.html" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://arxiv.org/pdf/2506.02546" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=10605105393101787644,7845254100210435576" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 19</a>
           </div>
           
           <div class="badges">
@@ -169,21 +171,22 @@
 
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
-            <p>In this work we study statistical properties of graph-based algorithms for multi-manifold
-clustering (MMC). In MMC the goal is to retrieve the multi-manifold structure underlying a
-given Euclidean data set when this one is assumed to be obtained by sampling a distribution
-on a union of manifolds M = M1 ∪ · · · ∪ MN that may intersect with each other and
-that may have different dimensions. We investigate sufficient conditions that similarity
-graphs on data sets must satisfy in order for their corresponding graph Laplacians to
-capture the right geometric information to solve the MMC problem. Precisely, we provide
-high probability error bounds for the spectral approximation of a tensorized Laplacian on
-M with a suitable graph Laplacian built from the observations; the recovered tensorized
-Laplacian contains all geometric information of all the individual underlying manifolds. We
-provide an example of a family of similarity graphs, which we call annular proximity graphs
-with angle constraints, satisfying these sufficient conditions. We contrast our family of
-graphs with other constructions in the literature based on the alignment of tangent planes.
-Extensive numerical experiments expand the insights that our theory provides on the MMC
-problem.</p>
+            <p>Large Language Model-based Multi-Agent Systems (LLM-MAS) have demonstrated strong
+capabilities in solving complex tasks but remain vulnerable when agents receive unreliable messages. This vulnerability stems from a
+fundamental gap: LLM agents treat all incoming messages equally without evaluating their
+trustworthiness. While some existing studies
+approach trustworthiness, they focus on a single type of harmfulness rather than analyze it
+in a holistic approach from multiple trustworthiness perspectives. We address this gap by
+proposing a comprehensive definition of trustworthiness inspired by human communication
+theory (Grice, 1975). Our definition identifies six orthogonal trust dimensions that provide interpretable measures of trustworthiness.
+Building on this definition, we introduce the
+Attention Trust Score (A-Trust), a lightweight,
+attention-based method for evaluating the trustworthiness of messages. We then develop a
+principled trust management system (TMS) for
+LLM-MAS that supports both message-level
+and agent-level trust assessments. Experiments
+across diverse multi-agent settings and tasks
+demonstrate that our TMS significantly improves robustness against malicious inputs.</p>
           </div>
         </div>
       </div>
@@ -191,36 +194,23 @@ problem.</p>
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">TMLR</abbr></div>
+        <div class="col-sm-2 abbr"><abbr class="badge">ICLR 2026</abbr></div>
 
         <!-- Entry bib key -->
-        <div id="hestealthy" class="col-sm-8">
+        <div id="he2025traject" class="col-sm-8">
         <!-- Title -->
-        <div class="title">Stealthy Backdoor Attack via Confidence-driven Sampling</div>
+        <div class="title">TRAJECT-Bench: A Trajectory-Aware Benchmark for Evaluating Agentic Tool Use</div>
         <!-- Author -->
         <div class="author">
         
 
-        <em>Pengfei He</em>, Yue Xing, Han Xu, and
-          <span class="more-authors" title="click to view 6 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '6 more authors' ? 'Jie Ren, Yingqian Cui, Shenglai Zeng, Jiliang Tang, Makoto Yamada, Mohammad Sabokrou' : '6 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">6 more authors</span>
-</div>
+        <strong>Pengfei He</strong>, Zhenwei Dai, Bing He, Hui Liu, Xianfeng Tang, Hanqing Lu, Juanhui Li, Jiayuan Ding, Subhabrata Mukherjee, Suhang Wang, and  others</div>
 
         <!-- Journal/Book title and date -->
         
         
         <div class="periodical">
-          <em>Transactions on Machine Learning Research</em>, 2024
+          <em>In ICLR</em>, 2026
         </div>
         <div class="periodical">
           
@@ -229,7 +219,8 @@ problem.</p>
           <!-- Links/Buttons -->
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="https://openreview.net/pdf?id=Flh5EXz8dA" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://openreview.net/pdf?id=TZWnWvsQ0X" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=93271446474390145" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 61</a>
           </div>
           
           <div class="badges">
@@ -239,19 +230,13 @@ problem.</p>
 
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
-            <p>Backdoor attacks facilitate unauthorized control in the testing stage by carefully injecting
-harmful triggers during the training phase of deep neural networks. Previous works have
-focused on improving the stealthiness of the trigger while randomly selecting samples to
-attack. However, we find that random selection harms the stealthiness of the model. In
-this paper, we identify significant pitfalls of random sampling, which make the attacks more
-detectable and easier to defend against. To improve the stealthiness of existing attacks, we
-introduce a method of strategically poisoning samples near the model’s decision boundary,
-aiming to minimally alter the model’s behavior (decision boundary) before and after backdooring. Our main insight for detecting boundary samples is exploiting the confidence scores
-as a metric for being near the decision boundary and selecting those to poison (inject) the
-attack. The proposed approach makes it significantly harder for defenders to identify the
-attacks. Our method is versatile and independent of any specific trigger design. We provide
-theoretical insights and conduct extensive experiments to demonstrate the effectiveness of
-the proposed method.</p>
+            <p>Large language model (LLM)-based agents increasingly rely on tool use to complete real-world tasks. While existing works evaluate the LLMs’ tool use capability, they largely focus on the final answers yet overlook the detailed tool
+usage trajectory, i.e., whether tools are selected, parameterized, and ordered correctly. We introduce TRAJECT-Bench, a trajectory-aware benchmark to comprehensively evaluate LLMs’ tool use capability through diverse tasks with finegrained evaluation metrics. TRAJECT-Bench pairs high-fidelity, executable tools
+across practical domains with tasks grounded in production-style APIs, and synthesizes trajectories that vary in breadth (parallel calls) and depth (interdependent
+chains). Besides final accuracy, TRAJECT-Bench also reports trajectory-level
+diagnostics, including tool selection and argument correctness, and dependency/order satisfaction. Analyses reveal failure modes such as similar tool confusion
+and parameter-blind selection, and scaling behavior with tool diversity and trajectory length where the bottleneck of transiting from short to mid-length trajectories
+is revealed, offering actionable guidance for LLMs’ tool use1.</p>
           </div>
         </div>
       </div>
@@ -259,36 +244,23 @@ the proposed method.</p>
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">SIGKDD Explor.</abbr></div>
+        <div class="col-sm-2 abbr"><abbr class="badge">EACL 2026</abbr></div>
 
         <!-- Entry bib key -->
-        <div id="10.1145/3715073.3715080" class="col-sm-8">
+        <div id="dong2025pear" class="col-sm-8">
         <!-- Title -->
-        <div class="title">FT-Shield: A Watermark Against Unauthorized Fine-tuning in Text-to-Image Diffusion Models</div>
+        <div class="title">PEAR: Planner-Executor Agent Robustness Benchmark</div>
         <!-- Author -->
         <div class="author">
         
 
-        Yingqian Cui, Jie Ren, Yuping Lin, and
-          <span class="more-authors" title="click to view 7 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '7 more authors' ? 'Han Xu, Pengfei He, Yue Xing, Lingjuan Lyu, Wenqi Fan, Hui Liu, Jiliang Tang' : '7 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">7 more authors</span>
-</div>
+        Shen Dong, Mingxuan Zhang, <strong>Pengfei He</strong>, Li Ma, Bhavani Thuraisingham, Hui Liu, and Yue Xing</div>
 
         <!-- Journal/Book title and date -->
         
         
         <div class="periodical">
-          <em>SIGKDD Explor. Newsl.</em>, Jan 2025
+          <em>In EACL</em>, 2026
         </div>
         <div class="periodical">
           
@@ -297,63 +269,8 @@ the proposed method.</p>
           <!-- Links/Buttons -->
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="https://dl.acm.org/doi/10.1145/3715073.3715080" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1145/3715073.3715080"></span>
-              <span class="__dimensions_badge_embed__" data-doi="10.1145/3715073.3715080" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Text-to-image generative models, especially those based on latent diffusion models (LDMs), have demonstrated outstanding ability in generating high-quality and high-resolution images from textual prompts. With this advancement, various fine-tuning methods have been developed to personalize text-to-image models for specific applications such as artistic style adaptation and human face transfer. However, such advancements have raised copyright concerns, especially when the data are used for personalization without authorization. For example, a malicious user can employ fine-tuning techniques to replicate the style of an artist without consent. In light of this concern, we propose FT-Shield, a watermarking solution tailored for the fine-tuning of text-to-image diffusion models. FT-Shield addresses copyright protection challenges by designing new watermark generation and detection strategies. In particular, it introduces an innovative algorithm for watermark generation. It ensures the seamless transfer of watermarks from training images to generated outputs, facilitating the identification of copyrighted material use. To tackle the variability in fine-tuning methods and their impact on watermark detection, FT-Shield integrates a Mixture of Experts (MoE) approach for watermark detection. Comprehensive experiments validate the effectiveness of our proposed FT-Shield.</p>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">Stat</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="he2024towards" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Towards the Effect of Examples on In-Context Learning: A Theoretical Case Study</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        <em>Pengfei He</em>, Yingqian Cui, Han Xu, and
-          <span class="more-authors" title="click to view 4 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '4 more authors' ? 'Hui Liu, Makoto Yamada, Jiliang Tang, Yue Xing' : '4 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">4 more authors</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>Stat</em>, Jan 2024
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/sta4.70045" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://arxiv.org/pdf/2510.07505?" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=3245220424271852893" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 6</a>
           </div>
           
           <div class="badges">
@@ -363,201 +280,210 @@ the proposed method.</p>
 
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
-            <p>In-context learning (ICL) has emerged as a powerful capability for large language models (LLMs) to adapt to downstream tasks by leveraging a few (demonstration) examples. Despite its effectiveness, the mechanism behind ICL remains underexplored. To better understand how ICL integrates the examples with the knowledge learned by the LLM during pre-training (i.e., pre-training knowledge) and how the examples impact ICL, this paper conducts a theoretical study in binary classification tasks. In particular, we introduce a probabilistic model extending from the Gaussian mixture model to exactly quantify the impact of pre-training knowledge, label frequency and label noise on the prediction accuracy. Based on our analysis, when the pre-training knowledge contradicts the knowledge in the examples, whether ICL prediction relies more on the pre-training knowledge or the examples depends on the number of examples. In addition, the label frequency and label noise of the examples both affect the accuracy of the ICL prediction, where the minor class has a lower accuracy, and how the label noise impacts the accuracy is determined by the specific noise level of the two classes. Extensive simulations are conducted to verify the correctness of the theoretical results, and real-data experiments also align with the theoretical insights. Our work reveals the role of pre-training knowledge and examples in ICL, offering a deeper understanding of LLMs’ behaviours in classification tasks.</p>
+            <p>Large Language Model (LLM)–based MultiAgent Systems (MAS) have emerged as a powerful paradigm for tackling complex, multi-step
+tasks across diverse domains. However, despite their impressive capabilities, MAS remain
+susceptible to adversarial manipulation. Existing studies typically examine isolated attack
+surfaces or specific scenarios, leaving a lack
+of holistic understanding of MAS vulnerabilities. To bridge this gap, we introduce PEAR, a
+benchmark for systematically evaluating both
+the utility and vulnerability of planner–executor
+MAS. While compatible with various MAS architectures, our benchmark focuses on the planner–executor structure—a practical and widely
+adopted design. Through extensive experiments, we find that (1) a weak planner degrades
+overall clean task performance more severely
+than a weak executor; (2) while a memory module is essential for the planner, having a memory module for the executor does not impact the
+clean task performance; (3) there exists a tradeoff between task performance and robustness;
+and (4) attacks targeting the planner are particularly effective at misleading the system. These
+findings offer actionable insights for enhancing
+the robustness of MAS and lay the groundwork
+for principled defenses in multi-agent settings.
+All codes and data are available on Github.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">ICML 2026</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="he2026co" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Co-RedTeam: Orchestrated Security Discovery and Exploitation with LLM Agents</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <strong>Pengfei He</strong>, Ash Fox, Lesly Miculicich, Stefan Friedli, Daniel Fabian, Burak Gokturk, Jiliang Tang, Chen-Yu Lee, Tomas Pfister, and Long T Le</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In International Conference on Machine Learning</em>, 2026
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://arxiv.org/pdf/2602.02164" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=16908160568574603375" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 11</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Large language models (LLMs) have shown promise in assisting cybersecurity tasks, yet existing approaches struggle with automatic vulnerability discovery and exploitation due to limited interaction,
+weak execution grounding, and a lack of experience reuse. We propose Co - Re d Te am , a security-aware
+multi-agent framework designed to mirror real-world red-teaming workflows by integrating securitydomain knowledge, code-aware analysis, execution-grounded iterative reasoning, and long-term memory.Co-RedTeam decomposes vulnerability analysis into coordinated discovery and exploitation stages,
+enabling agents to plan, execute, validate, and refine actions based on real execution feedback while
+learning from prior trajectories. Extensive evaluations on challenging security benchmarks demonstrate that Co - Re d Te am consistently outperforms strong baselines across diverse backbone models,
+achieving over 60% success rate in vulnerability exploitation and over 10% absolute improvement in
+vulnerability detection. Ablation and iteration studies further confirm the critical role of execution
+feedback, structured interaction, and memory for building robust and generalizable cybersecurity agents.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">ACL 2026</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="lin2026retrieval" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Retrieval Heads are Dynamic</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Yuping Lin, Zitao Li, Yue Xing, <strong>Pengfei He</strong>, Yingqian Cui, Yaliang Li, Bolin Ding, Jingren Zhou, and Jiliang Tang</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In ACL</em>, 2026
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://arxiv.org/pdf/2602.11162" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=10965511670633211426" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 4</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Recent studies have identified “retrieval heads”
+in Large Language Models (LLMs) responsible for extracting information from input contexts. However, prior works largely rely on
+static statistics aggregated across datasets, identifying heads that perform retrieval on average.
+This perspective overlooks the fine-grained temporal dynamics of autoregressive generation.
+In this paper, we investigate retrieval heads
+from a dynamic perspective. Through extensive
+analysis, we establish three core claims: (1)
+Dynamism: Retrieval heads vary dynamically
+across timesteps; (2) Irreplaceability: Dynamic
+retrieval heads are specific at each timestep and
+cannot be effectively replaced by static retrieval
+heads; and (3) Correlation: The model’s hidden
+state encodes a predictive signal for future retrieval head patterns, indicating an internal planning mechanism. We validate these findings on
+the Needle-in-a-Haystack task and a multi-hop
+QA task, and quantify the differences on the
+utility of dynamic and static retrieval heads in
+a Dynamic Retrieval-Augmented Generation
+framework. Our study provides new insights
+into the internal mechanisms of LLMs.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">ACL 2026</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="xiong2025memory" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">How memory management impacts llm agents: An empirical study of experience-following behavior <span class="award badge">Oral</span>
+</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Zidi Xiong, Yuping Lin, Wenya Xie, <strong>Pengfei He</strong>, Zirui Liu, Jiliang Tang, Himabindu Lakkaraju, and Zhen Xiang</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In ACL</em>, 2026
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://arxiv.org/pdf/2505.16067" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=8678085875053190954" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 178</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Memory is a critical component in large language model (LLM)-based agents, enabling
+them to store and retrieve past executions to
+improve task performance over time. In this
+paper, we conduct an empirical study on how
+memory management choices impact the LLM
+agents’ behavior, especially their long-term
+performance. Specifically, we focus on two
+fundamental memory management operations
+that are widely used by many agent frameworks—memory addition and deletion—to systematically study their impact on the agent behavior. Through our quantitative analysis, we
+find that LLM agents display an experiencefollowing property: high similarity between a
+task input and the input in a retrieved memory record often results in highly similar agent
+outputs. Our analysis further reveals two significant challenges associated with this property:error propagation, where inaccuracies in past
+experiences compound and degrade future performance, and misaligned experience replay,
+where some seemingly correct executions can
+provide limited or even misleading value as experiences. Through controlled experiments, we
+demonstrate the importance of regulating experience quality within the memory bank and
+show that future task evaluations can serve as
+free quality labels for stored memory. Our findings offer insights into the behavioral dynamics
+of LLM agent memory systems and provide
+practical guidance for designing memory components that support robust, long-term agent
+performance. We also release our code to facilitate further study.</p>
           </div>
         </div>
       </div>
 </li>
 </ol>
-<ol class="bibliography">
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">CIKM 2022</abbr></div>
+  <ol class="bibliography"></ol>
 
-        <!-- Entry bib key -->
-        <div id="10.1145/3511808.3557130" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">PROPN: Personalized Probabilistic Strategic Parameter Optimization in Recommendations</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        <em>Pengfei He</em>, Haochen Liu, Xiangyu Zhao, and
-          <span class="more-authors" title="click to view 2 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '2 more authors' ? 'Hui Liu, Jiliang Tang' : '2 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">2 more authors</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>In Proceedings of the 31st ACM International Conference on Information &amp; Knowledge Management (CIKM)</em>, 2022
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1145/3511808.3557130"></span>
-              <span class="__dimensions_badge_embed__" data-doi="10.1145/3511808.3557130" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">ICML 2023</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="xu2023probabilistic" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Probabilistic Categorical Adversarial Attack and Adversarial Training</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Han Xu, <em>Pengfei He</em>, Jie Ren, and
-          <span class="more-authors" title="click to view 4 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '4 more authors' ? 'Yuxuan Wan, Zitao Liu, Hui Liu, Jiliang Tang' : '4 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">4 more authors</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>In International Conference on Machine Learning (ICML)</em>, 2023
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="https://proceedings.mlr.press/v202/xu23e.html" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>The studies on adversarial attacks and defenses
-have greatly improved the robustness of Deep
-Neural Networks (DNNs). Most advanced approaches have been overwhelmingly designed for
-continuous data such as images. However, these
-achievements are still hard to be generalized to
-categorical data. To bridge this gap, we propose
-a novel framework, Probabilistic Categorical Adversarial Attack (or PCAA). It transfers the discrete optimization problem of finding categorical
-adversarial examples to a continuous problem that
-can be solved via gradient-based methods. We analyze the optimality (attack success rate) and time
-complexity of PCAA to demonstrate its significant advantage over current search-based attacks.
-More importantly, through extensive empirical
-studies, we demonstrate that the well-established
-defenses for continuous data, such as adversarial
-training and TRADES, can be easily accommodated to defend DNNs for categorical data</p>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">ICLR ’24 Spotlight</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="he2023sharpness" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Sharpness-Aware Data Poisoning Attack</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        <em>Pengfei He</em>, Han Xu, Jie Ren, and
-          <span class="more-authors" title="click to view 4 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '4 more authors' ? 'Yingqian Cui, Hui Liu, Charu C Aggarwal, Jiliang Tang' : '4 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">4 more authors</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>In International Conference on Learning Representations (ICLR)</em>, 2024
-        </div>
-        <div class="periodical">
-          Spotlight Paper, 5%
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="https://arxiv.org/pdf/2305.14851" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Recent research has highlighted the vulnerability of Deep Neural Networks (DNNs)
-against data poisoning attacks. These attacks aim to inject poisoning samples into
-the models’ training dataset such that the trained models have inference failures.
-While previous studies have executed different types of attacks, one major challenge
-that greatly limits their effectiveness is the uncertainty of the re-training process
-after the injection of poisoning samples, including the re-training initialization or
-algorithms. To address this challenge, we propose a novel attack method called
-“Sharpness-Aware Data Poisoning Attack (SAPA)”. In particular, it leverages the
-concept of DNNs’ loss landscape sharpness to optimize the poisoning effect on the
-worst re-trained model. It helps enhance the preservation of the poisoning effect,
-regardless of the specific retraining procedure employed. Extensive experiments
-demonstrate that SAPA offers a general and principled strategy that significantly
-enhances various types of poisoning attacks.</p>
-          </div>
-        </div>
-      </div>
-</li>
+  <h2 class="year">2025</h2>
+  <ol class="bibliography">
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
@@ -571,26 +497,13 @@ enhances various types of poisoning attacks.</p>
         <div class="author">
         
 
-        Yingqian Cui, Jie Ren, Han Xu, and
-          <span class="more-authors" title="click to view 5 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '5 more authors' ? 'Pengfei He, Hui Liu, Lichao Sun, Yue Xing, Jiliang Tang' : '5 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">5 more authors</span>
-</div>
+        Yingqian Cui, Jie Ren, Han Xu, <strong>Pengfei He</strong>, Hui Liu, Lichao Sun, Yue Xing, and Jiliang Tang</div>
 
         <!-- Journal/Book title and date -->
         
         
         <div class="periodical">
-          <em>In </em>, Jan 2025
+          <em>In SIGKDD Explor. Newsl.</em>, Jan 2025
         </div>
         <div class="periodical">
           
@@ -600,6 +513,7 @@ enhances various types of poisoning attacks.</p>
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a href="https://dl.acm.org/doi/10.1145/3715073.3715079" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=8895916458797853243" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 143</a>
           </div>
           
           <div class="badges">
@@ -617,230 +531,6 @@ enhances various types of poisoning attacks.</p>
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">ACL 2024</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="zeng-etal-2024-good" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">The Good and The Bad: Exploring Privacy Issues in Retrieval-Augmented Generation (RAG)</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Shenglai Zeng, Jiankun Zhang, <em>Pengfei He</em>, and
-          <span class="more-authors" title="click to view 8 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '8 more authors' ? 'Yiding Liu, Yue Xing, Han Xu, Jie Ren, Yi Chang, Shuaiqiang Wang, Dawei Yin, Jiliang Tang' : '8 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">8 more authors</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>In Findings of the Association for Computational Linguistics ACL 2024</em>, Aug 2024
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="https://aclanthology.org/2024.findings-acl.267/" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.18653/v1/2024.findings-acl.267"></span>
-              <span class="__dimensions_badge_embed__" data-doi="10.18653/v1/2024.findings-acl.267" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Retrieval-augmented generation (RAG) is a powerful technique to facilitate language model generation with proprietary and private data, where data privacy is a pivotal concern. Whereas extensive research has demonstrated the privacy risks of large language models (LLMs), the RAG technique could potentially reshape the inherent behaviors of LLM generation, posing new privacy issues that are currently under-explored. To this end, we conduct extensive empirical studies with novel attack methods, which demonstrate the vulnerability of RAG systems on leaking the private retrieval database. Despite the new risks brought by RAG on the retrieval data, we further discover that RAG can be used to mitigate the old risks, i.e., the leakage of the LLMs’ training data. In general, we reveal many new insights in this paper for privacy protection of retrieval-augmented LLMs, which could benefit both LLMs and RAG systems builders.</p>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">ACL 2024</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="zeng-etal-2024-exploring" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Exploring Memorization in Fine-tuned Language Models</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Shenglai Zeng, Yaxin Li, Jie Ren, and
-          <span class="more-authors" title="click to view 7 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '7 more authors' ? 'Yiding Liu, Han Xu, Pengfei He, Yue Xing, Shuaiqiang Wang, Jiliang Tang, Dawei Yin' : '7 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">7 more authors</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)</em>, Aug 2024
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="https://aclanthology.org/2024.acl-long.216.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Large language models (LLMs) have shown great capabilities in various tasks but also exhibited memorization of training data, raising tremendous privacy and copyright concerns. While prior works have studied memorization during pre-training, the exploration of memorization during fine-tuning is rather limited. Compared to pre-training, fine-tuning typically involves more sensitive data and diverse objectives, thus may bring distinct privacy risks and unique memorization behaviors. In this work, we conduct the first comprehensive analysis to explore language models’ (LMs) memorization during fine-tuning across tasks. Our studies with open-sourced and our own fine-tuned LMs across various tasks indicate that memorization presents a strong disparity among different fine-tuning tasks. We provide an intuitive explanation of this task disparity via sparse coding theory and unveil a strong correlation between memorization and attention score distribution.</p>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">EMNLP 2024</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="xu2023generalization" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">On the Generalization of Training-based ChatGPT Detection Methods</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Han Xu, Jie Ren, <em>Pengfei He</em>, and
-          <span class="more-authors" title="click to view 5 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '5 more authors' ? 'Shenglai Zeng, Yingqian Cui, Amy Liu, Hui Liu, Jiliang Tang' : '5 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">5 more authors</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing</em>, Dec 2024
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="https://aclanthology.org/2024.findings-emnlp.424.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>ChatGPT is one of the most popular language models which achieve amazing performance on various natural language tasks. Consequently, there is also an urgent need to detect the texts generated ChatGPT from human written. One of the extensively studied methods trains classification models to distinguish both. However, existing studies also demonstrate that the trained models may suffer from distribution shifts (during test), i.e., they are ineffective to predict the generated texts from unseen language tasks or topics. In this work, we aim to have a comprehensive investigation on these methods’ generalization behaviors under distribution shift caused by a wide range of factors, including prompts, text lengths, topics, and language tasks. To achieve this goal, we first collect a new dataset with human and ChatGPT texts, and then we conduct extensive studies on the collected dataset. Our studies unveil insightful findings which provide guidance for developing future methodologies or data collection strategies for ChatGPT detection.</p>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">EMNLP 2024</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="lin2024towards" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Towards Understanding Jailbreak Attacks in LLMs: A Representation Space Analysis</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Yuping* Lin, Pengfei* He, Han Xu, and
-          <span class="more-authors" title="click to view 4 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '4 more authors' ? 'Yue Xing, Makoto Yamada, Hui Liu, Jiliang Tang' : '4 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">4 more authors</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing</em>, Dec 2024
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="https://aclanthology.org/2024.emnlp-main.401/" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Large language models (LLMs) are susceptible to a type of attack known as jailbreaking, which misleads LLMs to output harmful contents. Although there are diverse jailbreak attack strategies, there is no unified understanding on why some methods succeed and others fail. This paper explores the behavior of harmful and harmless prompts in the LLM’s representation space to investigate the intrinsic properties of successful jailbreak attacks. We hypothesize that successful attacks share some similar properties: They are effective in moving the representation of the harmful prompt towards the direction to the harmless prompts. We leverage hidden representations into the objective of existing jailbreak attacks to move the attacks along the acceptance direction, and conduct experiments to validate the above hypothesis using the proposed objective. We hope this study provides new insights into understanding how LLMs understand harmfulness information.</p>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
         <div class="col-sm-2 abbr"><abbr class="badge">NAACL 2025</abbr></div>
 
         <!-- Entry bib key -->
@@ -851,20 +541,7 @@ enhances various types of poisoning attacks.</p>
         <div class="author">
         
 
-        <em>Pengfei He</em>, Han Xu, Yue Xing, and
-          <span class="more-authors" title="click to view 3 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '3 more authors' ? 'Hui Liu, Makoto Yamada, Jiliang Tang' : '3 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">3 more authors</span>
-</div>
+        <strong>Pengfei He</strong>, Han Xu, Yue Xing, Hui Liu, Makoto Yamada, and Jiliang Tang</div>
 
         <!-- Journal/Book title and date -->
         
@@ -880,6 +557,7 @@ enhances various types of poisoning attacks.</p>
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a href="https://arxiv.org/abs/2402.02160" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=5362504537360832179" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 55</a>
           </div>
           
           <div class="badges">
@@ -921,26 +599,13 @@ enhances various types of poisoning attacks.</p>
         <div class="author">
         
 
-        Yingqian Cui, Jie Ren, <em>Pengfei He</em>, and
-          <span class="more-authors" title="click to view 2 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '2 more authors' ? 'Jiliang Tang, Yue Xing' : '2 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">2 more authors</span>
-</div>
+        Yingqian Cui, Jie Ren, <strong>Pengfei He</strong>, Jiliang Tang, and Yue Xing</div>
 
         <!-- Journal/Book title and date -->
         
         
         <div class="periodical">
-          <em>In </em>, Apr 2025
+          <em>In International Conference on Artificial Intelligence and Statistics (AISTATS)</em>, Apr 2025
         </div>
         <div class="periodical">
           
@@ -950,6 +615,7 @@ enhances various types of poisoning attacks.</p>
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a href="https://arxiv.org/pdf/2401.17426" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=9721657842219812595" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 32</a>
           </div>
           
           <div class="badges">
@@ -967,7 +633,7 @@ enhances various types of poisoning attacks.</p>
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">AISTSTS 2025</abbr></div>
+        <div class="col-sm-2 abbr"><abbr class="badge">AISTATS 2025</abbr></div>
 
         <!-- Entry bib key -->
         <div id="Cui2024ATU" class="col-sm-8">
@@ -977,26 +643,13 @@ enhances various types of poisoning attacks.</p>
         <div class="author">
         
 
-        Yingqian Cui, <em>Pengfei He</em>, Xianfeng Tang, and
-          <span class="more-authors" title="click to view 4 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '4 more authors' ? 'Qi He, Chen Luo, Jiliang Tang, Yue Xing' : '4 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">4 more authors</span>
-</div>
+        Yingqian Cui, <strong>Pengfei He</strong>, Xianfeng Tang, Qi He, Chen Luo, Jiliang Tang, and Yue Xing</div>
 
         <!-- Journal/Book title and date -->
         
         
         <div class="periodical">
-          <em>In </em>, Apr 2025
+          <em>In International Conference on Artificial Intelligence and Statistics (AISTATS)</em>, Apr 2025
         </div>
         <div class="periodical">
           
@@ -1006,6 +659,7 @@ enhances various types of poisoning attacks.</p>
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a href="https://arxiv.org/pdf/2410.16540" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=17207487072151257229" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 21</a>
           </div>
           
           <div class="badges">
@@ -1033,20 +687,7 @@ enhances various types of poisoning attacks.</p>
         <div class="author">
         
 
-        <em>Pengfei He</em>, Zitao Li, Yue Xing, and
-          <span class="more-authors" title="click to view 3 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '3 more authors' ? 'Yaling Li, Jiliang Tang, Bolin Ding' : '3 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">3 more authors</span>
-</div>
+        <strong>Pengfei He</strong>, Zitao Li, Yue Xing, Yaling Li, Jiliang Tang, and Bolin Ding</div>
 
         <!-- Journal/Book title and date -->
         
@@ -1062,6 +703,7 @@ enhances various types of poisoning attacks.</p>
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a href="https://aclanthology.org/anthology-files/pdf/findings/2025.findings-emnlp.137.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=3216994832319148869,5571444387143137726" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 16</a>
           </div>
           
           <div class="badges">
@@ -1110,20 +752,7 @@ benchmarks and demonstrates strong robustness against corrupted reasoning paths.
         <div class="author">
         
 
-        Shenglai Zeng, Jiankun Zhang, <em>Pengfei He</em>, and
-          <span class="more-authors" title="click to view 7 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '7 more authors' ? 'Jie Ren, Tianqi Zheng, Hanqing Lu, Han Xu, Hui Liu, Yue Xing, Jiliang Tang' : '7 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">7 more authors</span>
-</div>
+        Shenglai Zeng, Jiankun Zhang, <strong>Pengfei He</strong>, Jie Ren, Tianqi Zheng, Hanqing Lu, Han Xu, Hui Liu, Yue Xing, and Jiliang Tang</div>
 
         <!-- Journal/Book title and date -->
         
@@ -1139,6 +768,7 @@ benchmarks and demonstrates strong robustness against corrupted reasoning paths.
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a href="https://aclanthology.org/2025.emnlp-main.1247.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=16987140225122582067" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 113</a>
           </div>
           
           <div class="badges">
@@ -1174,26 +804,13 @@ comparable performance to using the original data while substantially reducing p
         <div class="author">
         
 
-        <em>Pengfei He</em>, Yupin Lin, Shen Dong, and
-          <span class="more-authors" title="click to view 3 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '3 more authors' ? 'Han Xu, Yue Xing, Hui Liu' : '3 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">3 more authors</span>
-</div>
+        <strong>Pengfei He</strong>, Yupin Lin, Shen Dong, Han Xu, Yue Xing, and Hui Liu</div>
 
         <!-- Journal/Book title and date -->
         
         
         <div class="periodical">
-          <em>In </em>, Apr 2025
+          <em>In Association for Computational Linguistics</em>, Apr 2025
         </div>
         <div class="periodical">
           
@@ -1203,6 +820,7 @@ comparable performance to using the original data while substantially reducing p
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a href="https://arxiv.org/pdf/2502.14847" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=4575843784399184237" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 199</a>
           </div>
           
           <div class="badges">
@@ -1245,26 +863,14 @@ in multi-agent systems.</p>
         <div class="author">
         
 
-        Bo Wang, Weiyi He, Shenglai Zeng, and
-          <span class="more-authors" title="click to view 4 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '4 more authors' ? 'Zhen Xiang, Yue Xing, Jiliang Tang, Pengfei He' : '4 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">4 more authors</span>
+        Bo Wang, Weiyi He, Shenglai Zeng, Zhen Xiang, Yue Xing, Jiliang Tang, and <strong>Pengfei He</strong>
 </div>
 
         <!-- Journal/Book title and date -->
         
         
         <div class="periodical">
-          <em>In </em>, Apr 2025
+          <em>In Association for Computational Linguistics</em>, Apr 2025
         </div>
         <div class="periodical">
           
@@ -1274,6 +880,7 @@ in multi-agent systems.</p>
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a href="https://arxiv.org/pdf/2502.13172" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=1205784360742732283" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 172</a>
           </div>
           
           <div class="badges">
@@ -1301,26 +908,13 @@ in multi-agent systems.</p>
         <div class="author">
         
 
-        Yingqian Cui, <em>Pengfei He</em>, Jingying Zeng, and
-          <span class="more-authors" title="click to view 8 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '8 more authors' ? 'Hui Liu, Xianfeng Tang, Zhenwei Dai, Yan Han, Chen Luo, Jing Huang, Zhen Li,  others' : '8 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">8 more authors</span>
-</div>
+        Yingqian Cui, <strong>Pengfei He</strong>, Jingying Zeng, Hui Liu, Xianfeng Tang, Zhenwei Dai, Yan Han, Chen Luo, Jing Huang, Zhen Li, and  others</div>
 
         <!-- Journal/Book title and date -->
         
         
         <div class="periodical">
-          <em>In </em>, Apr 2025
+          <em>In Association for Computational Linguistics</em>, Apr 2025
         </div>
         <div class="periodical">
           
@@ -1330,6 +924,7 @@ in multi-agent systems.</p>
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a href="https://arxiv.org/pdf/2502.13260" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=2520365890548261615" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 66</a>
           </div>
           
           <div class="badges">
@@ -1370,26 +965,13 @@ of CoT.</p>
         <div class="author">
         
 
-        Shenglai Zeng, <em>Pengfei He</em>, Kai Guo, and
-          <span class="more-authors" title="click to view 4 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '4 more authors' ? 'Tianqi Zheng, Hanqing Lu, Yue Xing, Hui Liu' : '4 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">4 more authors</span>
-</div>
+        Shenglai Zeng, <strong>Pengfei He</strong>, Kai Guo, Tianqi Zheng, Hanqing Lu, Yue Xing, and Hui Liu</div>
 
         <!-- Journal/Book title and date -->
         
         
         <div class="periodical">
-          <em>In </em>, Apr 2025
+          <em>In Association for Computational Linguistics</em>, Apr 2025
         </div>
         <div class="periodical">
           
@@ -1399,6 +981,7 @@ of CoT.</p>
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a href="https://arxiv.org/pdf/2502.14100" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=3530218848567936324" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 8</a>
           </div>
           
           <div class="badges">
@@ -1426,26 +1009,13 @@ of CoT.</p>
         <div class="author">
         
 
-        Shen Dong, Shaochen Xu, <em>Pengfei He</em>, and
-          <span class="more-authors" title="click to view 5 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '5 more authors' ? 'Yige Li, Jiliang Tang, Tianming Liu, Hui Liu, Zhen Xiang' : '5 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">5 more authors</span>
-</div>
+        Shen Dong, Shaochen Xu, <strong>Pengfei He</strong>, Yige Li, Jiliang Tang, Tianming Liu, Hui Liu, and Zhen Xiang</div>
 
         <!-- Journal/Book title and date -->
         
         
         <div class="periodical">
-          <em>In </em>, Apr 2025
+          <em>In NeurIPS</em>, Apr 2025
         </div>
         <div class="periodical">
           
@@ -1455,6 +1025,7 @@ of CoT.</p>
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a href="https://arxiv.org/pdf/2503.03704" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=4566133116847144391,16762513118244818146" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 239</a>
           </div>
           
           <div class="badges">
@@ -1488,274 +1059,6 @@ can be found on github</p>
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">NeurIPS 2026</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="he2025trust" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">To trust or not to trust: Attention-based Trust Management for LLM Multi-Agent Systems</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        <em>Pengfei He</em>, Zhenwei Dai, Xianfeng Tang, and
-          <span class="more-authors" title="click to view 9 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '9 more authors' ? 'Yue Xing, Hui Liu, Jingying Zeng, Qiankun Peng, Shrivats Agrawal, Samarth Varshney, Suhang Wang, Jiliang Tang, Qi He' : '9 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">9 more authors</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>In </em>, Apr 2026
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="https://arxiv.org/pdf/2506.02546" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Large Language Model-based Multi-Agent Systems (LLM-MAS) have demonstrated strong
-capabilities in solving complex tasks but remain vulnerable when agents receive unreliable messages. This vulnerability stems from a
-fundamental gap: LLM agents treat all incoming messages equally without evaluating their
-trustworthiness. While some existing studies
-approach trustworthiness, they focus on a single type of harmfulness rather than analyze it
-in a holistic approach from multiple trustworthiness perspectives. We address this gap by
-proposing a comprehensive definition of trustworthiness inspired by human communication
-theory (Grice, 1975). Our definition identifies six orthogonal trust dimensions that provide interpretable measures of trustworthiness.
-Building on this definition, we introduce the
-Attention Trust Score (A-Trust), a lightweight,
-attention-based method for evaluating the trustworthiness of messages. We then develop a
-principled trust management system (TMS) for
-LLM-MAS that supports both message-level
-and agent-level trust assessments. Experiments
-across diverse multi-agent settings and tasks
-demonstrate that our TMS significantly improves robustness against malicious inputs.</p>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">ICLR 2026</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="he2025traject" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">TRAJECT-Bench: A Trajectory-Aware Benchmark for Evaluating Agentic Tool Use</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        <em>Pengfei He</em>, Zhenwei Dai, Bing He, and
-          <span class="more-authors" title="click to view 8 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '8 more authors' ? 'Hui Liu, Xianfeng Tang, Hanqing Lu, Juanhui Li, Jiayuan Ding, Subhabrata Mukherjee, Suhang Wang,  others' : '8 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">8 more authors</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>In </em>, Apr 2026
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="https://openreview.net/pdf?id=TZWnWvsQ0X" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Large language model (LLM)-based agents increasingly rely on tool use to complete real-world tasks. While existing works evaluate the LLMs’ tool use capability, they largely focus on the final answers yet overlook the detailed tool
-usage trajectory, i.e., whether tools are selected, parameterized, and ordered correctly. We introduce TRAJECT-Bench, a trajectory-aware benchmark to comprehensively evaluate LLMs’ tool use capability through diverse tasks with finegrained evaluation metrics. TRAJECT-Bench pairs high-fidelity, executable tools
-across practical domains with tasks grounded in production-style APIs, and synthesizes trajectories that vary in breadth (parallel calls) and depth (interdependent
-chains). Besides final accuracy, TRAJECT-Bench also reports trajectory-level
-diagnostics, including tool selection and argument correctness, and dependency/order satisfaction. Analyses reveal failure modes such as similar tool confusion
-and parameter-blind selection, and scaling behavior with tool diversity and trajectory length where the bottleneck of transiting from short to mid-length trajectories
-is revealed, offering actionable guidance for LLMs’ tool use1.</p>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">EACL 2026</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="dong2025pear" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">PEAR: Planner-Executor Agent Robustness Benchmark</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Shen Dong, Mingxuan Zhang, <em>Pengfei He</em>, and
-          <span class="more-authors" title="click to view 4 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '4 more authors' ? 'Li Ma, Bhavani Thuraisingham, Hui Liu, Yue Xing' : '4 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">4 more authors</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>In </em>, Apr 2026
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="https://arxiv.org/pdf/2510.07505?" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Large Language Model (LLM)–based MultiAgent Systems (MAS) have emerged as a powerful paradigm for tackling complex, multi-step
-tasks across diverse domains. However, despite their impressive capabilities, MAS remain
-susceptible to adversarial manipulation. Existing studies typically examine isolated attack
-surfaces or specific scenarios, leaving a lack
-of holistic understanding of MAS vulnerabilities. To bridge this gap, we introduce PEAR, a
-benchmark for systematically evaluating both
-the utility and vulnerability of planner–executor
-MAS. While compatible with various MAS architectures, our benchmark focuses on the planner–executor structure—a practical and widely
-adopted design. Through extensive experiments, we find that (1) a weak planner degrades
-overall clean task performance more severely
-than a weak executor; (2) while a memory module is essential for the planner, having a memory module for the executor does not impact the
-clean task performance; (3) there exists a tradeoff between task performance and robustness;
-and (4) attacks targeting the planner are particularly effective at misleading the system. These
-findings offer actionable insights for enhancing
-the robustness of MAS and lay the groundwork
-for principled defenses in multi-agent settings.
-All codes and data are available on Github.</p>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">ICML 2026</abbr></div>
-
-        <!-- Entry bib key -->
-        <div id="he2026co" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Co-RedTeam: Orchestrated Security Discovery and Exploitation with LLM Agents</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        <em>Pengfei He</em>, Ash Fox, Lesly Miculicich, and
-          <span class="more-authors" title="click to view 7 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '7 more authors' ? 'Stefan Friedli, Daniel Fabian, Burak Gokturk, Jiliang Tang, Chen-Yu Lee, Tomas Pfister, Long T Le' : '7 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">7 more authors</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>In </em>, Apr 2026
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="https://arxiv.org/pdf/2602.02164" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Large language models (LLMs) have shown promise in assisting cybersecurity tasks, yet existing approaches struggle with automatic vulnerability discovery and exploitation due to limited interaction,
-weak execution grounding, and a lack of experience reuse. We propose Co - Re d Te am , a security-aware
-multi-agent framework designed to mirror real-world red-teaming workflows by integrating securitydomain knowledge, code-aware analysis, execution-grounded iterative reasoning, and long-term memory.Co-RedTeam decomposes vulnerability analysis into coordinated discovery and exploitation stages,
-enabling agents to plan, execute, validate, and refine actions based on real execution feedback while
-learning from prior trajectories. Extensive evaluations on challenging security benchmarks demonstrate that Co - Re d Te am consistently outperforms strong baselines across diverse backbone models,
-achieving over 60% success rate in vulnerability exploitation and over 10% absolute improvement in
-vulnerability detection. Ablation and iteration studies further confirm the critical role of execution
-feedback, structured interaction, and memory for building robust and generalizable cybersecurity agents.</p>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
         <div class="col-sm-2 abbr"><abbr class="badge">TALE 2025</abbr></div>
 
         <!-- Entry bib key -->
@@ -1766,20 +1069,7 @@ feedback, structured interaction, and memory for building robust and generalizab
         <div class="author">
         
 
-        Juanhui Li, Tingting Li, Hang Li, and
-          <span class="more-authors" title="click to view 4 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '4 more authors' ? 'Haoyu Han, Pengfei He, Peng He, Hui Liu' : '4 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">4 more authors</span>
-</div>
+        Juanhui Li, Tingting Li, Hang Li, Haoyu Han, <strong>Pengfei He</strong>, Peng He, and Hui Liu</div>
 
         <!-- Journal/Book title and date -->
         
@@ -1830,39 +1120,27 @@ with the proposed evaluation rules.</p>
         </div>
       </div>
 </li>
-<li>
+</ol>
+  <ol class="bibliography"><li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">ACL 2026</abbr></div>
+        <div class="col-sm-2 abbr"><abbr class="badge">SIGKDD Explor.</abbr></div>
 
         <!-- Entry bib key -->
-        <div id="lin2026retrieval" class="col-sm-8">
+        <div id="10.1145/3715073.3715080" class="col-sm-8">
         <!-- Title -->
-        <div class="title">Retrieval Heads are Dynamic</div>
+        <div class="title">FT-Shield: A Watermark Against Unauthorized Fine-tuning in Text-to-Image Diffusion Models</div>
         <!-- Author -->
         <div class="author">
         
 
-        Yuping Lin, Zitao Li, Yue Xing, and
-          <span class="more-authors" title="click to view 6 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '6 more authors' ? 'Pengfei He, Yingqian Cui, Yaliang Li, Bolin Ding, Jingren Zhou, Jiliang Tang' : '6 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">6 more authors</span>
-</div>
+        Yingqian Cui, Jie Ren, Yuping Lin, Han Xu, <strong>Pengfei He</strong>, Yue Xing, Lingjuan Lyu, Wenqi Fan, Hui Liu, and Jiliang Tang</div>
 
         <!-- Journal/Book title and date -->
         
         
         <div class="periodical">
-          <em>In </em>, Apr 2026
+          <em>SIGKDD Explor. Newsl.</em>, Jan 2025
         </div>
         <div class="periodical">
           
@@ -1871,7 +1149,56 @@ with the proposed evaluation rules.</p>
           <!-- Links/Buttons -->
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="https://arxiv.org/pdf/2602.11162" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://dl.acm.org/doi/10.1145/3715073.3715080" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=10398311162702863205" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 50</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1145/3715073.3715080"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.1145/3715073.3715080" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Text-to-image generative models, especially those based on latent diffusion models (LDMs), have demonstrated outstanding ability in generating high-quality and high-resolution images from textual prompts. With this advancement, various fine-tuning methods have been developed to personalize text-to-image models for specific applications such as artistic style adaptation and human face transfer. However, such advancements have raised copyright concerns, especially when the data are used for personalization without authorization. For example, a malicious user can employ fine-tuning techniques to replicate the style of an artist without consent. In light of this concern, we propose FT-Shield, a watermarking solution tailored for the fine-tuning of text-to-image diffusion models. FT-Shield addresses copyright protection challenges by designing new watermark generation and detection strategies. In particular, it introduces an innovative algorithm for watermark generation. It ensures the seamless transfer of watermarks from training images to generated outputs, facilitating the identification of copyrighted material use. To tackle the variability in fine-tuning methods and their impact on watermark detection, FT-Shield integrates a Mixture of Experts (MoE) approach for watermark detection. Comprehensive experiments validate the effectiveness of our proposed FT-Shield.</p>
+          </div>
+        </div>
+      </div>
+</li></ol>
+
+  <h2 class="year">2024</h2>
+  <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">ICLR 2024</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="he2023sharpness" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Sharpness-Aware Data Poisoning Attack <span class="award badge">Spotlight (top 5%)</span>
+</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <strong>Pengfei He</strong>, Han Xu, Jie Ren, Yingqian Cui, Hui Liu, Charu C Aggarwal, and Jiliang Tang</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In International Conference on Learning Representations (ICLR)</em>, Apr 2024
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://arxiv.org/pdf/2305.14851" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=10348967864263380846" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 27</a>
           </div>
           
           <div class="badges">
@@ -1881,25 +1208,19 @@ with the proposed evaluation rules.</p>
 
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
-            <p>Recent studies have identified “retrieval heads”
-in Large Language Models (LLMs) responsible for extracting information from input contexts. However, prior works largely rely on
-static statistics aggregated across datasets, identifying heads that perform retrieval on average.
-This perspective overlooks the fine-grained temporal dynamics of autoregressive generation.
-In this paper, we investigate retrieval heads
-from a dynamic perspective. Through extensive
-analysis, we establish three core claims: (1)
-Dynamism: Retrieval heads vary dynamically
-across timesteps; (2) Irreplaceability: Dynamic
-retrieval heads are specific at each timestep and
-cannot be effectively replaced by static retrieval
-heads; and (3) Correlation: The model’s hidden
-state encodes a predictive signal for future retrieval head patterns, indicating an internal planning mechanism. We validate these findings on
-the Needle-in-a-Haystack task and a multi-hop
-QA task, and quantify the differences on the
-utility of dynamic and static retrieval heads in
-a Dynamic Retrieval-Augmented Generation
-framework. Our study provides new insights
-into the internal mechanisms of LLMs.</p>
+            <p>Recent research has highlighted the vulnerability of Deep Neural Networks (DNNs)
+against data poisoning attacks. These attacks aim to inject poisoning samples into
+the models’ training dataset such that the trained models have inference failures.
+While previous studies have executed different types of attacks, one major challenge
+that greatly limits their effectiveness is the uncertainty of the re-training process
+after the injection of poisoning samples, including the re-training initialization or
+algorithms. To address this challenge, we propose a novel attack method called
+“Sharpness-Aware Data Poisoning Attack (SAPA)”. In particular, it leverages the
+concept of DNNs’ loss landscape sharpness to optimize the poisoning effect on the
+worst re-trained model. It helps enhance the preservation of the poisoning effect,
+regardless of the specific retraining procedure employed. Extensive experiments
+demonstrate that SAPA offers a general and principled strategy that significantly
+enhances various types of poisoning attacks.</p>
           </div>
         </div>
       </div>
@@ -1907,36 +1228,23 @@ into the internal mechanisms of LLMs.</p>
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">ACL 2026</abbr></div>
+        <div class="col-sm-2 abbr"><abbr class="badge">ACL 2024</abbr></div>
 
         <!-- Entry bib key -->
-        <div id="xiong2025memory" class="col-sm-8">
+        <div id="zeng-etal-2024-good" class="col-sm-8">
         <!-- Title -->
-        <div class="title">How memory management impacts llm agents: An empirical study of experience-following behavior</div>
+        <div class="title">The Good and The Bad: Exploring Privacy Issues in Retrieval-Augmented Generation (RAG)</div>
         <!-- Author -->
         <div class="author">
         
 
-        Zidi Xiong, Yuping Lin, Wenya Xie, and
-          <span class="more-authors" title="click to view 5 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '5 more authors' ? 'Pengfei He, Zirui Liu, Jiliang Tang, Himabindu Lakkaraju, Zhen Xiang' : '5 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">5 more authors</span>
-</div>
+        Shenglai Zeng, Jiankun Zhang, <strong>Pengfei He</strong>, Yiding Liu, Yue Xing, Han Xu, Jie Ren, Yi Chang, Shuaiqiang Wang, Dawei Yin, and Jiliang Tang</div>
 
         <!-- Journal/Book title and date -->
         
         
         <div class="periodical">
-          <em>In </em>, Apr 2026
+          <em>In Findings of the Association for Computational Linguistics ACL 2024</em>, Aug 2024
         </div>
         <div class="periodical">
           
@@ -1945,7 +1253,52 @@ into the internal mechanisms of LLMs.</p>
           <!-- Links/Buttons -->
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="https://arxiv.org/pdf/2505.16067" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://aclanthology.org/2024.findings-acl.267/" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=14978364769270423608" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 390</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.18653/v1/2024.findings-acl.267"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.18653/v1/2024.findings-acl.267" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Retrieval-augmented generation (RAG) is a powerful technique to facilitate language model generation with proprietary and private data, where data privacy is a pivotal concern. Whereas extensive research has demonstrated the privacy risks of large language models (LLMs), the RAG technique could potentially reshape the inherent behaviors of LLM generation, posing new privacy issues that are currently under-explored. To this end, we conduct extensive empirical studies with novel attack methods, which demonstrate the vulnerability of RAG systems on leaking the private retrieval database. Despite the new risks brought by RAG on the retrieval data, we further discover that RAG can be used to mitigate the old risks, i.e., the leakage of the LLMs’ training data. In general, we reveal many new insights in this paper for privacy protection of retrieval-augmented LLMs, which could benefit both LLMs and RAG systems builders.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">ACL 2024</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="zeng-etal-2024-exploring" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Exploring Memorization in Fine-tuned Language Models</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Shenglai Zeng, Yaxin Li, Jie Ren, Yiding Liu, Han Xu, <strong>Pengfei He</strong>, Yue Xing, Shuaiqiang Wang, Jiliang Tang, and Dawei Yin</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)</em>, Aug 2024
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://aclanthology.org/2024.acl-long.216.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=2270115649775164054" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 69</a>
           </div>
           
           <div class="badges">
@@ -1955,68 +1308,224 @@ into the internal mechanisms of LLMs.</p>
 
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
-            <p>Memory is a critical component in large language model (LLM)-based agents, enabling
-them to store and retrieve past executions to
-improve task performance over time. In this
-paper, we conduct an empirical study on how
-memory management choices impact the LLM
-agents’ behavior, especially their long-term
-performance. Specifically, we focus on two
-fundamental memory management operations
-that are widely used by many agent frameworks—memory addition and deletion—to systematically study their impact on the agent behavior. Through our quantitative analysis, we
-find that LLM agents display an experiencefollowing property: high similarity between a
-task input and the input in a retrieved memory record often results in highly similar agent
-outputs. Our analysis further reveals two significant challenges associated with this property:error propagation, where inaccuracies in past
-experiences compound and degrade future performance, and misaligned experience replay,
-where some seemingly correct executions can
-provide limited or even misleading value as experiences. Through controlled experiments, we
-demonstrate the importance of regulating experience quality within the memory bank and
-show that future task evaluations can serve as
-free quality labels for stored memory. Our findings offer insights into the behavioral dynamics
-of LLM agent memory systems and provide
-practical guidance for designing memory components that support robust, long-term agent
-performance. We also release our code to facilitate further study.</p>
+            <p>Large language models (LLMs) have shown great capabilities in various tasks but also exhibited memorization of training data, raising tremendous privacy and copyright concerns. While prior works have studied memorization during pre-training, the exploration of memorization during fine-tuning is rather limited. Compared to pre-training, fine-tuning typically involves more sensitive data and diverse objectives, thus may bring distinct privacy risks and unique memorization behaviors. In this work, we conduct the first comprehensive analysis to explore language models’ (LMs) memorization during fine-tuning across tasks. Our studies with open-sourced and our own fine-tuned LMs across various tasks indicate that memorization presents a strong disparity among different fine-tuning tasks. We provide an intuitive explanation of this task disparity via sparse coding theory and unveil a strong correlation between memorization and attention score distribution.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">EMNLP 2024</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="xu2023generalization" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">On the Generalization of Training-based ChatGPT Detection Methods</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Han Xu, Jie Ren, <strong>Pengfei He</strong>, Shenglai Zeng, Yingqian Cui, Amy Liu, Hui Liu, and Jiliang Tang</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing</em>, Dec 2024
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://aclanthology.org/2024.findings-emnlp.424.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=13171288760949096435" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 24</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>ChatGPT is one of the most popular language models which achieve amazing performance on various natural language tasks. Consequently, there is also an urgent need to detect the texts generated ChatGPT from human written. One of the extensively studied methods trains classification models to distinguish both. However, existing studies also demonstrate that the trained models may suffer from distribution shifts (during test), i.e., they are ineffective to predict the generated texts from unseen language tasks or topics. In this work, we aim to have a comprehensive investigation on these methods’ generalization behaviors under distribution shift caused by a wide range of factors, including prompts, text lengths, topics, and language tasks. To achieve this goal, we first collect a new dataset with human and ChatGPT texts, and then we conduct extensive studies on the collected dataset. Our studies unveil insightful findings which provide guidance for developing future methodologies or data collection strategies for ChatGPT detection.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">EMNLP 2024</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="lin2024towards" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Towards Understanding Jailbreak Attacks in LLMs: A Representation Space Analysis</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Yuping* Lin, Pengfei* He, Han Xu, Yue Xing, Makoto Yamada, Hui Liu, and Jiliang Tang</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing</em>, Dec 2024
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://aclanthology.org/2024.emnlp-main.401/" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=1818703111312982094" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 108</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Large language models (LLMs) are susceptible to a type of attack known as jailbreaking, which misleads LLMs to output harmful contents. Although there are diverse jailbreak attack strategies, there is no unified understanding on why some methods succeed and others fail. This paper explores the behavior of harmful and harmless prompts in the LLM’s representation space to investigate the intrinsic properties of successful jailbreak attacks. We hypothesize that successful attacks share some similar properties: They are effective in moving the representation of the harmful prompt towards the direction to the harmless prompts. We leverage hidden representations into the objective of existing jailbreak attacks to move the attacks along the acceptance direction, and conduct experiments to validate the above hypothesis using the proposed objective. We hope this study provides new insights into understanding how LLMs understand harmfulness information.</p>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
+  <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">TMLR</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="hestealthy" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Stealthy Backdoor Attack via Confidence-driven Sampling</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <strong>Pengfei He</strong>, Yue Xing, Han Xu, Jie Ren, Yingqian Cui, Shenglai Zeng, Jiliang Tang, Makoto Yamada, and Mohammad Sabokrou</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Transactions on Machine Learning Research</em>, Jan 2024
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://openreview.net/pdf?id=Flh5EXz8dA" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=8826752316862571744,14928296103630307867" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 6</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Backdoor attacks facilitate unauthorized control in the testing stage by carefully injecting
+harmful triggers during the training phase of deep neural networks. Previous works have
+focused on improving the stealthiness of the trigger while randomly selecting samples to
+attack. However, we find that random selection harms the stealthiness of the model. In
+this paper, we identify significant pitfalls of random sampling, which make the attacks more
+detectable and easier to defend against. To improve the stealthiness of existing attacks, we
+introduce a method of strategically poisoning samples near the model’s decision boundary,
+aiming to minimally alter the model’s behavior (decision boundary) before and after backdooring. Our main insight for detecting boundary samples is exploiting the confidence scores
+as a metric for being near the decision boundary and selecting those to poison (inject) the
+attack. The proposed approach makes it significantly harder for defenders to identify the
+attacks. Our method is versatile and independent of any specific trigger design. We provide
+theoretical insights and conduct extensive experiments to demonstrate the effectiveness of
+the proposed method.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">Stat</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="he2024towards" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Towards the Effect of Examples on In-Context Learning: A Theoretical Case Study</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <strong>Pengfei He</strong>, Yingqian Cui, Han Xu, Hui Liu, Makoto Yamada, Jiliang Tang, and Yue Xing</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Stat</em>, Jan 2024
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/sta4.70045" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=8670766654167824942" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 10</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>In-context learning (ICL) has emerged as a powerful capability for large language models (LLMs) to adapt to downstream tasks by leveraging a few (demonstration) examples. Despite its effectiveness, the mechanism behind ICL remains underexplored. To better understand how ICL integrates the examples with the knowledge learned by the LLM during pre-training (i.e., pre-training knowledge) and how the examples impact ICL, this paper conducts a theoretical study in binary classification tasks. In particular, we introduce a probabilistic model extending from the Gaussian mixture model to exactly quantify the impact of pre-training knowledge, label frequency and label noise on the prediction accuracy. Based on our analysis, when the pre-training knowledge contradicts the knowledge in the examples, whether ICL prediction relies more on the pre-training knowledge or the examples depends on the number of examples. In addition, the label frequency and label noise of the examples both affect the accuracy of the ICL prediction, where the minor class has a lower accuracy, and how the label noise impacts the accuracy is determined by the specific noise level of the two classes. Extensive simulations are conducted to verify the correctness of the theoretical results, and real-data experiments also align with the theoretical insights. Our work reveals the role of pre-training knowledge and examples in ICL, offering a deeper understanding of LLMs’ behaviours in classification tasks.</p>
           </div>
         </div>
       </div>
 </li>
 </ol>
 
-<h1>Preprints</h1>
-<ol class="bibliography">
-<li>
+  <h2 class="year">2023</h2>
+  <ol class="bibliography"><li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">preprint</abbr></div>
+        <div class="col-sm-2 abbr"><abbr class="badge">ICML 2023</abbr></div>
 
         <!-- Entry bib key -->
-        <div id="ren2024copyright" class="col-sm-8">
+        <div id="xu2023probabilistic" class="col-sm-8">
         <!-- Title -->
-        <div class="title">Copyright Protection in Generative AI: A Technical Perspective</div>
+        <div class="title">Probabilistic Categorical Adversarial Attack and Adversarial Training</div>
         <!-- Author -->
         <div class="author">
         
 
-        Jie Ren, Han Xu, <em>Pengfei He</em>, and
-          <span class="more-authors" title="click to view 8 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '8 more authors' ? 'Yingqian Cui, Shenglai Zeng, Jiankun Zhang, Hongzhi Wen, Jiayuan Ding, Hui Liu, Yi Chang, Jiliang Tang' : '8 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">8 more authors</span>
-</div>
+        Han Xu, <strong>Pengfei He</strong>, Jie Ren, Yuxuan Wan, Zitao Liu, Hui Liu, and Jiliang Tang</div>
 
         <!-- Journal/Book title and date -->
         
         
         <div class="periodical">
-          2024
+          <em>In International Conference on Machine Learning (ICML)</em>, Dec 2023
         </div>
         <div class="periodical">
           
@@ -2025,21 +1534,140 @@ performance. We also release our code to facilitate further study.</p>
           <!-- Links/Buttons -->
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="https://arxiv.org/pdf/2402.02333" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://proceedings.mlr.press/v202/xu23e.html" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=17397269336667340766" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 19</a>
           </div>
           
           <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-arxiv-id="2402.02333"></span>
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
               <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
-            <p>Generative AI has witnessed rapid advancement in recent years, expanding their capabilities to create synthesized content such as text, images, audio, and code. The high fidelity and authenticity of contents generated by these Deep Generative Models (DGMs) have sparked significant copyright concerns. There have been various legal debates on how to effectively safeguard copyrights in DGMs. This work delves into this issue by providing a comprehensive overview of copyright protection from a technical perspective. We examine from two distinct viewpoints: the copyrights pertaining to the source data held by the data owners and those of the generative models maintained by the model builders. For data copyright, we delve into methods data owners can protect their content and DGMs can be utilized without infringing upon these rights. For model copyright, our discussion extends to strategies for preventing model theft and identifying outputs generated by specific models. Finally, we highlight the limitations of existing techniques and identify areas that remain unexplored. Furthermore, we discuss prospective directions for the future of copyright protection, underscoring its importance for the sustainable and ethical development of Generative AI.</p>
+            <p>The studies on adversarial attacks and defenses
+have greatly improved the robustness of Deep
+Neural Networks (DNNs). Most advanced approaches have been overwhelmingly designed for
+continuous data such as images. However, these
+achievements are still hard to be generalized to
+categorical data. To bridge this gap, we propose
+a novel framework, Probabilistic Categorical Adversarial Attack (or PCAA). It transfers the discrete optimization problem of finding categorical
+adversarial examples to a continuous problem that
+can be solved via gradient-based methods. We analyze the optimality (attack success rate) and time
+complexity of PCAA to demonstrate its significant advantage over current search-based attacks.
+More importantly, through extensive empirical
+studies, we demonstrate that the well-established
+defenses for continuous data, such as adversarial
+training and TRADES, can be easily accommodated to defend DNNs for categorical data</p>
           </div>
         </div>
       </div>
-</li>
+</li></ol>
+  <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">JMLR</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="JMLR:v24:21-1254" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Large sample spectral analysis of graph-based multi-manifold clustering</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Nicolas Garcia Trillos*, <strong>Pengfei He*</strong>, and Chenghui Li*</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Journal of Machine Learning Research (JMLR)</em>, Jan 2023
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://jmlr.org/papers/v24/21-1254.html" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=14693653531566950325" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 22</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>In this work we study statistical properties of graph-based algorithms for multi-manifold
+clustering (MMC). In MMC the goal is to retrieve the multi-manifold structure underlying a
+given Euclidean data set when this one is assumed to be obtained by sampling a distribution
+on a union of manifolds M = M1 ∪ · · · ∪ MN that may intersect with each other and
+that may have different dimensions. We investigate sufficient conditions that similarity
+graphs on data sets must satisfy in order for their corresponding graph Laplacians to
+capture the right geometric information to solve the MMC problem. Precisely, we provide
+high probability error bounds for the spectral approximation of a tensorized Laplacian on
+M with a suitable graph Laplacian built from the observations; the recovered tensorized
+Laplacian contains all geometric information of all the individual underlying manifolds. We
+provide an example of a family of similarity graphs, which we call annular proximity graphs
+with angle constraints, satisfying these sufficient conditions. We contrast our family of
+graphs with other constructions in the literature based on the alignment of tangent planes.
+Extensive numerical experiments expand the insights that our theory provides on the MMC
+problem.</p>
+          </div>
+        </div>
+      </div>
+</li></ol>
+
+  <h2 class="year">2022</h2>
+  <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">CIKM 2022</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="10.1145/3511808.3557130" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">PROPN: Personalized Probabilistic Strategic Parameter Optimization in Recommendations <span class="award badge">Oral</span>
+</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <strong>Pengfei He</strong>, Haochen Liu, Xiangyu Zhao, Hui Liu, and Jiliang Tang</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In Proceedings of the 31st ACM International Conference on Information &amp; Knowledge Management (CIKM)</em>, Dec 2022
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=12030786596442489607" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 5</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1145/3511808.3557130"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.1145/3511808.3557130" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          
+        </div>
+      </div>
+</li></ol>
+  <ol class="bibliography"></ol>
+
+
+<h1>Preprints</h1>
+<ol class="bibliography">
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
@@ -2053,20 +1681,7 @@ performance. We also release our code to facilitate further study.</p>
         <div class="author">
         
 
-        <em>Pengfei He</em>, Yue Xing, Han Xu, and
-          <span class="more-authors" title="click to view 2 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '2 more authors' ? 'Zhen Xiang, Jiliang Tang' : '2 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">2 more authors</span>
-</div>
+        <strong>Pengfei He</strong>, Yue Xing, Han Xu, Zhen Xiang, and Jiliang Tang</div>
 
         <!-- Journal/Book title and date -->
         
@@ -2082,6 +1697,7 @@ performance. We also release our code to facilitate further study.</p>
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a href="https://arxiv.org/pdf/2502.14182" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=9520713967873276220" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 8</a>
           </div>
           
           <div class="badges">
@@ -2125,20 +1741,7 @@ understanding of their underlying mechanisms.</p>
         <div class="author">
         
 
-        <em>Pengfei He</em>, Yue Xing, Shen Dong, and
-          <span class="more-authors" title="click to view 8 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '8 more authors' ? 'Juanhui Li, Zhenwei Dai, Xianfeng Tang, Hui Liu, Han Xu, Zhen Xiang, Charu C. Aggarwal, Hui Liu' : '8 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">8 more authors</span>
-</div>
+        <strong>Pengfei He</strong>, Yue Xing, Shen Dong, Juanhui Li, Zhenwei Dai, Xianfeng Tang, Hui Liu, Han Xu, Zhen Xiang, Charu C. Aggarwal, and Hui Liu</div>
 
         <!-- Journal/Book title and date -->
         
@@ -2154,6 +1757,7 @@ understanding of their underlying mechanisms.</p>
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a href="https://arxiv.org/pdf/2506.01245" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=2053462704520065028" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 15</a>
           </div>
           
           <div class="badges">
@@ -2164,6 +1768,50 @@ understanding of their underlying mechanisms.</p>
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
             <p>This paper argues that a comprehensive vulnerability analysis is essential for building trustworthy Large Language Model-based Multi-Agent Systems (LLM-MAS). These systems, which consist of multiple LLM-powered agents working collaboratively, are increasingly deployed in high-stakes applications but face novel security threats due to their complex structures. While single-agent vulnerabilities are well-studied, LLM-MAS introduces unique attack surfaces through inter-agent communication, trust relationships, and tool integration that remain significantly underexplored. We present a systematic framework for vulnerability analysis of LLM-MAS that unifies diverse research. For each type of vulnerability, we define formal threat models grounded in practical attacker capabilities and illustrate them using real-world LLM-MAS applications. This formulation enables rigorous quantification of vulnerability across different architectures and provides a foundation for designing meaningful evaluation benchmarks. Our analysis reveals that LLM-MAS faces elevated risk due to compositional effects – vulnerabilities in individual components can cascade through agent communication, creating threat models not present in single-agent systems. We conclude by identifying critical open challenges: (1) developing benchmarks specifically tailored to LLM-MAS vulnerability assessment, (2) considering new potential attacks specific to multi-agent architectures, and (3) implementing trust management systems that can enforce security in LLM-MAS. This research provides essential groundwork for future efforts to enhance LLM-MAS trustworthiness as these systems continue their expansion into critical applications.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">preprint</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="ren2024copyright" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Copyright Protection in Generative AI: A Technical Perspective</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Jie Ren, Han Xu, <strong>Pengfei He</strong>, Yingqian Cui, Shenglai Zeng, Jiankun Zhang, Hongzhi Wen, Jiayuan Ding, Hui Liu, Yi Chang, and Jiliang Tang</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          2024
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://arxiv.org/pdf/2402.02333" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+            <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=9811079077937266442" class="btn btn-sm z-depth-0 citations" role="button" title="Citations on Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i> Cited by 102</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-arxiv-id="2402.02333"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Generative AI has witnessed rapid advancement in recent years, expanding their capabilities to create synthesized content such as text, images, audio, and code. The high fidelity and authenticity of contents generated by these Deep Generative Models (DGMs) have sparked significant copyright concerns. There have been various legal debates on how to effectively safeguard copyrights in DGMs. This work delves into this issue by providing a comprehensive overview of copyright protection from a technical perspective. We examine from two distinct viewpoints: the copyrights pertaining to the source data held by the data owners and those of the generative models maintained by the model builders. For data copyright, we delve into methods data owners can protect their content and DGMs can be utilized without infringing upon these rights. For model copyright, our discussion extends to strategies for preventing model theft and identifying outputs generated by specific models. Finally, we highlight the limitations of existing techniques and identify areas that remain unexplored. Furthermore, we discuss prospective directions for the future of copyright protection, underscoring its importance for the sustainable and ethical development of Generative AI.</p>
           </div>
         </div>
       </div>
