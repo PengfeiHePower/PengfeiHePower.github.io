@@ -4,11 +4,13 @@
 Papers are matched to entries in _bibliography/papers.bib by title. If Scholar
 cannot be reached (it often blocks CI runners), the existing data file is kept.
 
-Usage: python3 bin/update_citations.py
+Usage: python3 bin/update_citations.py [--strict]
+  --strict  exit non-zero when Scholar cannot be fetched
 """
 
 import difflib
 import html
+import os
 import re
 import sys
 import urllib.request
@@ -102,8 +104,9 @@ def main():
     try:
         papers, totals = fetch_scholar(scholar_user_id())
     except Exception as error:  # noqa: BLE001
-        print(f"Could not fetch Google Scholar, keeping existing data: {error}")
-        return
+        prefix = "::warning::" if os.environ.get("GITHUB_ACTIONS") else ""
+        print(f"{prefix}Could not fetch Google Scholar, keeping existing data: {error}")
+        sys.exit(1 if "--strict" in sys.argv else 0)
 
     scholar_by_title = {normalize(p["title"]): p for p in papers}
     matched, unmatched = {}, []
